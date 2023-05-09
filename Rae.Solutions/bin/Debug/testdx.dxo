@@ -1,0 +1,123 @@
+***** ACME/STANREF DX/TX Rating/Selection Program *****
+***** DLL Version 2009.03.12.1 *****
+
+Mon May 08 14:37:01 2023
+
+***** Rating Data ****
+
+***** Model/Geometry Data ****
+Model (Model) = TXC75-1
+Model codes: (mcode) = 9; (mcode1) = 0; (mcode2) = 9
+Tube count (ntb) = 204
+Tube length (length) = 7.00 ft 
+Total outer surface area (ao) = 136.47 ft^2 
+Total inner surface area (ai) = 124.80 ft^2 
+Tube inner diameter (dh) = 0.0279 ft 
+Baffle count (nb) = 9.00 
+Baffle cut (lbh) = -1610612736 in; (bcut) = 0.00% 
+Central span, in: specified: 7.63; calc: 0.00
+End span, in: specified: 9.94; calc: 0.00
+Active tube fraction (ActiveTubes) = 1.0000 
+Shell-side nozzle: area (NozzleArea) = 20.006 in^2; ID = 5.047 in
+Nozzle location (noz_loc) = 0
+
+***** Working Fluid Data ****
+Refrigerant name = R-134a; refcode = 2 
+Fluid name = water; fcode = 1 
+Fluid concentration = 0.00% 
+Entering fluid temperature (eft) = 54.00 deg F
+Leaving fluid temperature (lft) = 44.00 deg F 
+refrigerant temperature at expansion valve inlet (liqtmp) = 100.00 deg F
+refrigerant quality at evaporator inlet = 26.71%
+Entering refrigerant temperature (ert) = 38.74 deg F
+Leaving saturated refrigerant temperature (evptmp) = 32.00 deg F
+Leaving refrigerant temperature = 39.00 deg F 
+
+***** Tubeside Heat Transfer and Pressure Drop Data ****
+Refrigerant mass flow rate (mdotr) = 14088 lbm/hr
+Tube-side vapor velocity at outlet (out1[zc].V_g) = 67.03 ft/s 
+Tube-side mass flux (out1[zc].G) = 220259 lbm/(ft^2*hr) 
+Average tube-side htc (hi) = 987 B/(hr*ft^2*F)
+Average tube-side two-phase htc (hi_tp) = 1197 B/(hr*ft^2*F)
+Average tube-side single-phase htc (hi_sp) = 249 B/(hr*ft^2*F)
+Tube-side fouling factor (ffacti) = 0.000000 hr*ft^2*F/B 
+Tube-side htc nozzle distribution effect (hinozfact) = 1
+Tube-side pressure drop (pd) = 6.69 psid
+Tube-side two-phase pressure drop (dpdl_tp) = -0.38 psid/ft
+Tube-side single-phase pressure drop (dpdl_sp) = -0.29 psid/ft
+
+***** Shellside Heat Transfer and Pressure Drop Data ****
+Fluid volumetric flow rate (gpm) = 179.6 gpm
+Fluid mass flow rate (wse) = 89954 lbm/hr
+Shell-side htc (ho) = 1246 B/(hr*ft^2*F)
+Shell-side fouling factor (ffact) = 0.000100 hr*ft^2*F/B 
+Estimated min. bundle crossflow velocity (V_cf_min) = 4.16 ft/s
+Estimated max. bundle crossflow velocity (V_cf_max) = 4.16 ft/s
+Fluid bundle rho*v^2 = 1080.1 lbm/(ft*s^2) 
+Fluid nozzle velocity (vsn) = 2.88 ft/s 
+Fluid nozzle rho*v^2 = 517.8 lbm/(ft*s^2) 
+Shell-side pressure drop (dptot) = 5.06 psid
+Shell-side nozzle pressure drop (dpnoz) = 0.81 psid
+
+***** Overall Heat Transfer Data ****
+Overall htc (u) = 495 B/(hr*ft^2*F) 
+LMTD (ideal) in two phase region (lmtdid) = 16.50 deg F
+LMTD in two phase region (lmtd) = 13.24 deg F
+LMTD in superheat region (lmtdsh) = 16.84 deg F
+Corrected LMTD (mtd) = 13.43 deg F
+Evap/superheat area ratio (A_tp_sp) = 17.67 
+Fluid energy transfer rate (qa) = 903398 B/hr
+Ref energy transfer rate (qc) = 907696 B/hr
+Refrigerating capacity = 75.5 tons
+
+***** Vibration Calculations *****
+Pitch/diameter ratio error code: VIBc_ec_pdR:0; VIBe_ec_pdR:0
+X parameter error code: VIBc_ec_X:0; VIBe_ec_X:0
+V > V_critical: central (VIBc_V_gt_Vc):0; end (VIBe_V_gt_Vc):0
+Vortex shedding: central (VIBc_y_vs):0; end (VIBe_y_vs):0
+Turbulent buffeting: central (VIBc_y_tB):0; end (VIBe_y_tB):0
+Condition A: central (VIBc_condA):0; end (VIBe_condA):0
+Condition B: central (VIBc_condB):0; end (VIBe_condB):0
+Condition C: central (VIBc_condC):0; end (VIBe_condC):0
+Central velocity, ft/s (V_cf_max):4.16; critical central velocity (VIBc_V_c):0.00
+End velocity, ft/s (VIBe_V):0.00; critical end velocity (VIBe_V_c):0.00
+Span length, in: central (VIBc_span):0.00; end (VIBe_span):0.00
+Natural frequency, Hz: central (VIBc_f_n):0.00; end (VIBe_f_n):0.00
+Vortex shedding frequency, Hz: central (VIBc_f_s):0.00; end (VIBe_f_s):0.00
+Vortex shedding amplitude, in: central (VIBc_y_vs1):0.00000; end (VIBe_y_vs1):0.00000
+Turbulent buffeting frequency, Hz: central (VIBc_f_tb):0.00; end (VIBe_f_tb):0.00
+Turbulent buffeting amplitude, in: central (VIBc_y_tB1):0.00000; end (VIBe_y_tB1):0.00000
+
+***** Fluid properties at the mean fluid temperature (mft) = 49.00 F *****
+Fluid density (dpg) = 62.46 lbm/ft^3 
+Fluid specific heat (cpg) = 1.0043 B/lbm 
+Fluid thermal condcutivity (tkg) = 0.3390 B/(hr*ft*F) 
+Fluid viscosity (uvg) = 3.00 lbm/(ft*hr) = 1.24 cP
+Freezing point (fpt) = 32.00 deg F 
+
+***** Refrigerant properties at the SST (evptmp) = 32.00 F *****
+Specific heat (B/lbm): liquid = 0.320, vapor = 0.212
+Thermal conductivity (B/(hr*ft*F)): liquid = 0.0543, vapor = 0.0068
+viscosity (lbm/(ft*hr)): liquid = 0.6911, vapor = 0.0264
+density (lbm/ft^3): liquid = 80.80, vapor = 0.9127
+enthalpy (B/lbm): liquid = 22.09, vapor = 107.56, h_fg = 85.47
+pressure (psia): bubble point = 42.47, dew point = 42.47 
+surface tension = 0.000823 lbm/ft
+
+***** Special options *****
+h_i method (himethod) = 2
+h_i correlation (hicorr) = 0
+h_i two-phase mult. (hitpmult) = 1.100000
+h_i single-phase mult. (hispmult) = 2.400000
+h_o multiplier (homult) = 1.000000
+h_o multiplier (shhtcmult) = 1.250000
+q multiplier (qmult) = 1.000000
+Tube-side press. drop two-phase mult. (pdtpmult) = 1.200000
+Tube-side press. drop single-phase mult. (pdspmult) = 1.200000
+Shell-side pressure drop multiplier (pdmult) = 1.000000
+Shell-side pressure drop multiplier (shpdmult) = 0.764000
+Shell-side nozzle I.D. (ssNozzle) = 0.000000
+
+***** Messages *****
+WARNING: Refrigerant pressure drop (6.69 psid) is greater than 5.00 psid
+INFO: Program finished!!
