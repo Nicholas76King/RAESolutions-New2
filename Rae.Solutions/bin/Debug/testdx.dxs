@@ -1,0 +1,10 @@
+***** ACME/STANREF DX/TX Rating/Selection Program *****
+***** DLL Version 2009.03.12.1 *****
+
+done!!
+Rating TXC75-1...
+   Energy balance converged for ert = 38.74                                
+Finished rating unit!!
+WARNING: Refrigerant pressure drop (6.69 psid) is greater than 5.00 psid
+eft = 54.00 F, lft = 44.00 F, gpm = 179.6 gpm, qa = 903398 B/hr
+INFO: Program finished!!
