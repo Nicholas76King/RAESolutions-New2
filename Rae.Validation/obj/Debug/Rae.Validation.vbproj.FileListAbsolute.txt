@@ -1,0 +1,10 @@
+C:\Code\Rae\Solutions\Main\Rae.Validation\bin\RAE.Validation.dll
+C:\Code\Rae\Solutions\Main\Rae.Validation\bin\RAE.Validation.pdb
+C:\Code\Rae\Solutions\Main\Rae.Validation\bin\RAE.Validation.xml
+C:\Code\Rae\Solutions\Main\Rae.Validation\bin\Rae.Core.dll
+C:\Code\Rae\Solutions\Main\Rae.Validation\bin\Rae.Core.pdb
+C:\Code\Rae\Solutions\Main\Rae.Validation\bin\Rae.Core.xml
+C:\Code\Rae\Solutions\Main\Rae.Validation\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\Rae\Solutions\Main\Rae.Validation\obj\Debug\RAE.Validation.dll
+C:\Code\Rae\Solutions\Main\Rae.Validation\obj\Debug\RAE.Validation.xml
+C:\Code\Rae\Solutions\Main\Rae.Validation\obj\Debug\RAE.Validation.pdb

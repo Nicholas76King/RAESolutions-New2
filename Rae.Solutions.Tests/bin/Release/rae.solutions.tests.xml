@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+rae.solutions.tests
+</name>
+</assembly>
+<members>
+<member name="M:rae.solutions.tests.ChillerEquipmentTest.TestCloneAndEquals">
+	<summary>
+ Tests that a clone is equal to the original.
+ </summary>
+</member><member name="M:rae.solutions.tests.ChillerEquipmentTest.TestCopyAndEquals">
+	<summary>Tests that a copy is equal to the original.</summary>
+</member><member name="M:rae.solutions.tests.Business.VoltageRatingTest.TestConstructorNullParam">
+	<summary>
+ Null param defaults to 0
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestInitialState">
+	<summary>
+ Is null before set. Value is value type's default.
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestNull">
+	<summary>
+ Does not have value when set to DBNull or Nothing.
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestDefault">
+	<summary>
+ Default is returned when null when using ValueOrDefault
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestSetValueException">
+	<summary>
+ Throws invalid operation exception during attempt to get Value while there is no value.
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestSetValueConversions">
+	<summary>
+ SetValue attempts to convert type to specified type T.
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestToString">
+	<summary>
+ Tests ToString functions' return values when HasValue is False.
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestProperty">
+	<summary>
+ Tests setting value when NullableValue is a property.
+ Had to change to class from structure, b/c structure only passes value not reference.
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestConstructors">
+	<summary>
+ Tests constructor value parameter.
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestResetToDefault">
+	<summary>
+ Test ResetToDefault method.
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestConstructorDefaultParameter">
+	<summary>
+ Tests constructor default parameter.
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.nullable_value_.TestEqualsWithDouble">
+	<summary>
+ Tests equals with a double value
+ </summary>
+</member><member name="M:rae.solutions.tests.Business.ItemIdTest.TestDateGenerated">
+	<summary>
+ Check difference between pm and am
+ </summary>
+</member>
+</members>
+</doc>

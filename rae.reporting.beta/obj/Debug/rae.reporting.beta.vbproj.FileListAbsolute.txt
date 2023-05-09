@@ -1,0 +1,10 @@
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\bin\Debug\rae.reporting.beta.dll
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\bin\Debug\rae.reporting.beta.pdb
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\bin\Debug\rae.reporting.beta.xml
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\obj\Debug\rae.reporting.beta.Resources.resources
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\obj\Debug\GenerateResource.read.1.tlog
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\obj\Debug\GenerateResource.write.1.tlog
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\obj\Debug\rae.reporting.beta.dll
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\obj\Debug\rae.reporting.beta.xml
+C:\Code\Rae\Solutions\Main\rae.reporting.beta\obj\Debug\rae.reporting.beta.pdb

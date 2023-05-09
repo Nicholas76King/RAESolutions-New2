@@ -1,0 +1,13 @@
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\bin\Debug\Rae.RaeSolutions.Data.Refactoring.Projects.dll
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\bin\Debug\Rae.RaeSolutions.Data.Refactoring.Projects.pdb
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\bin\Debug\Rae.RaeSolutions.Data.Refactoring.Projects.xml
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\bin\Debug\Rae.Core.dll
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\bin\Debug\Rae.Data.dll
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\bin\Debug\Rae.Core.pdb
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\bin\Debug\Rae.Core.xml
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\bin\Debug\Rae.Data.pdb
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\obj\Debug\Rae.RaeSolutions.Data.Refactoring.Projects.Resources.resources
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\obj\Debug\Rae.RaeSolutions.Data.Refactoring.Projects.dll
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\obj\Debug\Rae.RaeSolutions.Data.Refactoring.Projects.xml
+c:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\obj\Debug\Rae.RaeSolutions.Data.Refactoring.Projects.pdb
+C:\Code\Rae\Solutions\Main\Rae.RaeSolutions.Data.Refactoring.Projects\obj\Debug\Rae.RaeSolutions.Data.Refactoring.Projects.vbproj.GenerateResource.Cache

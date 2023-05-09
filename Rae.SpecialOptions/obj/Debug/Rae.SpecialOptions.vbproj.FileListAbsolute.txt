@@ -1,0 +1,17 @@
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\bin\Debug\Rae.SpecialOptions.dll
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\bin\Debug\Rae.SpecialOptions.pdb
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\bin\Debug\RAE.SpecialOptions.xml
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\bin\Debug\Rae.Core.dll
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\bin\Debug\Rae.Core.pdb
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\bin\Debug\Rae.Core.xml
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\ResolveAssemblyReference.cache
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\Resources.resources
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\Rae.Presentation.SpecialOptions.SpecialOptionCreator.resources
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\Rae.Presentation.SpecialOptions.SpecialOptionsForm.resources
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\Rae.Presentation.SpecialOptions.SpecialOptionsGrid.resources
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\Rae.Presentation.SpecialOptions.SpecialOptionsView.resources
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\Rae.Presentation.SpecialOptions.SpecialOptionVerifier.resources
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\Rae.SpecialOptions.vbproj.GenerateResource.Cache
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\Rae.SpecialOptions.dll
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\RAE.SpecialOptions.xml
+c:\Code\Rae\Solutions\Main\Rae.SpecialOptions\obj\Debug\Rae.SpecialOptions.pdb

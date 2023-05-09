@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Rae.RaeSolutions.Tests
+</name>
+</assembly>
+<members>
+<member name="P:Rae.RaeSolutions.Tests.Business.NullableValueTest.Name">
+	<summary>
+ Name
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestClone">
+	<summary>
+ Tests
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestStructure">
+	<summary>
+ Don't need New constructor.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestInitialState">
+	<summary>
+ Is null before set. Value is value type's default.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestNull">
+	<summary>
+ Does not have value when set to DBNull or Nothing.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestDefault">
+	<summary>
+ Default is returned when null when using ValueOrDefault
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestSetValue">
+	<summary>
+ SetValue sets Value property.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestSetValueException">
+	<summary>
+ Throws invalid operation exception during attempt to get Value while there is no value.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestSetValueConversions">
+	<summary>
+ SetValue attempts to convert type to specified type T.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestToString">
+	<summary>
+ Tests ToString functions' return values when HasValue is False.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestProperty">
+	<summary>
+ Tests setting value when NullableValue is a property.
+ Had to change to class from structure, b/c structure only passes value not reference.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestConstructors">
+	<summary>
+ Tests constructor value parameter.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestResetToDefault">
+	<summary>
+ Test ResetToDefault method.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestConstructorDefaultParameter">
+	<summary>
+ Tests constructor default parameter.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.NullableValueTest.TestEqualsWithDouble">
+	<summary>
+ Tests equals with a double value
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.ChillerEquipmentTest.TestCloneAndEquals">
+	<summary>
+ Tests that a clone is equal to the original.
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.ChillerEquipmentTest.TestCopyAndEquals">
+	<summary>Tests that a copy is equal to the original.</summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.VoltageRatingTest.TestConstructorNullParam">
+	<summary>
+ Null param defaults to 0
+ </summary>
+</member><member name="M:Rae.RaeSolutions.Tests.Business.ItemIdTest.TestDateGenerated">
+	<summary>
+ Check difference between pm and am
+ </summary>
+</member>
+</members>
+</doc>

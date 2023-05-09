@@ -1,0 +1,1747 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Rae.Core
+</name>
+</assembly>
+<members>
+<member name="M:Rae.Collections.StringList.Delimit(System.String)">
+	<summary>Delimits items using the delimiter parameter as the seperator</summary>
+	<param name="delimiter">String to seperate items</param>
+</member><member name="M:Rae.Collections.StringList.Add(System.String)">
+	<summary>Adds string to list and returns the list</summary>
+</member><member name="M:Rae.Collections.StringList.AddRange(System.Collections.Generic.IEnumerable{System.String})">
+	<summary>Adds strings to list and returns the list</summary>
+</member><member name="T:Rae.Collections.StringList">
+	<summary>List of strings with additional methods like Delimit.</summary>
+	<remarks>Provides fluent interface helpful when adding items during construction.</remarks>
+</member><member name="M:Rae.Io.FixedLengthParser.#ctor(System.String,System.Int32)">
+	<summary>
+ Initializes a new fixed length parser for the specified container with items of the specified length.
+ Trims items.
+ </summary>
+</member><member name="M:Rae.Io.FixedLengthParser.#ctor(System.String,System.Int32,TrimOption)">
+	<summary>
+ Initializes a new fixed length parser for the specified container with items of the specified length.
+ Trims based on the trim option.
+ </summary>
+</member><member name="P:Rae.Io.FixedLengthParser.Container">
+	<summary>
+ String containing items
+ </summary>
+</member><member name="P:Rae.Io.FixedLengthParser.ItemLength">
+	<summary>
+ Length of the items in container
+ </summary>
+</member><member name="P:Rae.Io.FixedLengthParser.Trim">
+	<summary>
+ Indicates whether to trim each item before adding to list
+ </summary>
+</member><member name="M:Rae.Io.FixedLengthParser.Parse">
+	<summary>
+ Parses items from container and puts them in a list
+ </summary>
+</member><member name="M:Rae.Io.FixedLengthParser.Parse(System.String,System.Int32)">
+	<summary>
+ Parses items from container, trims items and puts them in a list
+ </summary>
+</member><member name="M:Rae.Io.FixedLengthParser.Parse(System.String,System.Int32,TrimOption)">
+	<summary>
+ Parses items from container and puts them in a list
+ </summary>
+</member><member name="T:Rae.Io.FixedLengthParser">
+	<summary>
+ Parses items of a fixed length from their container (string containing items).
+ </summary>
+	<remarks>
+		<para>
+ Example:
+ Dim parser As New FixedLengthParser("a b c ", 2)
+ Dim parsedItems As List(Of String) = parser.Parse()
+ ' parsedItems = {"a", "b", "c"}
+ </para>
+ Has option to trim item
+ Does not add empty or null items
+ </remarks>
+</member><member name="M:Rae.Math.Comparisons.IsInRange(System.Double,System.Double,System.Double)">
+	<summary>
+ Checks if value is in range of bounds. 
+ To be true value must be greater than or equal to lower bound and less than upper bound.
+ If value is equal to upper bound, false is returned. 
+ If value is equal to lower bound, true is returned.
+ </summary>
+	<param name="valueToCheck">Value to check if it is in range
+ </param>
+	<param name="lowerBound">The lower bound that the value must be greater than or equal to
+ </param>
+	<param name="upperBound">The upper bound that the value must be less than
+ </param>
+	<returns>Boolean that is true if value is in range or false if value is outside range
+ </returns>
+	<remarks>To be true value must be greater than or equal to lower bound and less than upper bound.
+ If value is equal to upper bound, false is returned. If value is equal to lower bound, true is returned.
+ </remarks>
+	<history>[CASEYJ]	9/8/2005	Created
+ </history>
+</member><member name="M:Rae.Math.Comparisons.IsInside(System.Double,System.Double,System.Double)">
+	<summary>Checks if value is in inside bounds.
+ If value is equal to either bound, false is returned.
+ </summary>
+	<param name="valueToCheck">Value to check if it is inside
+ </param>
+	<param name="lowerBound">The lower bound that the value must be greater than
+ </param>
+	<param name="upperBound">The upper bound that the value must be less than
+ </param>
+	<returns>Boolean that is true if value is inside or false if if not inside
+ </returns>
+	<remarks>If value is equal to either bound, false is returned
+ </remarks>
+	<history>[CASEYJ]	9/8/2005	Created
+ </history>
+</member><member name="M:Rae.Math.Comparisons.IsOutside(System.Double,System.Double,System.Double)">
+	<summary>Checks if value is in outside bounds.
+ If value is equal to either bound, false is returned.
+ </summary>
+	<param name="valueToCheck">Value to check if it is outside
+ </param>
+	<param name="lowerBound">The lower bound that the value must be less than
+ </param>
+	<param name="upperBound">The upper bound that the value must be greater than
+ </param>
+	<returns>Boolean that is true if value is outside or false if value is not
+ </returns>
+	<remarks>If value is equal to either bound, false is returned
+ </remarks>
+	<history>[CASEYJ]	9/8/2005	Created
+ </history>
+</member><member name="M:Rae.Math.Comparisons.IsAmong(System.Double,System.Double,System.Double)">
+	<summary>Checks if value is among bounds.
+ If value is equal to either bound, true is returned.
+ </summary>
+	<param name="valueToCheck">Value to check if it is among bounds
+ </param>
+	<param name="lowerBound">The lower bound that the value must be greater than or equal to
+ </param>
+	<param name="upperBound">The upper bound that the value must be less than or equal to
+ </param>
+	<returns>Boolean that is true if value is among bounds or false if value is not
+ </returns>
+	<remarks>If value is equal to either bound, true is returned.
+ </remarks>
+	<history>[CASEYJ]	9/8/2005	Created
+ </history>
+</member><member name="M:Rae.Math.Comparisons.IsAccurate(System.Double,System.Double,System.Double)">
+	<summary>
+ Checks accuracy of an actual value compared to an expected value.
+ </summary>
+	<param name="actual">
+ Actual value
+ </param>
+	<param name="percentage">
+ Percentage that the actual value must be within of expected value to be accurate.
+ Enter as a percentage not a decimal (ex. 10% = 10 not 0.1).
+ </param>
+	<param name="expected">
+ Expected value
+ </param>
+</member><member name="M:Rae.Math.Comparisons.IsWholeNumber(System.Double)">
+	<summary>
+ Returns true if number is a whole number; else returns false.
+ (ex. 5 is a whole number, 5.1 is not a whole number)
+ </summary>
+</member><member name="T:Rae.Math.Comparisons">
+	<summary>
+ Provides common mathematical comparisons
+ </summary>
+</member><member name="F:Rae.Outcome.Failed">
+	<summary>
+ Failed
+ </summary>
+</member><member name="F:Rae.Outcome.Succeeded">
+	<summary>
+ Succeeded
+ </summary>
+</member><member name="T:Rae.Outcome">
+	<summary>
+ Indicates outcome of a process or event (i.e. Failed or Succeeded).
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/14">
+ Moved from RAESolutions
+ </history>
+</member><member name="T:Rae.Deployment.ComRegistrar.OutcomeMode">
+	<summary>
+ Indicates how the outcome of the registration is handled (shown or hidden).
+ </summary>
+</member><member name="P:Rae.Deployment.ComRegistrar.PathOfFileToRegister">
+	<summary>
+ Path of the file to register.
+ </summary>
+</member><member name="M:Rae.Deployment.ComRegistrar.#ctor(System.String)">
+	<summary>
+ Creates a COM registrar for the file to register.
+ </summary>
+	<param name="pathOfFileToRegister">
+ Path of file to register.
+ </param>
+</member><member name="M:Rae.Deployment.ComRegistrar.Register(Rae.Deployment.ComRegistrar.OutcomeMode)">
+	<summary>
+ Registers component with option for silent mode (no pop-up message is shown).
+ </summary>
+	<param name="mode">
+ Silent hides pop-up message. Display displays pop-up message.
+ </param>
+</member><member name="M:Rae.Deployment.ComRegistrar.Unregister(Rae.Deployment.ComRegistrar.OutcomeMode)">
+	<summary>
+ Unregisters component with option for silent mode (no pop-up message is shown).
+ </summary>
+	<param name="mode">
+ Silent hides pop-up message. Display displays pop-up message.
+ </param>
+</member><member name="T:Rae.Deployment.ComRegistrar">
+	<summary>
+ Registers and unregisters COM components.
+ </summary>
+</member><member name="M:Rae.Collections.ListingItemsBuilder`1.reflectListingItems(Rae.Collections.listing{`0})">
+	<summary>   
+ Gets listing items' names through reflection and values from the Value property.
+ </summary>
+	<remarks>
+ Assumes public shared fields of the same type as the declaring type are listing items
+ </remarks>
+</member><member name="T:Rae.Collections.ListingItemsBuilder`1">
+	<summary>
+ Listing items builder builds a list of ListingItems.
+ It gets their name through reflection and value from their property.
+ </summary>
+</member><member name="F:Rae.Collections.ListItemRemovedEventArgs.Index">
+	<summary>
+ Index of item in list that was removed.
+ </summary>
+</member><member name="M:Rae.Collections.ListItemRemovedEventArgs.#ctor(System.Int32)">
+	<summary>
+ Constructs list item removed event arguments.
+ </summary>
+	<param name="index">
+ Index of item in list that was removed.
+ </param>
+</member><member name="T:Rae.Collections.ListItemRemovedEventArgs">
+	<summary>
+ Event arguments when list item is removed.
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/14">
+ Created
+ </history>
+</member><member name="T:Rae.Io.Conjunction">
+	<summary>Enumerated conjunctions</summary>
+</member><member name="M:Rae.Io.Text.Str(System.String,System.Object[])">
+	<summary>Terse way to use StringBuilder</summary>
+</member><member name="M:Rae.Io.Text.CapitalizeFirstLetter(System.String)">
+	<summary>Capitalizes first character of string</summary>
+</member><member name="M:Rae.Io.Text.Conjoin(System.Object[],Rae.Io.Conjunction)">
+	<summary>Returns a string with commas between items in the list parameter and adds conjuction appropriately.
+ </summary>
+	<param name="list">List of items to list</param>
+	<param name="conjuction">The conjuction to join the list of items</param>
+	<remarks>
+		<para>The items in the list parameter must support .ToString.</para>
+		<para>Example of return value: "item1, item2, item3 and item4"</para>
+	</remarks>
+</member><member name="M:Rae.Io.Text.GetEnumValue``1(System.String,``0@)">
+	<summary>Takes a string that represents an enum member and returns the enum member. 
+ If no match is found, returns first enum value and returns false.
+ </summary>
+	<typeparam name="T">An Enum
+ </typeparam>
+	<param name="input">The string that is the enum member name, case does not matter
+ </param>
+	<param name="returnValue">The value from the enum that matches the string, or the first value of the enum
+ </param>
+	<returns>True when there is a match, false when not.
+ </returns>
+	<remarks>
+ When there is no match, the first item in the enum is returned.
+ The where clause attempts to constrain the input of T to be an Enum.
+ </remarks>
+</member><member name="M:Rae.Io.Text.GetEnumValue``1(System.Int32,``0@)">
+	<summary>
+ Returns an enum member that has a matching integer value to the input parameter.
+ </summary>
+	<param name="input">
+ Integer value of the enum.
+ </param>
+	<param name="returnValue">
+ Enum w/ a mathcing integer value.
+ </param>
+	<returns>
+ True if enum exists with value; else false.
+ </returns>
+	<remarks>
+ When there is no match, the first item in the enum is returned.
+ The where clause attempts to constrain the input of T to be an Enum.
+ </remarks>
+	<history by="Casey Joyce" finish="2006/07/10">
+ Created
+ </history>
+</member><member name="M:Rae.Io.Text.SpaceBeforeUpperCase(System.String)">
+	<summary>
+ Inserts a space before each upper case character in text, except the first character. 
+ Ex. FluidCooler -&gt; Fluid Cooler.
+ </summary>
+</member><member name="T:Rae.Io.Text">
+	<summary>Module to assist in manipulating text</summary>
+</member><member name="P:Rae.Validation.RegularExpressions.Number">
+	<summary>Matches numbers including negative and decimal numbers. Fractions do NOT match.
+ </summary>
+</member><member name="P:Rae.Validation.RegularExpressions.PositiveNumber">
+	<summary>Matches positive numbers, not negative numbers. Positive decimal numbers match. Fractions do NOT match.
+ </summary>
+	<remarks>These match: (33 or 33. or 33.33). These do not match: (. or 33/33).
+ </remarks>
+</member><member name="P:Rae.Validation.RegularExpressions.Integer">
+	<summary>Matches positive or negative integers
+ </summary>
+	<remarks>Does not match numbers containing a decimal point
+ </remarks>
+</member><member name="P:Rae.Validation.RegularExpressions.PositiveInteger">
+	<summary>Matches only positive integers, not negative numbers
+ </summary>
+	<value>Regular expression that matches positive integers
+ </value>
+	<remarks>Does not match numbers containing a decimal point or negative sign
+ </remarks>
+	<history>[Casey.Joyce]	6/6/2005	Created
+ </history>
+</member><member name="P:Rae.Validation.RegularExpressions.Fraction">
+	<summary>Matches fractions only (format #/#), not a single decimal or integer number.
+ </summary>
+	<remarks>Match: 23/23 or 23.23/23 or 23./23 or 23 /23 or 23 / 23
+ <para>Doesn't match: ./23 or 23 or 23.23 or 23 23/23</para>
+	</remarks>
+</member><member name="P:Rae.Validation.RegularExpressions.MixedNumber">
+	<summary>Matches mixed numbers (format # #/#)
+ </summary>
+</member><member name="T:Rae.Validation.RegularExpressions">
+	<summary>
+ Contains regular expression constants
+ </summary>
+	<remarks>
+ May be useful for validation.
+ </remarks>
+</member><member name="M:Rae.ICopyable`1.Copy(`0)">
+	<summary>
+ When implemented, copies all of objectToCopy's properties to the implementing object.
+ </summary>
+	<param name="objectToCopy">
+ The object to copy.
+ </param>
+	<remarks>
+ The type of <paramref name="objectToCopy"/> should be the same type as the implementing class.
+ </remarks>
+</member><member name="T:Rae.ICopyable`1">
+	<summary>
+ Allows an object to copy values of another object.
+ </summary>
+	<remarks>
+ The type used for ICopyable should be the same as the implementing class.
+ This interface is useful when you want a class to encapsulate copying another object. 
+ An example could be a data Load() method.
+ <code>
+ ' fictitious example
+ Public Sub Load()
+    ' this works
+    Me.Copy = CustomerDataAccess.Load(Me.Id)
+    ' this would not work, Me can't be assigned a value
+    Me = CustomerDataAccess.Load(Me.Id)
+ End Sub
+ </code>
+	</remarks>
+	<history by="Casey Joyce" finish="2006/04/27" hours="1">
+ Created, compared to Copier.Copy(Of T)(objToSet, objToCopy)
+ </history>
+</member><member name="M:Rae.Io.FileTasks.Delete(System.String)">
+	<summary>Deletes file and returns whether file existed before deletion.
+ </summary>
+	<param name="filePath">File path of file to delete
+ </param>
+	<returns>Boolean that is true if file existed before deletion.
+ </returns>
+	<exception cref="T:System.IO.IOException">Can occur if file is in use or database connection is open.
+ </exception>
+	<history>[CASEYJ]	9/21/2005	Created
+ </history>
+</member><member name="F:TrimOption.DoTrim">
+	<summary>
+ Indicates to trim text
+</summary>
+</member><member name="F:TrimOption.DoNotTrim">
+	<summary>
+ Indicates do not trim text
+</summary>
+</member><member name="T:TrimOption">
+	<summary>
+ Specifies trim option for text
+ </summary>
+</member><member name="T:Rae.Conjunction">
+	<summary>Enumerated conjunctions
+ </summary>
+	<history>[CASEYJ]	4/25/2005	Created
+ </history>
+</member><member name="M:Rae.Text.CapitalizeFirstLetter(System.String@)">
+	<summary>Capitalizes first character of string
+ </summary>
+	<param name="text">Text to have its first character capitalized</param>
+	<returns>Text with first letter capitalized</returns>
+	<history>[CASEYJ]	4/21/2005	Created
+ </history>
+</member><member name="M:Rae.Text.Conjoin(System.Object[],Rae.Conjunction)">
+	<summary>Returns a string with commas between items in the list parameter and adds conjuction appropriately.
+ </summary>
+	<param name="list">List of items to list
+ </param>
+	<param name="conjuction">The conjuction to join the list of items
+ </param>
+	<returns>String listing the items in the list parameter
+ </returns>
+	<remarks>
+		<para>The items in the list parameter must support .ToString.</para>
+		<para>Example of return value: "item1, item2, item3 and item4"</para>
+	</remarks>
+	<history>[CASEYJ]	4/25/2005	Created
+ </history>
+</member><member name="M:Rae.Text.IsNullOrEmpty(System.String)">
+	<summary>Checks if string is null or empty
+ </summary>
+	<param name="value">String that is evaluated to determine whether it is null or empty.
+ </param>
+	<returns>True if value is null or empty, otherwise False.
+ </returns>
+	<history>Created on 2006/1/20
+ </history>
+</member><member name="M:Rae.Text.GetEnumValue``1(System.String,``0@)">
+	<summary>Takes a string that represents an enum member and returns the enum member. 
+ If no match is found, returns first enum value and returns false.
+ </summary>
+	<typeparam name="T">An Enum
+ </typeparam>
+	<param name="input">The string that is the enum member name, case does not matter
+ </param>
+	<param name="returnValue">The value from the enum that matches the string, or the first value of the enum
+ </param>
+	<returns>True when there is a match, false when not.
+ </returns>
+	<remarks>
+ When there is no match, the first item in the enum is returned.
+ The where clause attempts to constrain the input of T to be an Enum.
+ </remarks>
+</member><member name="M:Rae.Text.GetEnumValue``1(System.Int32,``0@)">
+	<summary>
+ Returns an enum member that has a matching integer value to the input parameter.
+ </summary>
+	<param name="input">
+ Integer value of the enum.
+ </param>
+	<param name="returnValue">
+ Enum w/ a mathcing integer value.
+ </param>
+	<returns>
+ True if enum exists with value; else false.
+ </returns>
+	<remarks>
+ When there is no match, the first item in the enum is returned.
+ The where clause attempts to constrain the input of T to be an Enum.
+ </remarks>
+	<history by="Casey Joyce" finish="2006/07/10">
+ Created
+ </history>
+</member><member name="M:Rae.Text.SpaceBeforeUpperCase(System.String)">
+	<summary>
+ Inserts a space before each upper case character in text, except the first character. 
+ Ex. FluidCooler -&gt; Fluid Cooler.
+ </summary>
+	<param name="text">
+ Text to modify.
+ </param>
+	<returns>
+ Text with spaces before upper case characters.
+ </returns>
+</member><member name="T:Rae.Text">
+	<summary>Module to assist in manipulating text
+ </summary>
+	<history>[CASEYJ]	4/21/2005	Created
+ </history>
+</member><member name="M:Rae.Collections.listing`1.op_Equality(Rae.Collections.listing{`0},Rae.Collections.listing{`0})">
+	<summary>Compares equality of two items. True if items are equal.</summary>
+	<remarks>
+ Equals operator allows derived classes to be compared easily and used in select case statements.
+ </remarks>
+</member><member name="M:Rae.Collections.listing`1.op_Inequality(Rae.Collections.listing{`0},Rae.Collections.listing{`0})">
+	<summary>Compares equality of two items. True if items are NOT equal.</summary>
+</member><member name="T:Rae.Collections.listing`1">
+	<summary>
+ Listing allows derived classes to specify a hard-coded list of items similar to the Enum keyword.
+ </summary>
+	<remarks>
+ Sample of a derived class:
+ <code>
+ Public Class Developer
+   Inherits Listing(Of String)
+ 
+   Protected Sub New(description As String)
+     MyBase.New(description)
+   End Sub
+ 
+   Public Shared Casey As New Developer("Casey Joyce")
+   '... and the listing items in between
+   Public Shared Danny As New Developer("Granny Doom")
+ End Class
+ </code>
+	</remarks>
+</member><member name="F:Rae.Collections.ListItemAddedEventArgs.Index">
+	<summary>
+ Index of item in list that was added.
+ </summary>
+</member><member name="M:Rae.Collections.ListItemAddedEventArgs.#ctor">
+	<summary>
+ Parameterless constructor for serialization purposes only... DO NOT USE
+ </summary>
+	<remarks>DO NOT USE</remarks>
+</member><member name="M:Rae.Collections.ListItemAddedEventArgs.#ctor(System.Int32)">
+	<summary>
+ Constructs list item added event arguments.
+ </summary>
+	<param name="index">
+ Index of item in list that was added.
+ </param>
+</member><member name="T:Rae.Collections.ListItemAddedEventArgs">
+	<summary>
+ Event arguments when list item is added.
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/14">
+ Created
+ </history>
+</member><member name="E:Rae.Collections.IndexedList`1.ItemAdded">
+	<summary>
+ Occurs after an item is added to the list.
+ </summary>
+</member><member name="M:Rae.Collections.IndexedList`1.OnItemAdded(Rae.Collections.ListItemAddedEventArgs)">
+	<summary>
+ Raises <see cref="E:Rae.Collections.IndexedList`1.ItemAdded"/> event.
+ </summary>
+	<param name="e">
+ Event arguments to pass in event.
+ Use System.EventArgs.Empty if no data is being passed.
+ </param>
+	<remarks>
+ Use this method to raise event rather than raising event directly.
+ Protected - Prevents other classes from raising event
+ Overridable - Allows derived classes to override implementation.
+ </remarks>
+</member><member name="E:Rae.Collections.IndexedList`1.ItemRemoved">
+	<summary>
+ Occurs after an item is removed from the list.
+ </summary>
+</member><member name="M:Rae.Collections.IndexedList`1.OnItemRemoved(Rae.Collections.ListItemRemovedEventArgs)">
+	<summary>
+ Raises <see cref="E:Rae.Collections.IndexedList`1.ItemRemoved"/> event.
+ </summary>
+	<param name="e">
+ Event arguments to pass in event.
+ Use System.EventArgs.Empty if no data is being passed.
+ </param>
+	<remarks>
+ Use this method to raise event rather than raising event directly.
+ Protected - Prevents other classes from raising event
+ Overridable - Allows derived classes to override implementation.
+ </remarks>
+</member><member name="M:Rae.Collections.IndexedList`1.Add(`0)">
+	<summary>
+ Adds an item to list. Additionally raises ItemAdded event.
+ </summary>
+	<param name="item">
+ Item to add.
+ </param>
+</member><member name="M:Rae.Collections.IndexedList`1.Insert(System.Int32,`0)">
+	<summary>
+ Inserts an item to list. Raises ItemAdded event.
+ </summary>
+	<param name="index">
+ Index to insert into
+ </param>
+	<param name="item">
+ Item to insert
+ </param>
+</member><member name="M:Rae.Collections.IndexedList`1.Remove(`0)">
+	<summary>
+ Removes an item from list. Additionally raises ItemRemoved event.
+ </summary>
+	<param name="item">
+ Item to remove.
+ </param>
+	<returns>True if item is removed; false if removal fails.
+ </returns>
+</member><member name="E:Rae.Collections.IndexedList`1.ItemMoved">
+	<summary>
+ Occurs after an item is moved.
+ </summary>
+</member><member name="M:Rae.Collections.IndexedList`1.OnItemMoved(Rae.Collections.IndexChangedEventArgs)">
+	<summary>
+ Raises <see cref="E:Rae.Collections.IndexedList`1.ItemMoved"/> event.
+ </summary>
+	<param name="e">
+ Event arguments to pass in event.
+ Use System.EventArgs.Empty if no data is being passed.
+ </param>
+	<remarks>
+ Use this method to raise event rather than raising event directly.
+ Protected - Prevents other classes from raising event
+ Overridable - Allows derived classes to override implementation.
+ </remarks>
+</member><member name="M:Rae.Collections.IndexedList`1.Move(System.Int32,System.Int32)">
+	<summary>
+ Moves an item from one index to another index.
+ </summary>
+	<param name="fromIndex">
+ Index to move item from
+ </param>
+	<param name="toIndex">
+ Index to move item to
+ </param>
+</member><member name="P:Rae.RaeSolutions.DataAccess.Common.AppFolderPath">
+	<summary>Path of the folder that the application executable resides in
+ </summary>
+</member><member name="P:Rae.RaeSolutions.DataAccess.Common.DbFolderPath">
+	<summary>Path of the folder containing the databases
+ </summary>
+</member><member name="M:Rae.RaeSolutions.DataAccess.Common.Initialize(System.String,System.String)">
+	<summary>Initializes members
+ </summary>
+	<param name="appFolderPath">Path of the folder that contains the application executable (path should end with a "\")
+ </param>
+	<param name="dbFolderPath">Path of the folder that contains the databases (path should end with a "\")
+ </param>
+</member><member name="M:Rae.RaeSolutions.DataAccess.Common.GetConnectionString(System.String)">
+	<summary>Gets connection string for DB.</summary>
+</member><member name="M:Rae.RaeSolutions.DataAccess.Common.GetConnectionString(System.String,System.Boolean)">
+	<summary>Gets connection string for Microsoft Access databases only.</summary>
+</member><member name="M:Rae.RaeSolutions.DataAccess.Common.GetSqlConnectionString(System.String)">
+	<summary>Gets connection string for Sql Server.</summary>
+	<remarks>Catalog example: "master".</remarks>
+</member><member name="P:Rae.RaeSolutions.DataAccess.Common.IsCountingConnections">
+	<summary>Set to true to begin counting number of database connections</summary>
+</member><member name="P:Rae.RaeSolutions.DataAccess.Common.NumConnections">
+	<summary>Number of database connections created</summary>
+</member><member name="T:Rae.EventHandler`2">
+	<summary>
+ Event handler that uses generics to allow the sender to be strongly typed
+ </summary>
+	<typeparam name="TSender">
+ Type of the object raising the event
+ </typeparam>
+	<typeparam name="TEventArgs">
+ Type inheriting from <c ref="System.EventArgs"/> containing the event arguments
+ </typeparam>
+	<param name="sender">
+ Object containing the necessary event arguments
+ </param>
+	<param name="e">
+ Object raising the event
+ </param>
+	<remarks>
+ Both the sender and event arguments can be strongly typed
+ </remarks>
+</member><member name="T:Rae.Collections.IIndexable`1">
+	<summary>
+ Interface for items in a list that know what list they are apart of and what index in the list they are.
+ </summary>
+</member><member name="P:Rae.Io.FileLocation.FilePath">
+	<summary>
+ Full file path.
+ </summary>
+</member><member name="P:Rae.Io.FileLocation.FileName">
+	<summary>
+ Only the file name not containing directory; includes extension.
+ </summary>
+</member><member name="P:Rae.Io.FileLocation.Extension">
+	<summary>
+ File extension
+ </summary>
+</member><member name="P:Rae.Io.FileLocation.FileNameWithoutExtension">
+	<summary>
+ File name without extension.
+ </summary>
+</member><member name="P:Rae.Io.FileLocation.DirectoryPath">
+	<summary>
+ Directory path containing file.
+ </summary>
+</member><member name="M:Rae.Io.FileLocation.GetSubDirectoryPath(System.String)">
+	<summary>
+ Gets sub directory path based on directory name; combines containing directory and sub directory name.
+ </summary>
+	<param name="directoryName">
+ Sub directory name to combine
+ </param>
+	<remarks>
+ Sub directory name
+ </remarks>
+</member><member name="T:Rae.Io.FileLocation">
+	<summary>
+ Provides location information related to a file.
+ </summary>
+</member><member name="P:Rae.Data.Sql.SqlParameterComplianceEnforcer.Parameter">
+	<summary>Sql parameter to enforce compliance with SQL syntax</summary>
+</member><member name="P:Rae.Data.Sql.SqlParameterComplianceEnforcer.ComplyingParameter">
+	<summary>The Sql parameter after it has been forced to comply with SQL syntax</summary>
+</member><member name="P:Rae.Data.Sql.SqlParameterComplianceEnforcer.ParameterComplies">
+	<summary>Indicates whether parameter complies with SQL syntax</summary>
+</member><member name="P:Rae.Data.Sql.SqlParameterComplianceEnforcer.NumNoncomplianceIssues">
+	<summary>Counts number of noncompliance issues are in parameter
+ </summary>
+	<remarks>Multiple issues with the same noncomplying text are counted as a single issue
+ </remarks>
+</member><member name="P:Rae.Data.Sql.SqlParameterComplianceEnforcer.NoncomplyingTextToRemove">
+	<summary>List of characters that do not comply with SQL syntax</summary>
+</member><member name="P:Rae.Data.Sql.SqlParameterComplianceEnforcer.NoncomplyingTextToReplace">
+	<summary>List of noncomplying-complying text pairs.</summary>
+</member><member name="M:Rae.Data.Sql.SqlParameterComplianceEnforcer.#ctor(System.String)">
+	<summary>Constructs new enforcer</summary>
+</member><member name="M:Rae.Data.Sql.SqlParameterComplianceEnforcer.EnforceCompliance">
+	<summary>Enforces parameter's compliance with SQL syntax (removes and replaces noncomplying text)</summary>
+</member><member name="M:Rae.Data.Sql.SqlParameterComplianceEnforcer.RemoveNoncomplyingText(System.String)">
+	<summary>Removes noncomplying text from parameter</summary>
+</member><member name="M:Rae.Data.Sql.SqlParameterComplianceEnforcer.ReplaceNoncomplyingText(System.String)">
+	<summary>Replaces noncomplying text in parameter</summary>
+</member><member name="M:Rae.Data.Sql.SqlParameterComplianceEnforcer.EnforceCompliance(System.String)">
+	<summary>Enforces parameter's compliance with SQL syntax (removes and replaces noncomplying text)</summary>
+</member><member name="T:Rae.Data.Sql.SqlParameterComplianceEnforcer">
+	<summary>Forces SQL parameter to comply with SQL command syntax
+ </summary>
+	<history>Created on 11/30/2005 by Casey Joyce
+ </history>
+</member><member name="M:Rae.Math.Geometry.Rectangle.#ctor">
+	<summary>
+ Constructs a rectangle with a width and height of zero.
+ </summary>
+</member><member name="M:Rae.Math.Geometry.Rectangle.#ctor(System.Double,System.Double)">
+	<summary>
+ Constructs a rectangle with the specified width and height.
+ </summary>
+	<param name="width">Width</param>
+	<param name="height">Height</param>
+</member><member name="P:Rae.Math.Geometry.Rectangle.Width">
+	<summary>
+ Width
+ </summary>
+</member><member name="P:Rae.Math.Geometry.Rectangle.Height">
+	<summary>
+ Height
+ </summary>
+</member><member name="P:Rae.Math.Geometry.Rectangle.Area">
+	<summary>
+ Area (calculated)
+ </summary>
+</member><member name="T:Rae.Math.Geometry.Rectangle">
+	<summary>
+ Rectangle
+ </summary>
+</member><member name="F:Rae.Math.Calculate.e">
+	<summary>Euler's constant.</summary>
+</member><member name="M:Rae.Math.Calculate.gcd(System.Int32,System.Int32)">
+	<summary>greatest common divisor (Euclidian algorithm)</summary>
+</member><member name="M:Rae.Math.Calculate.Average(System.Double,System.Double)">
+	<summary>Calculates average of two numbers</summary>
+</member><member name="M:Rae.Math.Calculate.AreaOfRectangle(System.Double,System.Double)">
+	<summary>
+ Calculates the area of a rectangle.
+ </summary>
+	<param name="width">
+ Width of the rectangle</param>
+	<param name="height">
+ Height of the rectangle</param>
+	<returns>
+ Area of the rectangle</returns>
+</member><member name="M:Rae.Math.Calculate.Floor(System.Double,System.Double)">
+	<summary>
+ Rounds down to the nearest number divisible by parameter.
+ Example: FloorNearest(23.6, 5) = 20
+ </summary>
+	<param name="value">
+ Value to round</param>
+	<param name="multiple">
+ Result should be multiple of this parameter;
+ result should be divisible by this parameter</param>
+</member><member name="M:Rae.Math.Calculate.round_up(System.Double,System.Double)">
+	<summary>Rounds up to the nearest number divisible by parameter</summary>
+</member><member name="T:Rae.Math.Calculate">
+	<summary>Contains common calculations.</summary>
+</member><member name="M:Rae.Reflection.ConstructorInvoker.InvokeConstructor(System.Object,System.Type[],System.Object[])">
+	<summary>
+ Sub Constructor.InvokeConstructor. Invokes constructor that has arguments and returns an instance of the reflected object. (Uses reflection.)
+ </summary>
+	<param name="instance">
+ Instance containing constructor to invoke.
+ </param>
+	<param name="types">
+ Parameter types in constructor.
+ </param>
+	<param name="args">
+ Array of parameters to pass to Constructor. Pass null if Constructor does not have parameters.
+ </param>
+</member><member name="F:Rae.Validity.Invalid">
+	<summary>
+ Invalid
+ </summary>
+</member><member name="F:Rae.Validity.Valid">
+	<summary>
+ Valid
+ </summary>
+</member><member name="T:Rae.Validity">
+	<summary>
+ Enumerated values for status of validity.
+ </summary>
+</member><member name="F:Rae.Deployment.ExpirationManager.ExpirationStatus.Current">
+	<summary>
+ Indicates application has not expired; application is current.
+ </summary>
+</member><member name="F:Rae.Deployment.ExpirationManager.ExpirationStatus.Expired">
+	<summary>
+ Indicates application has expired.
+ </summary>
+</member><member name="T:Rae.Deployment.ExpirationManager.ExpirationStatus">
+	<summary>Available values for expiration status.
+ </summary>
+	<remarks>The enumerated values are:
+ <para>1. expired</para>
+		<para>2. current</para>
+	</remarks>
+	<history>[CASEYJ]	3/3/2005	Created
+ </history>
+</member><member name="P:Rae.Deployment.ExpirationManager.FilePath">
+	<summary>
+ Path to file that stores expiration status.
+ </summary>
+</member><member name="P:Rae.Deployment.ExpirationManager.ExpirationDate">
+	<summary>
+ Date that application expires on.
+ </summary>
+</member><member name="P:Rae.Deployment.ExpirationManager.SystemExpirationStatus">
+	<summary>
+ Gets whether or not software has expired based on the system's time.
+ </summary>
+</member><member name="P:Rae.Deployment.ExpirationManager.StoredExpirationStatus">
+	<summary>Gets the software's stored expiration status.
+ </summary>
+	<history>[CASEYJ]	3/3/2005	Created
+ </history>
+</member><member name="P:Rae.Deployment.ExpirationManager.Status">
+	<summary>Indicates whether or not the software is expired. Checks stored (file) status and then system status.
+ </summary>
+	<returns>Boolean indicating whether or not the software is expired</returns>
+	<remarks>
+ An undocumented file that is created during the first application usage 
+ stores text indicating whether the software is current or expired. This 
+ routine checks that file and the system date to determine the expiration
+ status. So unless the user deletes this file after expiration and modifies
+ the system date the software will not open after the expiration date.
+ </remarks>
+	<history>[CASEYJ]	5/20/2005	Created
+ </history>
+</member><member name="M:Rae.Deployment.ExpirationManager.#ctor(System.String,System.DateTime)">
+	<summary>
+ Constructs a new expiration manager.
+ </summary>
+	<param name="filePath">
+ Path of file to store expiration status in.
+ </param>
+	<param name="expirationDate">
+ Date software expires.
+ </param>
+</member><member name="M:Rae.Deployment.ExpirationManager.GetDaysUntilExpiration(System.DateTime)">
+	<summary>
+ Gets days until expiration occurs
+ </summary>
+	<param name="today">
+ Todays date
+ </param>
+	<returns>
+ Integer representing the number of days until the expiration occurs
+ </returns>
+	<remarks>
+ The today parameter is available in case the date should be retrieved from
+ somewhere other than the user's computer. This is useful if the system
+ date on the user's computer is incorrect.
+ </remarks>
+	<history>[CASEYJ]	5/20/2005	Created
+ </history>
+</member><member name="M:Rae.Deployment.ExpirationManager.GetDaysUntilExpiration">
+	<summary>
+ Gets number of days from today until expiration occurs.
+ </summary>
+	<returns>
+ Integer representing the number of days until the expiration occurs
+ </returns>
+	<history by="Casey Joyce" finish="2006/06/20">
+ Created overload
+ </history>
+</member><member name="M:Rae.Deployment.ExpirationManager.WriteStoredExpirationStatus(System.Boolean,Rae.Deployment.ExpirationManager.ExpirationStatus)">
+	<summary>Creates file containing expiration status of software. Status is encrypted
+ </summary>
+	<param name="replaceExistingFile">Replaces existing file if true; 
+ otherwise will not replace existing file.
+ </param>
+	<param name="status">The expiration status written to data store.
+ </param>
+	<remarks>The created file will have the expiration status on the first line.
+ </remarks>
+	<history>[CASEYJ]	3/3/2005	Created
+ </history>
+</member><member name="M:Rae.Deployment.ExpirationManager.ReadStoredExpirationStatus">
+	<summary>
+ Reads stored encrypted expiration status from file.
+ </summary>
+</member><member name="T:Rae.Deployment.ExpirationManager">
+	<summary>
+ Uses both an undocumented file and the system's date to determine expiration status.
+ Hinders user's ability to adjust the system's date to continue using expired software.
+ </summary>
+	<remarks>
+ Example of how to use ExpirationManager.
+ <code>
+ Dim expirationMgr As New ExpirationManager(filePath, expirationDate)
+ If expirationMgr.Status = ExpirationStatus.Expired Then
+    Application.Exit()
+ ElseIf expirationMgr.GetDaysUntilExpiration() [= 25 Then
+    MessageBox.Show("Days until expiration: " + expirationMgr.GetDaysUntilExpiration())
+ End If
+ </code>
+	</remarks>
+	<history by="Casey Joyce" start="2006/06/20" finish="2006/06/21" hours="3">
+ Reduced implementers code from about 6 calls to 2. Changed from Module to Class. Added constructor. Moved constants. 
+ Added properties FilePath, SystemExpirationStatus, Status and ExpirationDate.
+ </history>
+</member><member name="T:Rae.Deployment.OperatingSystemName">
+	<summary>
+ Operating system name
+ </summary>
+</member><member name="T:Rae.Reflection.ExcludeAttribute">
+	<summary>
+ Use to exclude a property from being used in reflective command.
+ </summary>
+</member><member name="M:Rae.Reflection.Reflector.AreEqual``1(``0,``0)">
+	<summary>
+ Determines equality of two objects of the same type.
+ Compares their public properties that have getters.
+ </summary>
+	<param name="one">
+ Object to compare
+ </param>
+	<param name="two">
+ Another object to compare
+ </param>
+</member><member name="M:Rae.Reflection.Reflector.Clone``1(``0)">
+	<summary>
+ Clones objects by copy values from public properties with setters and getters.
+ </summary>
+	<typeparam name="T">
+ Type of object being cloned
+ </typeparam>
+	<param name="objectToClone">
+ Object to clone
+ </param>
+</member><member name="M:Rae.Reflection.Reflector.Construct``1">
+	<summary>
+ Constructs an instance of the specified type.
+ Class to be constructed must have a parameterless constructor.
+ </summary>
+	<typeparam name="T">
+ Type of object to construct
+ </typeparam>
+</member><member name="M:Rae.Reflection.Reflector.Construct``1(System.Object)">
+	<summary>
+ Constructs an instance of the specified type.
+ Class to be constructed must have a single parameter.   
+ </summary>
+	<typeparam name="T">
+ Type of object to construct
+ </typeparam>
+	<param name="param">
+ Parameter to pass to constructor
+ </param>
+</member><member name="M:Rae.Reflection.Reflector.HasAttribute(System.Reflection.PropertyInfo,System.Type)">
+	<summary>
+ True if property has attribute
+ </summary>
+	<param name="propertyToSearch">
+ Property to search
+ </param>
+	<param name="attributeToFind">
+ Attribute to find on property
+ </param>
+</member><member name="M:Rae.Security.Cryptography.Cryptographer.Encrypt(System.String)">
+	<summary>Encrypts data parameter
+ </summary>
+	<param name="data">Data to be encrypted
+ </param>
+	<returns>Encrypted data parameter
+ </returns>
+	<history>[CASEYJ]	6/21/2005	Created
+ </history>
+</member><member name="M:Rae.Security.Cryptography.Cryptographer.Decrypt(System.String)">
+	<summary>Decrypts data parameter
+ </summary>
+	<param name="data">Encrypted data to be decrypted. Data parameter string's character length must be divisible by 4.
+ </param>
+	<returns>Decrypted data parameter
+ </returns>
+</member><member name="T:Rae.Security.Cryptography.Cryptographer">
+	<summary>
+ Encrypts and decrypts data.
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/07">
+ Copied
+ </history>
+</member><member name="M:Rae.ConvertNull.ToString(System.Object,System.String)">
+	<summary>Converts null to string
+ </summary>
+	<param name="value">Object to ensure is string
+ </param>
+	<param name="returnIfNull">String to return if value parameter is null
+ </param>
+	<returns>String representation of value parameter
+ </returns>
+	<history>[CASEYJ]	6/24/2005	Created
+ </history>
+</member><member name="M:Rae.ConvertNull.ToInteger(System.Object,System.Int32)">
+	<summary>Converts null to integer
+ </summary>
+	<param name="value">Object to ensure is integer
+ </param>
+	<param name="returnIfNull">Integer to return if value parameter is null
+ </param>
+	<returns>Integer representation of value parameter
+ </returns>
+	<history>[CASEYJ]	6/24/2005	Created
+ </history>
+</member><member name="M:Rae.ConvertNull.ToDate(System.Object,System.DateTime)">
+	<summary>
+ Converts null to date.
+ </summary>
+	<param name="value">
+ Object to ensure is a date.</param>
+	<param name="returnIfNull">
+ Date to return if value parameter is null.</param>
+	<returns>
+ Date representation of value parameter.</returns>
+	<history by="Casey Joyce" finish="2006/05/31">
+ Created</history>
+</member><member name="M:Rae.ConvertNull.ToDouble(System.Object,System.Int32)">
+	<summary>Converts null to double
+ </summary>
+	<param name="value">Object to ensure is double
+ </param>
+	<param name="returnIfNull">Double to return if value parameter is null
+ </param>
+	<returns>Double representation of value parameter
+ </returns>
+	<history>[CASEYJ]	6/24/2005	Created
+ </history>
+</member><member name="M:Rae.ConvertNull.ToSingle(System.Object,System.Int32)">
+	<summary>Converts null to single
+ </summary>
+	<param name="value">Object to ensure is single
+ </param>
+	<param name="returnIfNull">Single to return if value parameter is null
+ </param>
+	<returns>Single representation of value parameter
+ </returns>
+	<history>[CASEYJ]	6/28/2005	Created
+ </history>
+</member><member name="M:Rae.ConvertNull.ToBoolean(System.Object)">
+	<summary>Converts null to boolean
+ </summary>
+	<param name="value">Value to ensure is boolean
+ </param>
+	<returns>Boolean representation of value parameter
+ </returns>
+	<remarks>DBNull, Nothing and String.Empty are converted to false
+ </remarks>
+	<history>[CASEYJ]	6/24/2005	Created
+ </history>
+</member><member name="M:Rae.ICloneable`1.Clone">
+	<summary>Clones (returns a copy of) implementer with its own memory reference
+ </summary>
+	<returns>Clone of implementer
+ </returns>
+</member><member name="T:Rae.ICloneable`1">
+	<summary>Implementer should be capable of cloning (returning a copy of) itself with its own memory reference
+ </summary>
+	<typeparam name="T">Type of implementer
+ </typeparam>
+	<remarks>Specify depth of clone and any state changes that may occur in clone
+ </remarks>
+</member><member name="M:Rae.Reflection.MethodInvoker.InvokeMethod``1(System.Object,System.String,System.Object[])">
+	<summary>Function Method(args) As T. Executes method that has arguments and returns a value using reflection.</summary>
+	<param name="instance">Instance of object containing method to invoke.</param>
+	<param name="methodName">Name of method to invoke.</param>
+	<param name="args">Array of parameters to pass to method. Pass null if method does not have parameters.</param>
+	<returns>Returns object that the method returns. Use type specifier TReturn to indicate return type.</returns>
+</member><member name="M:Rae.Reflection.MethodInvoker.InvokeMethod``1(System.Object,System.String,System.Object)">
+	<summary>Function Method(arg) As T. Invokes method that has a single argument and returns an object. (Uses reflection)</summary>
+	<param name="instance">Instance of object containing method to invoke.</param>
+	<param name="methodName">Name of method to invoke.</param>
+	<param name="arg">Argument to pass to method.</param>
+	<returns>Object returned by invoked method converted to type TReturn.</returns>
+</member><member name="M:Rae.Reflection.MethodInvoker.InvokeMethod``1(System.Object,System.String)">
+	<summary>Function Method() As T. Invokes method that doesn't have any arguments but does return value using reflection.</summary>
+	<param name="instance">Instance of object containing method to invoke.</param>
+	<param name="methodName">Name of method to invoke.</param>
+	<returns>Returns object that the method returns. Use type specifier TReturn to indicate return type.</returns>
+</member><member name="M:Rae.Reflection.MethodInvoker.InvokeMethod(System.Object,System.String,System.Object[])">
+	<summary>Sub Method(args). Invokes method that has arguments but does not return an object. (Uses reflection.)</summary>
+	<param name="instance">Instance containing method to invoke.</param>
+	<param name="methodName">Name of method to invoke. Method should not have a return type.</param>
+	<param name="args">Array of parameters to pass to method. Pass null if method does not have parameters.</param>
+</member><member name="M:Rae.Reflection.MethodInvoker.InvokeMethod(System.Object,System.String,System.Object)">
+	<summary>Sub Method(arg). Invokes method that has a single argument but does not return an object. (Uses reflection)</summary>
+	<param name="instance">Instance containing method to invoke.</param>
+	<param name="methodName">Name of method to invoke. Method should not have a return type.</param>
+	<param name="arg">Argument passed to method.</param>
+</member><member name="M:Rae.Reflection.MethodInvoker.InvokeMethod(System.Object,System.String)">
+	<summary>Sub Method(). Invokes method that doesn't have any arguments and doesn't return an object. (Uses reflection).</summary>
+	<param name="instance">Instance containing method to invoke.</param>
+	<param name="methodName">Name of method to invoke. Method should not have a return type.</param>
+</member><member name="T:Rae.Reflection.MethodInvoker">
+	<summary>Contains methods to condense reflection code that invokes a method.</summary>
+</member><member name="P:Rae.Deployment.OperatingSystem.Name">
+	<summary>Operating system name</summary>
+</member><member name="P:Rae.Deployment.OperatingSystem.Description">
+	<summary>Description of operating system including service pack</summary>
+</member><member name="P:Rae.Deployment.OperatingSystem.Version">
+	<summary>Version of the operating system.</summary>
+</member><member name="P:Rae.Deployment.OperatingSystem.Platform">
+	<summary>Platform (ex. Win32NT, WinCE, Win32Windows)</summary>
+</member><member name="P:Rae.Deployment.OperatingSystem.ServicePack">
+	<summary>The current service pack for the operating system</summary>
+</member><member name="M:Rae.Deployment.OperatingSystem.ToString">
+	<summary>String representation of operating system (ex. Windows XP Professional)</summary>
+</member><member name="T:Rae.Deployment.OperatingSystem">
+	<summary>
+ Provides information about the current operating system.
+ </summary>
+	<remarks>
+		<para>
+ XP Professional vs. Home
+ Don't have versions for operating systems below.
+ XP Professional x64
+ Media Center
+ Server 2000 (SP4)
+ CE
+ Mobile for Smartphone
+ </para>
+		<code>
+ If OperatingSystem.Name &gt; OperatingSystemName.Windows2000 Then
+    ...
+ ' or
+ If OperatingSystem.Name = OperatingSystemName.WindowsVista Then
+    ...
+ </code>
+		<para>
+ If System is imported will probably have namespace conflicts if Rae.Deployment is imported 
+ (System.OperatingSystem, Rae.Deployment.OperatingSystem).
+ </para>
+	</remarks>
+</member><member name="M:Rae.Validation.Objects.AreEqual``1(``0,``0)">
+	<summary>
+ Compares equality of two IEquatable objects and considers null state of objects. 
+ If both objects are null, they're considered equal.
+ </summary>
+</member><member name="F:Rae.Convert.inches_per_foot">
+	<summary>Number of inches in a foot (i.e. 12)</summary>
+</member><member name="M:Rae.Convert.FahrenheitToRankine(System.Double)">
+	<summary>Converts Farenheit to Rankine</summary>
+	<remarks>Absolute zero is ~460 degrees below fahrenheit</remarks>
+</member><member name="M:Rae.Convert.WattsToBtuh(System.Double)">
+	<summary>Converts power in watts to btuh/hr</summary>
+</member><member name="M:Rae.Convert.DecimalToPercent(System.Double)">
+	<summary>Converts a decimal value to a percentage (ex. 0.1 converts to 10)</summary>
+</member><member name="M:Rae.Convert.PercentToDecimal(System.Double)">
+	<summary>Converts percentage to decimal (ex. 10 converts to 0.1)</summary>
+</member><member name="M:Rae.Convert.YesNoToBoolean(System.String)">
+	<summary>Converts yes/no string parameter to a boolean</summary>
+	<remarks>'Yes' or 'y' is converted to true and everything else is false</remarks>
+	<param name="yesNo">String containing yes or no to be converted</param>
+</member><member name="M:Rae.Convert.UsCurrencyToDouble(System.String)">
+	<summary>Converts US currency (ex. $3.23) to type double (ex. 3.23).</summary>
+</member><member name="T:Rae.Convert">
+	<summary>Provides conversions</summary>
+</member><member name="P:Rae.Data.Sql.SqlColumn.Name">
+	<summary>Column name
+ </summary>
+	<returns>Column name
+ </returns>
+</member><member name="P:Rae.Data.Sql.SqlColumn.DataType">
+	<summary>Type of data in SQL column (determines format)
+ </summary>
+	<returns>Column name
+ </returns>
+	<remarks>Strings are enclosed in quotes, dates are enclosed with pound signs and numbers are not enclosed.
+ </remarks>
+</member><member name="P:Rae.Data.Sql.SqlColumn.Value">
+	<summary>Value in column
+ </summary>
+	<returns>Value in column
+ </returns>
+</member><member name="M:Rae.Data.Sql.SqlColumn.#ctor(System.String,Rae.Data.Sql.SqlDataType)">
+	<summary>Constructs a new SQL column
+ </summary>
+	<param name="name">Column name
+ </param>
+	<param name="dataType">Type of data in column, determines format
+ </param>
+</member><member name="M:Rae.Data.Sql.SqlColumn.#ctor(System.String,Rae.Data.Sql.SqlDataType,System.String)">
+	<summary>Constructs a new SQL column with a value in it
+ </summary>
+	<param name="name">Column name
+ </param>
+	<param name="dataType">Type of data in column
+ </param>
+	<param name="value">Value in column
+ </param>
+</member><member name="T:Rae.Data.Sql.SqlColumn">
+	<summary>Defines database column to build sql commands</summary>
+</member><member name="P:Rae.Collections.ListingItem`1.Name">
+	<summary>Name (variable name)</summary>
+</member><member name="T:Rae.Collections.ListingItem`1.ToStringSignature">
+	<summary>Delegate (method signature) for ToString() method.</summary>
+</member><member name="F:Rae.Collections.ListingItem`1.ToStringPointer">
+	<summary>This delegate determines what is returned by the ToString() method.</summary>
+</member><member name="M:Rae.Collections.ListingItem`1.ToString">
+	<summary>Returns description by default</summary>
+</member><member name="M:Rae.Collections.ListingItem`1.getValueAsString">
+	<summary>Gets the description.</summary>
+</member><member name="T:Rae.Collections.ListingItem`1">
+	<summary>Listing item provides the name (variable name) and description of listing.</summary>
+</member><member name="F:Rae.ExistenceStatus.Nonexistent">
+	<summary>
+ Does not exist
+ </summary>
+</member><member name="F:Rae.ExistenceStatus.Existent">
+	<summary>
+ Does exist
+ </summary>
+</member><member name="T:Rae.ExistenceStatus">
+	<summary>
+ Indicates whether something exists or not
+ </summary>
+</member><member name="P:Rae.NullableValue`1.Value">
+	<summary>The value (ex. Double, Integer). Throws exception if has no value.</summary>
+</member><member name="P:Rae.NullableValue`1.HasValue">
+	<summary>True if has value. False if has no value (is null).</summary>
+</member><member name="P:Rae.NullableValue`1.Default">
+	<summary>Default value.</summary>
+</member><member name="P:Rae.NullableValue`1.ValueOrDefault">
+	<summary>Returns the value if there is a value. Returns default if value is null.</summary>
+</member><member name="P:Rae.NullableValue`1.ValueOrDefault(`0)">
+	<summary>Returns the value if there is a value. Returns default parameter if there is no value.</summary>
+	<param name="default">
+ Default value if there is no value. 
+ Does not set Default property; only default for this method call.
+ </param>
+</member><member name="M:Rae.NullableValue`1.#ctor(`0)">
+	<summary>Constructs and sets value.</summary>
+	<param name="value">Value</param>
+</member><member name="M:Rae.NullableValue`1.#ctor(`0,`0)">
+	<summary>Constructs and sets value and default.</summary>
+	<param name="value">Value</param>
+	<param name="default">Default value</param>
+</member><member name="M:Rae.NullableValue`1.SetValue(System.Object)">
+	<summary>Sets value and will handle nulls.</summary>
+	<param name="value">Value to set Value property with.</param>
+	<remarks>Not strongly typed, but allows nulls.</remarks>
+</member><member name="M:Rae.NullableValue`1.SetToDefault">
+	<summary>Resets value to default value.</summary>
+</member><member name="M:Rae.NullableValue`1.SetToNull">
+	<summary>Resets HasValue to False.</summary>
+</member><member name="M:Rae.NullableValue`1.ToString">
+	<summary>Returns value as string. If <see cref="P:Rae.NullableValue`1.HasValue"/> is False then returns String.Empty.
+ </summary>
+</member><member name="M:Rae.NullableValue`1.ToStringOrNull">
+	<summary>If <see cref="P:Rae.NullableValue`1.HasValue"/> returns value as a string; else returns null.</summary>
+	<returns>If value exists returns value as a string; else returns null.</returns>
+</member><member name="M:Rae.NullableValue`1.Equals(Rae.NullableValue{`0})">
+	<summary>Indicates whether the current <see cref="T:Rae.NullableValue`1"/> value is equal to another.
+ </summary>
+	<returns>
+ True if the other parameter is equal to the current <see cref="T:Rae.NullableValue`1"/>; otherwise, false.
+ </returns>
+	<param name="other">A <see cref="T:Rae.NullableValue`1"/> to compare.</param>
+</member><member name="M:Rae.NullableValue`1.Clone">
+	<summary>Clones nullable value</summary>
+	<returns>Clone of nullable value</returns>
+</member><member name="T:Rae.NullableValue`1">
+	<summary>Allows storing nulls and DbNulls in value types.</summary>
+	<remarks>
+ Allows value types to store nulls like System.Nullable(Of T).
+ Also, simplifies data access code by reducing repetitive lines of code that check for nulls.
+ 
+ Case 1: Set value type without checking for DBNull
+ <code>
+ Dim nullable as Nullable(Of Integer)
+ nullable.SetValue(reader("ColumnName"))
+ </code>
+ Case 2: Set textbox with value or default
+ <code>
+ txtAge.Text = nullable.ValueOrDefault(18).ToString
+ </code>
+ Case 3: Set textbox with value or empty if null
+ <code>
+ txtPhone.Text = nullable.ToString
+ </code>
+	</remarks>
+</member><member name="T:Rae.NDouble">
+	<summary>Nullable double</summary>
+</member><member name="T:Rae.Completion">
+	<summary>
+ Enumerated values for completion status.
+ </summary>
+</member><member name="P:Rae.Data.Sql.SqlBuilder.AffectedSqlColumns">
+	<summary>List of sql columns used to determine which columns to affect</summary>
+</member><member name="P:Rae.Data.Sql.SqlBuilder.CriteriaSqlColumns">
+	<summary>List of sql columns used as the criteria to determine which rows to select</summary>
+</member><member name="P:Rae.Data.Sql.SqlBuilder.TableName">
+	<summary>Name of table to have query performed on it</summary>
+</member><member name="P:Rae.Data.Sql.SqlBuilder.CriteriaConjunction">
+	<summary>Conjunction to combine criteria</summary>
+</member><member name="M:Rae.Data.Sql.SqlBuilder.#ctor(System.Collections.Generic.List{Rae.Data.Sql.SqlColumn},System.String)">
+	<summary>Constructs sql command builder</summary>
+</member><member name="M:Rae.Data.Sql.SqlBuilder.#ctor(System.Collections.Generic.List{Rae.Data.Sql.SqlColumn},System.String,System.Collections.Generic.List{Rae.Data.Sql.SqlColumn})">
+	<summary>Constructs sql command builder with criterion</summary>
+</member><member name="M:Rae.Data.Sql.SqlBuilder.#ctor(System.String,System.Collections.Generic.List{Rae.Data.Sql.SqlColumn})">
+	<summary>
+ Constructs SQL command builder with table name and criterion for constructing a delete SQL command.
+ </summary>
+	<param name="tableName">
+ Name of database table
+ </param>
+	<param name="criteriaSqlColumns">
+ List of criteria SQL columns
+ </param>
+</member><member name="M:Rae.Data.Sql.SqlBuilder.GenerateSelectCommand">
+	<summary>Generates select command</summary>
+</member><member name="M:Rae.Data.Sql.SqlBuilder.GenerateInsertCommand">
+	<summary>Generates insert command</summary>
+</member><member name="M:Rae.Data.Sql.SqlBuilder.GenerateUpdateCommand">
+	<summary>Generates update command</summary>
+</member><member name="M:Rae.Data.Sql.SqlBuilder.GenerateDeleteCommand">
+	<summary>
+ Generates delete command
+ </summary>
+</member><member name="M:Rae.Data.Sql.SqlBuilder.initialize">
+	<summary>
+ Initializes objects used in SQL builder
+ </summary>
+</member><member name="M:Rae.Data.Sql.SqlBuilder.getCriteria(System.Collections.Generic.List{Rae.Data.Sql.SqlColumn})">
+	<summary>
+ Criteria portion of sql
+ </summary>
+</member><member name="T:Rae.Data.Sql.SqlBuilder">
+	<summary>Builds sql commands
+ </summary>
+	<remarks>
+ SQL command examples
+ <para>SELECT Column1, Column2 FROM Table1 WHERE Column3='abc' AND Column4=2
+ </para>
+		<para>INSERT INTO Table1 (Column1, Column2) VALUES ('value1', value2) WHERE Column3='abc' AND Column4=2
+ </para>
+		<para>UPDATE Table SET Column1='abc', Column2=2 WHERE Column3='abc' AND Column4=2
+ </para>
+ Example: Generate update sql command
+ <code>
+ Dim columnList As SqlColumnList = New SqlColumnList
+ Dim builder As SqlBuilder
+ 
+ ' adds sql columns to list
+ columnList.Add(New SqlColumnList(columnName, SqlDataType.String, "value1"))
+ columnList.Add(New SqlColumnList(columnName, SqlDataType.Number, "2"))
+
+ builder = New SqlBuilder(columnList)
+ 
+ builder.GenerateUpdateCommand()
+ </code>
+	</remarks>
+	<history>Created on 11/25/05
+ </history>
+</member><member name="M:Rae.Math.Dimensions.#ctor">
+	<summary>Creates new dimensions (all dimensions are initially zero).</summary>
+</member><member name="M:Rae.Math.Dimensions.#ctor(System.Double,System.Double,System.Double)">
+	<summary>Creates new dimensions based on length, width and height.</summary>
+	<param name="length">Length</param>
+	<param name="width">Width</param>
+	<param name="height">Height</param>
+</member><member name="M:Rae.Math.Dimensions.#ctor(System.String)">
+	<summary>Constructs a new Dimensions object that can parse dimensions.</summary>
+	<param name="dimensions">
+ Format dimensions as L x W x H. Format individual dimensions as number (#), fraction (#/#), or mixed number (# #/#).
+ </param>
+</member><member name="M:Rae.Math.Dimensions.parseDimensions">
+	<summary>Parses length, width and height as decimals from dimensions.</summary>
+	<exception cref="T:System.FormatException">Thrown when the dimensions' format is invalid.
+ </exception>
+	<exception cref="T:System.ArgumentNullException">Thrown when the dimensions are null.
+ </exception>
+</member><member name="T:Rae.Math.Dimensions">
+	<summary>Parses length, width and height from dimensions</summary>
+</member><member name="M:Rae.Utilities.Shorten``1(``0)">
+	<summary>
+ Returns same variable passed in. Use to rename variables especially shorten.
+ </summary>
+	<typeparam name="T">Type of variable to shorten</typeparam>
+	<param name="value">Variable to shorten</param>
+	<returns>Same variable passed in</returns>
+</member><member name="T:Rae.Utilities">
+	<summary>Shared utilities</summary>
+</member><member name="F:Rae.ValueChangedEventArgs`1.BeforeValue">
+	<summary>
+ Value before change.
+ </summary>
+</member><member name="F:Rae.ValueChangedEventArgs`1.AfterValue">
+	<summary>
+ Value after change.
+ </summary>
+</member><member name="M:Rae.ValueChangedEventArgs`1.#ctor(`0,`0)">
+	<summary>
+ Constructs value changed event arguments.
+ </summary>
+	<param name="beforeValue">
+ Value before change.
+ </param>
+	<param name="afterValue">
+ Value after change.
+ </param>
+</member><member name="T:Rae.ValueChangedEventArgs`1">
+	<summary>
+ Provides event arguments for when a value is changed.
+ Has before and after values.
+ </summary>
+</member><member name="P:Rae.Deployment.Version.Major">
+	<summary>
+ Major version number (1st number)
+ </summary>
+</member><member name="P:Rae.Deployment.Version.Minor">
+	<summary>
+ Minor version number (2nd number)
+ </summary>
+</member><member name="P:Rae.Deployment.Version.Revision">
+	<summary>
+ Revision number(3rd number)
+ </summary>
+</member><member name="P:Rae.Deployment.Version.Build">
+	<summary>
+ Build number (4th number)
+ </summary>
+</member><member name="M:Rae.Deployment.Version.#ctor">
+	<summary>
+ Initializes a new instance of version. The version will be 0.0.0.0.
+ </summary>
+</member><member name="M:Rae.Deployment.Version.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Initializes a new instance of version by setting each of the version sections.
+ </summary>
+	<param name="major">
+ Major version section (1st number)
+ </param>
+	<param name="minor">
+ Minor version section (2nd number)
+ </param>
+	<param name="revision">
+ Revision version section (3rd number)
+ </param>
+	<param name="build">
+ Build version section (4th number)
+ </param>
+</member><member name="M:Rae.Deployment.Version.#ctor(System.String)">
+	<summary>
+ Initializes a new instance of version by parsing the version string parameter.
+ </summary>
+	<param name="version">
+ Version to initialize this version with. It must be in the format #.#.#.# (major.minor.revision.build).
+ </param>
+</member><member name="M:Rae.Deployment.Version.#ctor(Rae.Deployment.Version)">
+	<summary>
+ Initializes a new instance of version from the values of another version.
+ </summary>
+	<param name="version">
+ Version to initialize this version with (version to copy)
+ </param>
+</member><member name="M:Rae.Deployment.Version.Copy(Rae.Deployment.Version)">
+	<summary>
+ Copies another version.
+ </summary>
+	<param name="version">
+ Version to copy
+ </param>
+</member><member name="T:Rae.Deployment.Version.ToStringSignature">
+	<summary>
+ Delegate (method signature) for ToString() method.
+ </summary>
+</member><member name="F:Rae.Deployment.Version.ToStringPointer">
+	<summary>
+ This delegate determines what is returned by the ToString() method.
+ By default ToString returns version with dots (example: "1.2.3.4"
+ </summary>
+</member><member name="M:Rae.Deployment.Version.ToString">
+	<summary>
+ Returns a string representation of version.
+ </summary>
+</member><member name="M:Rae.Deployment.Version.ToString(Rae.Deployment.Version.VersionFormat)">
+	<summary>
+ Version formatted as specified.
+ </summary>
+	<param name="format">
+ Version format
+ </param>
+</member><member name="T:Rae.Deployment.Version.VersionFormat">
+	<summary>
+ Version format enumerates the available version formats.
+ </summary>
+</member><member name="M:Rae.Deployment.Version.VersionInShortNumberFormatWithDots">
+	<summary>
+ example 1.12.3.4 = 1.12.3
+ </summary>
+</member><member name="M:Rae.Deployment.Version.VersionInShortNumberFormatWithoutDots">
+	<summary>
+ example: 1.12.3.4 = 1123
+ </summary>
+</member><member name="M:Rae.Deployment.Version.VersionInShortDateFormatWithDots">
+	<summary>
+ example: 1.12.3.4 = 0001.12.03
+ </summary>
+</member><member name="M:Rae.Deployment.Version.VersionInShortDateFormatWithoutDots">
+	<summary>
+ example: 1.12.3.4 = 00011203
+ </summary>
+</member><member name="M:Rae.Deployment.Version.VersionInNumberFormatWithDots">
+	<summary>
+ example: 1.12.3.4 = 1.12.3.4
+ </summary>
+</member><member name="M:Rae.Deployment.Version.VersionInNumberFormatWithoutDots">
+	<summary>
+ example: 1.12.3.4 = 11234
+ </summary>
+</member><member name="M:Rae.Deployment.Version.VersionInDateFormatWithDots">
+	<summary>
+ examples: 1.12.3.4 = 0001.12.03.04 and 2007.1.2.3 = 2007.01.02.03
+ </summary>
+</member><member name="M:Rae.Deployment.Version.VersionInDateFormatWithoutDots">
+	<summary>
+ examples: 1.12.3.4 = 0001120304 and 2007.1.2.3 = 2007010203
+ </summary>
+</member><member name="M:Rae.Deployment.Version.Parse(System.String)">
+	<summary>
+ Parses a string to a version.
+ </summary>
+	<param name="version">
+ Version to parse formatted "major(#).minor(#).revision(#).build(#)" (example: 1.2.3.4).
+ </param>
+	<exception cref="T:System.ArgumentNullException">
+ Thrown when version parameter is null.
+ </exception>
+	<exception cref="T:System.ArgumentException">
+ Thrown when there are not enough version numbers or a version number is empty.
+ </exception>
+	<exception cref="T:System.InvalidCastException">
+ Thrown when version number cannot be parsed.
+ </exception>
+</member><member name="M:Rae.Deployment.Version.CompareTo(Rae.Deployment.Version)">
+	<summary>
+ Compares versions and allows sorting.
+ </summary>
+	<param name="other">
+ Other version to compare
+ </param>
+</member><member name="T:Rae.Deployment.Version">
+	<summary>
+ Version to manage changes.
+ </summary>
+</member><member name="P:Rae.Math.MixedNumber.Integer">
+	<summary>The integer preceding the fractional portion. Example: The integer of 32 3/4 would be 32.
+ </summary>
+</member><member name="P:Rae.Math.MixedNumber.Numerator">
+	<summary>The number on top in the fraction. Example: The numerator of 32 3/4 would be 3.
+ </summary>
+</member><member name="P:Rae.Math.MixedNumber.Denominator">
+	<summary>The number on bottom in the fraction. Example: The denominator of 32 3/4 would be 4.
+ </summary>
+</member><member name="P:Rae.Math.MixedNumber.Decimal">
+	<summary>The decimal representation of the fraction</summary>
+</member><member name="P:Rae.Math.MixedNumber.MixedNumber">
+	<summary>The mixed number to parse. Example: 32 3/4 is a mixed number.</summary>
+</member><member name="P:Rae.Math.MixedNumber.FractionPortionAsDecimal">
+	<summary>Only the fraction portion represented as a decimal</summary>
+</member><member name="M:Rae.Math.MixedNumber.#ctor(System.String)">
+	<summary>Constructs and parses new mixed number
+ </summary>
+	<param name="mixedNumber">Mixed number. Formatted as "[integer] [numerator]/[denominator]" (ex. 23 1/2)
+ </param>
+	<remarks>Valid formats for mixed number:
+ <para># #/# (mixed number)</para>
+		<para>#/# (fraction only, no integer)</para>
+		<para># (integer only, no fraction)</para>
+		<para>Invalid formats for mixed number:</para>
+		<para># # / # (no spaces before or after divide operator)</para>
+	</remarks>
+</member><member name="M:Rae.Math.MixedNumber.ParseMixedNumber">
+	<summary>Parses integer, numerator and denominator from mixed number, and calculates decimal representation.
+ </summary>
+	<remarks>No spaces allowed on either side of slash in fractional portion.
+ </remarks>
+	<exception cref="T:System.ArgumentNullException">Thrown when the mixed number is null.
+ </exception>
+	<exception cref="T:System.FormatException">Thrown when the mixed number's format is invalid.
+ </exception>
+</member><member name="M:Rae.Math.MixedNumber.ParseFractionPortion(System.String)">
+	<summary>Parses numerator and denominator from fraction portion, and 
+ calculates the decimal representation of the fraction portion.</summary>
+</member><member name="T:Rae.Math.MixedNumber">
+	<summary>Parses integer, numerator and denominator from mixed number.
+ Also calculates decimal representation of mixed number.</summary>
+</member><member name="M:Rae.Configuration.AppSettings.#ctor(System.String,System.String)">
+	<summary>
+ Initializes a new file configuration
+ </summary>
+	<param name="path">
+ File path to the config file
+ </param>
+	<param name="appNamespace">
+ Application namespace that prefixes the My.Settings node in config file (ex Rae.RaeSolutions.My.MySettings)
+ </param>
+	<remarks></remarks>
+</member><member name="M:Rae.Configuration.AppSettings.Read(System.String)">
+	<summary>
+ Reads value from applicationSettings/setting xml node
+ </summary>
+	<param name="name">
+ Name of xml node containing value
+ </param>
+</member><member name="T:Rae.Configuration.AppSettings">
+	<summary>
+ AppSettings reads values from applicationSettings/setting xml nodes in app.config.
+ </summary>
+	<remarks>
+ Created so that application settings can be read from other assemblies
+ </remarks>
+</member><member name="E:Rae.Collections.EventfulList`1.RemovingItem">
+	<summary>Occurs before item is removed. Reference to item is still available.</summary>
+</member><member name="M:Rae.Collections.EventfulList`1.Add(`0)">
+	<summary>Adds an item to list. Additionally raises ItemAdded event.</summary>
+</member><member name="M:Rae.Collections.EventfulList`1.Insert(System.Int32,`0)">
+	<summary>Inserts an item to list. Raises ItemAdded event.</summary>
+</member><member name="M:Rae.Collections.EventfulList`1.Remove(`0)">
+	<summary>Removes an item from list. Additionally raises ItemRemoved event.</summary>
+	<returns>True if item is removed; false if removal fails.</returns>
+</member><member name="T:Rae.Collections.EventfulList`1">
+	<summary>Generic list with added and removed events.</summary>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Rae.Collections.IndexedDictionary`2.#ctor">
+	<summary>
+ Initializes empty indexable dictionary.
+ </summary>
+</member><member name="M:Rae.Collections.IndexedDictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})">
+	<summary>
+ Initializes indexable dictionary with the items of the dictionary parameter.
+ </summary>
+	<param name="dictionary">
+ Dictionary to copy items into this dictionary</param>
+</member><member name="P:Rae.Collections.IndexedDictionary`2.ItemWith(System.Int32)">
+	<summary>
+ Gets item with the specified index.
+ </summary>
+</member><member name="T:Rae.Collections.IndexedDictionary`2">
+	<summary>
+ Dictionary with ability to access items based on index.
+ </summary>
+	<typeparam name="TKey">
+ Type of key</typeparam>
+	<typeparam name="TValue">
+ Type of value</typeparam>
+</member><member name="M:Rae.Collections.UniqueList`1.Add(`0)">
+	<summary>Adds unique items and returns whether or not the item is unique.</summary>
+</member><member name="M:Rae.Collections.UniqueList`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+	<summary>Adds a collection of items. Only the unique items will be added.</summary>
+</member><member name="M:Rae.Collections.UniqueList`1.Insert(System.Int32,`0)">
+	<summary>Inserts items at defined index. Only inserts the item if it is unique.</summary>
+</member><member name="M:Rae.Collections.UniqueList`1.InsertRange(System.Int32,System.Collections.Generic.IEnumerable{`0})">
+	<summary>Inserts a range of items beginning at a defined index. Only unique items are added.</summary>
+</member><member name="T:Rae.Collections.UniqueList`1">
+	<summary>List that only allows unique items.</summary>
+</member><member name="F:Rae.Collections.IndexChangedEventArgs.From">
+	<summary>
+ Value that index changed from (previous value).
+ </summary>
+</member><member name="F:Rae.Collections.IndexChangedEventArgs.To">
+	<summary>
+ Value that index changed to (new value).
+ </summary>
+</member><member name="T:Rae.Collections.IndexChangedEventArgs">
+	<summary>
+ Event arguments for when an index is changed.
+ </summary>
+</member><member name="F:Rae.Networking.Connection.URL_THAT_IS_ALWAYS_AVAILABLE_FOR_PING">
+	<summary>
+ URL that should always be available to ping. Ping doesn't want http:// prefix.
+ </summary>
+</member><member name="F:Rae.Networking.Connection.URL_THAT_IS_ALWAYS_AVAILABLE_FOR_WEB_REQUEST">
+	<summary>
+ URL that should always be available for web response. HTTP web reponse wants http:// prefix.
+ </summary>
+</member><member name="M:Rae.Networking.Connection.IsInternetConnectionAvailable">
+	<summary>
+ Returns true if internet connection is available; else false.
+ </summary>
+</member><member name="M:Rae.Networking.Connection.Ping(System.String)">
+	<summary>
+ Pings host name/address and returns status.
+ </summary>
+	<param name="hostNameOrAddress">
+ Host name or address to ping.
+ </param>
+	<returns>
+ Ping status (ex. Success)
+ </returns>
+</member><member name="M:Rae.Networking.Connection.IsInternetConnectionAvailableUsingWebRequest(System.String)">
+	<summary>
+ Returns true if an internet connection is available based on the URL supplied; else returns false.
+ </summary>
+	<param name="url">
+ URL, web location, that is used to test if internet connection is available.
+ </param>
+</member><member name="M:Rae.Networking.Connection.IsInternetConnectionAvailableUsingPing(System.String)">
+	<summary>
+ Returns true if an internet connection is available based on pinging the URL supplied.
+ </summary>
+	<param name="url">
+ URL, web location, that is used to test internet connection availability.
+ </param>
+	<remarks>
+ Some computers have pinging turned off; in these cases this method will always say connection is not available.
+ </remarks>
+</member><member name="T:Rae.Networking.Connection">
+	<summary>
+ Connectivity
+ </summary>
+</member>
+</members>
+</doc>

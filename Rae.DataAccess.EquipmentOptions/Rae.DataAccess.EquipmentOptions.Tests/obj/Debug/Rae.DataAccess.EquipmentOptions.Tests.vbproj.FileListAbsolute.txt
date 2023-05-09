@@ -1,0 +1,12 @@
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\bin\Debug\Rae.DataAccess.EquipmentOptions.Tests.dll
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\bin\Debug\Rae.DataAccess.EquipmentOptions.Tests.pdb
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\bin\Debug\Rae.DataAccess.EquipmentOptions.Tests.xml
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\bin\Debug\Rae.DataAccess.EquipmentOptions.dll
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\bin\Debug\Rae.Core.dll
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\bin\Debug\Rae.DataAccess.EquipmentOptions.pdb
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\bin\Debug\Rae.Core.pdb
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\bin\Debug\Rae.Core.xml
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\obj\Debug\Rae.DataAccess.EquipmentOptions.Tests.dll
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\obj\Debug\Rae.DataAccess.EquipmentOptions.Tests.xml
+C:\Code\Rae\Solutions\Main\rae.dataaccess.equipmentoptions\Rae.DataAccess.EquipmentOptions.Tests\obj\Debug\Rae.DataAccess.EquipmentOptions.Tests.pdb

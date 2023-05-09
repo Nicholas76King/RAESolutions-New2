@@ -1,0 +1,363 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Rae.DataAccess.EquipmentOptions
+</name>
+</assembly>
+<members>
+<member name="T:My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.PriceSheetDataAccess">
+ <summary>Provides data access for price sheet data.</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.PriceSheetDataAccess.UseSharedConnections">
+ <summary>True to share connections</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.PriceSheetDataAccess.RetrieveDivisionOptions(System.String)">
+ <summary>Retrieves price sheet options for division of RAE Corporation parameter.</summary>
+ <param name="division">Division of RAE Corporation to retrieve price sheets for.</param>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.PriceSheetDataAccess.RetrieveSeriesOptions(System.String)">
+ <summary>Retrieves price sheet options for the equipment series parameter.</summary>
+ <param name="series">Series</param>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.PriceSheetDataAccess.replaceDependentCommonOps(PriceSheetDataSet.PriceSheetDataTable)">
+ <summary>
+ Replaces each dependent option in the optionsToReplace parameter with a list of options.
+ Each option in the list contains a different parent option with the dependent options associated price.
+ </summary>
+ <remarks>
+ Dependent option prices are expanded to be displayed in the price sheets.
+ </remarks>
+ <param name="opsToReplace">
+ List of options that could contain dependent options that should be replaced.
+ </param>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.PriceSheetDataAccess.extendDependentOp(PriceSheetDataSet.PriceSheetRow)">
+ <summary>
+ Returns a list of the dependent option to extend; 
+ one option for each parent code association and its price with that parent.
+ </summary>
+ <param name="priceSheetOptionToExtend">
+ Dependent option to show in price sheet that should be extended to contain
+ combination of prices with each of the available parent options.
+ </param>
+ <remarks>
+ The extended options all have the same information except for their price and parent option.
+ </remarks>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.PriceSheetDataAccess.removeReplacedDependentOptions(PriceSheetDataSet.PriceSheetDataTable,System.Collections.Generic.List{System.Int32})">
+ <summary>
+ Removes dependent options. The dependent options should have already been extended before being removed.
+ </summary>
+ <param name="priceSheet">List of price sheet options.</param>
+ <param name="indicesToRemove">Indices of the options to remove.</param>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.SuggestedModelsDataAccess">
+ <summary>
+ Contains data access for DependentEquipment table.
+ </summary>
+ <history by="Casey Joyce" finish="2006/05/26">
+ Created
+ </history>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.SuggestedModelsDataAccess.Retrieve(System.String)">
+ <summary>
+ Retrieves dependent model and price for the specified parent model.
+ </summary>
+ <param name="model">
+ Model to get suggested models for
+ </param>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.ConnectionString">
+ <summary>
+ Provides connection string information.
+ </summary>
+ <remarks>
+ Call Initialize(dbFolderPath) before using any of the other data access methods in this assembly.
+ Uses default database location when public method Initialize hasn't been called which is useful for testing and debugging.
+ Uses specified database folder path when Initialize is called which is useful for release version.
+ </remarks>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.ConnectionString.Text">
+ <summary>EquipmentOptions database connection string
+ </summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.ConnectionString.DataSource">
+ <summary>Data source (database path)
+ </summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.ConnectionString.Provider">
+ <summary>Database provider
+ </summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.ConnectionString.Initialize(System.String)">
+ <summary>
+ Initializes assembly by setting connection string. 
+ Must call this before using any of the assemblies data access methods.
+ </summary>
+ <param name="dbFolderPath">
+ Database path of EquipmentOptions.mdb.
+ </param>
+ <remarks>
+ This should be used during release version.
+ </remarks>
+ <history by="Casey Joyce" finish="2006/05/05">
+ Added
+ </history>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.ConnectionString.Initialize(System.String,rae.Data.DataObjects.DataAccessTypes)">
+ <summary>
+ Initializes assembly by setting DataAccessType which then points to use SQL connection string
+ </summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.ConnectionString.Initialize">
+ <summary>Initializes assembly by setting connection string. Default.</summary>
+ <remarks>This will be used by default if the Public Initialize(dbPath) has not be called.</remarks>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.ConnectionString.setConnectionString(System.String)">
+ <summary>Sets connection string for the specified data source.</summary>
+ <param name="dataSource">Path to database.</param>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.DependentCommonOptionsDataAccess">
+ <summary>
+ Contains data access methods for the dependent common options table.
+ The table contains relationships between dependent options and their parents.
+ </summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.DependentCommonOptionsDataAccess.RetrieveParentOptions(System.String,System.String)">
+ <summary>
+ Retrieves list of possible parent options for the dependent option code
+ </summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.DependentCommonOptionsDataAccess.RetrieveDependentOptions(System.String,System.String)">
+ <summary>
+ Retrieves list of dependent options for the parent option code parameter
+ </summary>
+ <remarks>The dependent price is included. Currently does not include quantities</remarks>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.DependentCommonOptionsDataAccess.RetrieveDependentOption(System.String,System.String,System.String)">
+ <summary>
+ Not used - Retrieves dependent option
+ </summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.DependentCommonOptionsDataAccess.#ctor">
+ <summary>
+ There is no need for a constructor; all methods are shared.
+ </summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.DependentCommonOptionsDataAccess.RetrieveDependentOptionRelationship(System.String,System.String)">
+ <summary>Retrieves the parent option's dependent option relationships</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.DependentCommonOptionsDataAccess.RetrieveParentOptionRelationships(System.String,System.String)">
+ <summary>Retrieves the dependent option's parent option relationships</summary>
+ <remarks>Retrieves information for parent options</remarks>
+ <param name="dependentCode">Option code of the option that is dependent upon another option.</param>
+ <param name="series">Series of the equipment that the option is for</param>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.Equipment">
+ <summary>Equipment</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.Equipment.#ctor">
+ <summary>Constructor, initializes objects</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Equipment.Model">
+ <summary>Equipment model number (not including series)</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Equipment.Series">
+ <summary>Series containing equipment</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Equipment.Division">
+ <summary>Division of RAE Corporation</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Equipment.Type">
+ <summary>Equipment type</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Equipment.Options">
+ <summary>List of options selected for equipment</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.EquipmentDataAccess.retrieve_series(System.String,System.String,System.Boolean)">
+ <summary>Retrieves only series that are in specified division and equipment type and filters for rep authorization.</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.EquipmentDataAccess.RetrieveSalesCLass(System.String)">
+ <summary>Retrieves all the series in the specified division.</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.EquipmentDataAccess.RetrieveSeries(System.String)">
+ <summary>Retrieves all the series in the specified division.</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.EquipmentDataAccess.RetrieveModels(System.String)">
+ <summary>Retrieves model in the specified series
+ </summary>
+ <param name="series">Equipment series
+ </param>
+ <returns>List of models in the specified series
+ </returns>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.EquipmentDataAccess.RetrieveTypes(System.String)">
+ <summary>Retrieves equipment types in division
+ </summary>
+ <param name="division">Division of RAE Corporation
+ </param>
+ <returns>List of equipment types in division
+ </returns>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.master_option">
+ <summary>Option information in MasterOptions table</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.master_options_data_access.retrieve_as_options(System.String)">
+ <summary>Retrieves master option info, but it's returned as an option (different data type).</summary>
+ <returns>Returned options still do not contain any more information than the list of master options.
+ They do have more properties, but they're not set.</returns>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.master_options_data_access.retrieve_master_options_based_on_sql(System.Text.StringBuilder)">
+ <summary>Retrieves list of master options based on SQL query parameter</summary>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.Tables.SeriesTable">
+ <summary>
+ Table containing the list of series in each division's equipment types
+ </summary>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.Tables.DependentCommonOptionsTable">
+ <summary>
+ Table and column names in dependent common options table
+ </summary>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.Tables.SuggestedModelsTable">
+ <summary>Contains table and column names for SuggestedModels table.</summary>
+</member>
+<member name="F:Rae.DataAccess.EquipmentOptions.Option.STANDARD">
+ <summary>Standard option</summary>
+</member>
+<member name="F:Rae.DataAccess.EquipmentOptions.Option.CONTACT_FACTORY">
+ <summary>Must contact factory for price</summary>
+</member>
+<member name="F:Rae.DataAccess.EquipmentOptions.Option.COMMON_DEPENDENT">
+ <summary>Common (same across entire series) option whose price is dependent upon another selected option</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.PricingId">
+ <summary>ID from EquipmentOptions database's EquipmentOptions table</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.MasterId">
+ <summary>ID from Options database's MasterOptions table</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.Code">
+ <summary>Option code</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.Description">
+ <summary>Description of option</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.Category">
+ <summary>Category that option is in</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.Price">
+ <summary>Price of option</summary>
+ <remarks>This property (not the private field) must be used to set price, if you want the price to be interpreted</remarks>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.Quantity">
+ <summary>Quantity of this option for equipment</summary>
+ <remarks>This property (not private field) must be used to set quantity, if you want the quantity to be interpreted</remarks>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.Per">
+ <summary>Option quantity can be per unit or per system</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.Voltage">
+ <summary>Voltage that the price corresponds to</summary>
+ <remarks>This property (not private field) must be used to set voltage, if you want voltage to be interpreted</remarks>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.IsVoltageDependent">
+ <summary>Indicates whether option price is dependent upon voltage</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.IsStandard">
+ <summary>Indicates whether option is standard with the current equipment</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.ContactFactory">
+ <summary>Indicates whether the factory must be contacted in order to determine option's price</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.IsDependentCommonOption">
+ <summary>Indicates whether option's price is dependent upon another option</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.IsQuantityReadOnly">
+ <summary>Indicates whether option's quantity is readonly (mandated).</summary>
+</member>
+<member name="P:Rae.DataAccess.EquipmentOptions.Option.Equipment">
+ <summary>Equipment that the option's price is based on</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.Option.Import(Rae.DataAccess.EquipmentOptions.master_option)">
+ <summary>Imports information from master option</summary>
+</member>
+<member name="T:Rae.DataAccess.EquipmentOptions.OptionsDataAccess">
+ <summary>Contains methods to retrieve options</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.OptionsDataAccess.RetrieveBaseListPrice(System.String,System.String)">
+ <summary>Retrieves base list price for the equipment</summary>
+ <param name="series">Equipment series</param>
+ <param name="model">Equipment model number</param>
+ <returns>Base list price</returns>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.OptionsDataAccess.RetrieveStandardOptions(System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>Retrieves standard options for the specified equipment</summary>
+ <param name="series">Equipment series</param>
+ <param name="model">Equipment model number</param>
+ <param name="voltage">Unit voltage that equipment runs on</param>
+ <returns>List of standard options for the specified equipment</returns>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.OptionsDataAccess.RetrieveOption(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+ <summary>Retrieves option for the equipment that has the code and voltage.</summary>
+ <param name="code">Option code</param>
+ <param name="voltage">Unit voltage</param>
+ <param name="series">Series</param>
+ <param name="model">Model</param>
+ <returns>A unique option based on its code and voltage</returns>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.OptionsDataAccess.RetrieveOption(System.Int32)">
+ <summary>Retrieve option pricing info for the PricingId.</summary>
+ <param name="pricingId">Option pricing ID</param>
+ <returns>Option with Id</returns>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.OptionsDataAccess.#ctor">
+ <summary>There is no need for a constructor; all methods are shared.</summary>
+</member>
+<member name="M:Rae.DataAccess.EquipmentOptions.OptionsDataAccess.executeScalar``1(System.String)">
+ <summary>Generic scalar execution</summary>
+ <typeparam name="T">Return type expected from SQL command</typeparam>
+ <param name="sql">SQL command that returns a scalar value</param>
+ <returns>Value returned by SQL command</returns>
+ <exception cref="T:System.ApplicationException">Thrown when price is not listed.</exception>
+</member>
+<member name="T:PriceSheetDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PriceSheetDataSet.PriceSheetDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PriceSheetDataSet.PriceSheetRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PriceSheetDataSet.PriceSheetRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

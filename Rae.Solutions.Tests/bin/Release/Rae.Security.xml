@@ -1,0 +1,414 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Rae.Security
+</name>
+</assembly>
+<members>
+<member name="F:Rae.Security.IntegratedSecurity.ExistenceStatus.Nonexistent">
+	<summary>
+ Does not exist.
+ </summary>
+</member><member name="F:Rae.Security.IntegratedSecurity.ExistenceStatus.Existent">
+	<summary>
+ Does exist.
+ </summary>
+</member><member name="T:Rae.Security.IntegratedSecurity.ExistenceStatus">
+	<summary>
+ Indicates whether object exists.
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/07">
+ Created
+ </history>
+</member><member name="T:Rae.Security.IntegratedSecurity.AccessLevel">
+	<summary>
+ Indicates an identity's authorization to access protected portions of the application.
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/07">
+ Copied
+ </history>
+</member><member name="M:Rae.Security.SDGAuthenticate.Authenticate.#ctor">
+	<remarks/>
+</member><member name="E:Rae.Security.SDGAuthenticate.Authenticate.CallAuthenticateCompleted">
+	<remarks/>
+</member><member name="M:Rae.Security.SDGAuthenticate.Authenticate.CallAuthenticate(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Rae.Security.SDGAuthenticate.Authenticate.CallAuthenticateAsync(System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:Rae.Security.SDGAuthenticate.Authenticate.CallAuthenticateAsync(System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:Rae.Security.SDGAuthenticate.Authenticate.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:Rae.Security.SDGAuthenticate.Authenticate">
+	<remarks/>
+</member><member name="P:Rae.Security.SDGAuthenticate.AuthenticationResult.isAuthenticated">
+	<remarks/>
+</member><member name="P:Rae.Security.SDGAuthenticate.AuthenticationResult.disableAccount">
+	<remarks/>
+</member><member name="P:Rae.Security.SDGAuthenticate.AuthenticationResult.accessLevel">
+	<remarks/>
+</member><member name="P:Rae.Security.SDGAuthenticate.AuthenticationResult.authorityGroup">
+	<remarks/>
+</member><member name="P:Rae.Security.SDGAuthenticate.AuthenticationResult.userFullName">
+	<remarks/>
+</member><member name="T:Rae.Security.SDGAuthenticate.AuthenticationResult">
+	<remarks/>
+</member><member name="T:Rae.Security.SDGAuthenticate.CallAuthenticateCompletedEventHandler">
+	<remarks/>
+</member><member name="P:Rae.Security.SDGAuthenticate.CallAuthenticateCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:Rae.Security.SDGAuthenticate.CallAuthenticateCompletedEventArgs">
+	<remarks/>
+</member><member name="M:Rae.Security.IntegratedSecurity.Identity.#ctor(System.String,System.String)">
+	<summary>
+ Constructs identity w/ username and password.
+ </summary>
+	<param name="username">Username to authenticate.</param>
+	<param name="password">Password to authenticate.</param>
+</member><member name="M:Rae.Security.IntegratedSecurity.Identity.Authenticate">
+	<summary>
+ Authenticates identity based on username and password.
+ </summary>
+	<returns>
+ Result of attempt to authenticate identity.
+ </returns>
+</member><member name="T:Rae.Security.IntegratedSecurity.Identity">
+	<summary>
+ Identity for authentication. Authenticates based on username and password.
+ </summary>
+	<remarks></remarks>
+	<history by="Casey Joyce" finish="2006/07/07" hours="1">
+ Created
+ </history>
+</member><member name="P:Rae.Security.IIdentity.Username">
+	<summary>
+ Username
+ </summary>
+</member><member name="P:Rae.Security.IIdentity.Password">
+	<summary>
+ Password
+ </summary>
+</member><member name="P:Rae.Security.IIdentity.IsAuthenticated">
+	<summary>
+ True if identity is authenticated; false if identity is not authenticated.
+ </summary>
+</member><member name="P:Rae.Security.IIdentity.Result">
+	<summary>
+ Result of the authentication attempt.
+ </summary>
+</member><member name="M:Rae.Security.IIdentity.Authenticate">
+	<summary>
+ Authenticates identity based on username and password.
+ </summary>
+	<returns>
+ Result of authentication (Authenticated, NotAuthenticated, etc).
+ </returns>
+</member><member name="T:Rae.Security.IIdentity">
+	<summary>
+ Identity signature
+ </summary>
+	<remarks>
+ Example
+ <code>
+ Dim identity As IIdentity
+ Dim result As AuthenticationResult
+ 
+ identity = New Identity(name, password)
+ 
+ result = identity.Authenticate()
+ 
+ Select Case result
+    Case AuthenticationResult.Authenticated
+       StartApplication()
+    Case AuthenticationResult.InvalidUsername, InvalidPassword
+       Message("Invalid credentials.")
+ End Select
+ </code>
+	</remarks>
+	<history by="Casey Joyce" finish="2006/07/07">
+ Created
+ </history>
+</member><member name="P:Rae.Security.IntegratedSecurity.EncryptedIdentityData.Username">
+	<summary>
+ Username to find identity data for.
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.EncryptedIdentityData.EncryptedPassword">
+	<summary>
+ Encrypted password.
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.EncryptedIdentityData.Name">
+	<summary>
+ Name (first and last) of user.
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.EncryptedIdentityData.UsernameExistence">
+	<summary>
+ Existence indicates whether username exists in authentication data source.
+ </summary>
+</member><member name="M:Rae.Security.IntegratedSecurity.EncryptedIdentityData.#ctor(System.String)">
+	<summary>
+ Constructs identity data w/ the password still encrypted. Data is unmodified from the database.
+ </summary>
+	<param name="username">
+ Username to retrieve data for.
+ </param>
+</member><member name="M:Rae.Security.IntegratedSecurity.EncryptedIdentityData.RetrieveEncryptedIdentity">
+	<summary>
+ Retrieves identity data from database. Password is not decrypted.
+ </summary>
+</member><member name="M:Rae.Security.IntegratedSecurity.EncryptedIdentityData.ThrowInvalidOperation(System.String)">
+	<summary>
+ Throws invalid operation exception when there is an attempt to access a property that requires an authenticated username.
+ </summary>
+	<param name="propertyName">
+ Name of property being accessed.
+ </param>
+</member><member name="T:Rae.Security.IntegratedSecurity.EncryptedIdentityData">
+	<summary>
+ Identity data with the password still encrypted (direct from database).
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/07" hours="1">
+ Created
+ </history>
+</member><member name="T:Rae.Security.IntegratedSecurity.UserGroup">
+	<summary>
+ Group that user is in.
+ </summary>
+	<remarks>
+ Allows application to make decisions based on what group a user is in.
+ Group is retrieved from password database. It's called RevLevel in web application.
+ </remarks>
+	<history by="Casey Joyce" finish="2006/07/07">
+ Copied
+ </history>
+</member><member name="P:Rae.Security.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Rae.Security.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Rae.Security.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:Rae.Security.AuthenticationResult.NoResult">
+	<summary>
+ No result is indicated.
+ </summary>
+</member><member name="F:Rae.Security.AuthenticationResult.Authenticated">
+	<summary>
+ Authentication succeeded.
+ </summary>
+</member><member name="F:Rae.Security.AuthenticationResult.UsernameInvalid">
+	<summary>
+ Username is invalid.
+ </summary>
+</member><member name="F:Rae.Security.AuthenticationResult.PasswordInvalid">
+	<summary>
+ Password is invalid.
+ </summary>
+</member><member name="F:Rae.Security.AuthenticationResult.NotAuthenticated">
+	<summary>
+ Authentication failed for a reason other than an invalid username or password.
+ </summary>
+</member><member name="T:Rae.Security.AuthenticationResult">
+	<summary>
+ The result of an attempt to authenticate an identity.
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/07">
+ Created
+ </history>
+</member><member name="P:Rae.Security.BaseIdentity.Password">
+	<summary>
+ Password of identity.
+ </summary>
+</member><member name="P:Rae.Security.BaseIdentity.Username">
+	<summary>
+ Username of identity.
+ </summary>
+</member><member name="P:Rae.Security.BaseIdentity.Result">
+	<summary>
+ Result of attempt to authenticate the identity.
+ </summary>
+</member><member name="P:Rae.Security.BaseIdentity.IsAuthenticated">
+	<summary>
+ True if identity is authenticated; false if identity is not authenticated.
+ </summary>
+	<remarks>
+ Property does not invoke authentication; it only indicates the result of previous authentication attempts.
+ If IsAuthenticated is false, either the identity may not be valid (authentication failed) 
+ or an authentication attempt may not have been made (Authenticate() method not called yet).
+ </remarks>
+</member><member name="M:Rae.Security.BaseIdentity.#ctor(System.String,System.String)">
+	<summary>
+ Constructs an identity w/ a username and password. Does not call Authenticate().
+ </summary>
+	<param name="username">
+ Username to authenticate.
+ </param>
+	<param name="password">
+ Password to authenticate.
+ </param>
+</member><member name="M:Rae.Security.BaseIdentity.Authenticate">
+	<summary>
+ Authenticates identity based on username and password. Not implemented.
+ </summary>
+	<returns>
+ Enumerated result of authentication attempt.
+ </returns>
+	<remarks>
+ Must override this method.
+ </remarks>
+</member><member name="T:Rae.Security.BaseIdentity">
+	<summary>
+ Base implementation that can be used to speed up implemenation of IIdentity.
+ Does not implement Authenticate().
+ </summary>
+	<remarks>
+ Inheritors should set Result and IsAuthenticated based on result of Authenticate().
+ </remarks>
+	<history by="Casey Joyce" finish="2006/07/07">
+ Created
+ </history>
+</member><member name="P:Rae.Security.IntegratedSecurity.ParsedPassword.UnparsedPassword">
+	<summary>
+ Unparsed password.
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.ParsedPassword.Username">
+	<summary>
+ Username
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.ParsedPassword.Password">
+	<summary>
+ Parsed password
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.ParsedPassword.AuthorityGroup">
+	<summary>
+ Authority group.
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.ParsedPassword.Access">
+	<summary>
+ Access level
+ </summary>
+</member><member name="M:Rae.Security.IntegratedSecurity.ParsedPassword.#ctor(System.String)">
+	<summary>
+ Constructs object w/ data parsed from the password. 
+ The unparsed password contains username, password, user group and access level.
+ </summary>
+	<param name="unparsedPassword">
+ Password that is unparsed (still contains data delimited by dash).
+ </param>
+</member><member name="M:Rae.Security.IntegratedSecurity.ParsedPassword.Parse">
+	<summary>
+ Parses password for username, password, authority group and access level, and sets properties.
+ </summary>
+	<exception cref="T:System.FormatException">
+ Thrown when password format is invalid.
+ </exception>
+</member><member name="T:Rae.Security.IntegratedSecurity.ParsedPassword">
+	<summary>
+ Data parsed from password (i.e. username, password, authority group, and access level).
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/07" hours="1">
+ Created
+ </history>
+</member><member name="F:Rae.Security.IntegratedSecurity.ConnectionString.dbName">
+	<summary>
+ Database file name.
+ </summary>
+</member><member name="F:Rae.Security.IntegratedSecurity.ConnectionString.testDbPath">
+	<summary>
+ Relative path beginning in testDllPath's folder.
+ </summary>
+</member><member name="F:Rae.Security.IntegratedSecurity.ConnectionString.testDllPath">
+	<summary>
+ Default path of this assembly, used during testing.
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.ConnectionString.Text">
+	<summary>
+ Login database connection string
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.ConnectionString.DataSource">
+	<summary>Data source (database path)
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.ConnectionString.Provider">
+	<summary>Database provider
+ </summary>
+</member><member name="M:Rae.Security.IntegratedSecurity.ConnectionString.Initialize(System.String)">
+	<summary>
+ Initializes assembly by setting connection string. 
+ Must call this before using any of the assemblies data access methods.
+ </summary>
+	<param name="dbFolderPath">
+ Database path of login.
+ </param>
+	<remarks>
+ This should be used during release version.
+ </remarks>
+</member><member name="M:Rae.Security.IntegratedSecurity.ConnectionString.Initialize">
+	<summary>
+ Initializes assembly by setting connection string. Default.
+ </summary>
+	<remarks>
+ This will be used by default if the Public Initialize(dbPath) has not be called.
+ </remarks>
+</member><member name="M:Rae.Security.IntegratedSecurity.ConnectionString.SetConnectionString(System.String)">
+	<summary>
+ Sets connection string for the specified data source.
+ </summary>
+	<param name="dataSource">
+ Database file path.
+ </param>
+</member><member name="T:Rae.Security.IntegratedSecurity.ConnectionString">
+	<summary>
+ Provides connection string information.
+ </summary>
+	<remarks>
+ Call Initialize(dbFolderPath) before using any of the other data access methods in this assembly.
+ Uses default database location when public method Initialize hasn't been called which is useful for testing and debugging.
+ Uses specified database folder path when Initialize is called which is useful for release version.
+ </remarks>
+</member><member name="P:Rae.Security.IntegratedSecurity.IdentityData.Username">
+	<summary>
+ Username
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.IdentityData.Password">
+	<summary>
+ Password
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.IdentityData.Name">
+	<summary>
+ Name
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.IdentityData.AuthorityGroup">
+	<summary>
+ AuthorityGroup
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.IdentityData.Access">
+	<summary>
+ Access
+ </summary>
+</member><member name="P:Rae.Security.IntegratedSecurity.IdentityData.UsernameExistence">
+	<summary>
+ UsernameExistence
+ </summary>
+</member><member name="M:Rae.Security.IntegratedSecurity.IdentityData.#ctor(System.String)">
+	<summary>
+ Construct identity data (i.e. username, password, name, user group, and access level)
+ </summary>
+	<param name="username">
+ Username to get data for.
+ </param>
+</member><member name="T:Rae.Security.IntegratedSecurity.IdentityData">
+	<summary>
+ Identity data (i.e. username, password, name, authority group and access level) that has been decrypted and parsed.
+ </summary>
+	<history by="Casey Joyce" finish="2006/07/07" hours="1">
+ Created
+ </history>
+</member>
+</members>
+</doc>

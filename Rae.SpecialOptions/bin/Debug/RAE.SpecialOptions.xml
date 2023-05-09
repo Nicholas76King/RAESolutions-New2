@@ -1,0 +1,154 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Rae.SpecialOptions
+</name>
+</assembly>
+<members>
+<member name="T:Rae.DataAccess.SpecialOptions.SpecialOptionsTable">
+	<summary>
+ Special options table and columns names.
+ </summary>
+</member><member name="M:Rae.DataAccess.SpecialOptions.SpecialOptionsDa.Create(System.String,System.Double,System.String,System.String,System.DateTime)">
+	<summary>
+ Creates special option and retrieves its unique identifier.
+ </summary>
+</member><member name="M:Rae.DataAccess.SpecialOptions.SpecialOptionsDa.Retrieve(System.Int32,System.String@,System.Double@,System.String@,System.String@,System.DateTime@,System.DateTime@)">
+	<summary>
+ Retrieves special options by ID.
+ </summary>
+	<returns>
+ Boolean indicating whether special exists. True if option exists; else false.
+ </returns>
+</member><member name="M:Rae.DataAccess.SpecialOptions.SpecialOptionsDa.RetrieveById(System.Int32)">
+	<summary>
+ Retrieves special option by ID; returns data table.
+ </summary>
+	<param name="id">
+ Unique ID to retrieve special option by.</param>
+	<returns>
+ Table with special option with ID.
+ </returns>
+</member><member name="M:Rae.DataAccess.SpecialOptions.SpecialOptionsDa.Update(System.String,System.Double,System.String,System.String,System.DateTime,System.Int32)">
+	<summary>
+ Updates special option that has the specified ID.
+ </summary>
+</member><member name="M:Rae.DataAccess.SpecialOptions.SpecialOptionsDa.Verify(System.Int32,System.Double)">
+	<summary>
+ Verifies the special option ID and price combination.
+ </summary>
+	<param name="id">
+ Special option unique ID.</param>
+	<param name="price">
+ Special option's assigned price.</param>
+	<returns>
+ Verification message. Null if verfication succeeded.</returns>
+</member><member name="M:Rae.DataAccess.SpecialOptions.SpecialOptionsDa.RetrieveByAssignedBy(System.String)">
+	<summary>
+ Retrieves special options assigned by the specified person.
+ </summary>
+	<param name="assignedBy">
+ Person special options are assigned by.</param>
+	<returns>
+ Table of special options assigned by specified person.</returns>
+</member><member name="M:Rae.DataAccess.SpecialOptions.SpecialOptionsDa.RetrieveByAssignedTo(System.String)">
+	<summary>
+ Retrieves special options assigned to the specified person.
+ </summary>
+	<param name="assignedTo">
+ Person special options are assigned to.</param>
+	<returns>
+ Table of special option assignments assigned to specified person.</returns>
+</member><member name="M:Rae.DataAccess.SpecialOptions.SpecialOptionsDa.RetrieveAll">
+	<summary>
+ Retrieves all special options in table.
+ </summary>
+</member><member name="M:Rae.DataAccess.SpecialOptions.SpecialOptionsDa.RetrieveDataTable(System.String)">
+	<summary>
+ Retrieves data table depending on SQL parameter.
+ </summary>
+	<param name="sql">
+ SQL command to execute that selects a table of special option info.</param>
+</member><member name="T:Rae.DataAccess.SpecialOptions.SpecialOptionsDa">
+	<summary>
+ Provides data access to SpecialOptions database.
+ </summary>
+	<history by="Casey Joyce" finish="2006/05/31" hours="2">
+ Created
+ </history>
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:Rae.DataAccess.SpecialOptions.ConnectionString.dbName">
+	<summary>
+ Database file name.
+ </summary>
+</member><member name="F:Rae.DataAccess.SpecialOptions.ConnectionString.testDbPath">
+	<summary>
+ Relative path beginning in testDllPath's folder.
+ </summary>
+</member><member name="F:Rae.DataAccess.SpecialOptions.ConnectionString.testDllPath">
+	<summary>
+ Default path of this assembly, used during testing.
+ </summary>
+</member><member name="P:Rae.DataAccess.SpecialOptions.ConnectionString.Text">
+	<summary>SpecialOptions database connection string
+ </summary>
+</member><member name="P:Rae.DataAccess.SpecialOptions.ConnectionString.DataSource">
+	<summary>Data source (database path)
+ </summary>
+</member><member name="P:Rae.DataAccess.SpecialOptions.ConnectionString.Provider">
+	<summary>Database provider
+ </summary>
+</member><member name="M:Rae.DataAccess.SpecialOptions.ConnectionString.Initialize(System.String)">
+	<summary>
+ Initializes assembly by setting connection string. 
+ Must call this before using any of the assemblies data access methods.
+ </summary>
+	<param name="dbFolderPath">
+ Database path of SpecialOptions.mdb.
+ </param>
+	<remarks>
+ This should be used during release version.
+ </remarks>
+</member><member name="M:Rae.DataAccess.SpecialOptions.ConnectionString.Initialize">
+	<summary>
+ Initializes assembly by setting connection string. Default.
+ </summary>
+	<remarks>
+ This will be used by default if the Public Initialize(dbPath) has not be called.
+ </remarks>
+</member><member name="M:Rae.DataAccess.SpecialOptions.ConnectionString.SetConnectionString(System.String)">
+	<summary>
+ Sets connection string for the specified data source.
+ </summary>
+	<param name="dataSource">
+ Database file path.
+ </param>
+</member><member name="T:Rae.DataAccess.SpecialOptions.ConnectionString">
+	<summary>
+ Provides connection string information.
+ </summary>
+	<remarks>
+ Call Initialize(dbFolderPath) before using any of the other data access methods in this assembly.
+ Uses default database location when public method Initialize hasn't been called which is useful for testing and debugging.
+ Uses specified database folder path when Initialize is called which is useful for release version.
+ </remarks>
+</member><member name="T:Rae.DataAccess.SpecialOptions.SqlFactory">
+	<summary>
+ SQL factory to generate SQL commands for data access.
+ </summary>
+</member>
+</members>
+</doc>
