@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="rae.solutions.drawings.DrawingPath">
+    <Position X="2.75" Y="5.5" Width="1.5" />
+    <Members>
+      <Field Name="_editFolder" Hidden="true" />
+      <Field Name="_masterFolder" Hidden="true" />
+      <Field Name="drawingFolder" Hidden="true" />
+      <Method Name="setEditFolder" Hidden="true" />
+      <Method Name="setMasterFolder" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="rae.solutions.drawings.DrawingPath.PathBuilder" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\Entities\Drawings\DrawingPath.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAACCAIIAAAAAAAhAAAQAAAAEAIAAAAACAAAAAAgAA=</HashCode>
+      <FileName>Business\Entities\Drawings\DrawingPath.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.UnitDrawing">
+    <Position X="2.5" Y="1.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <InheritanceLine Type="rae.solutions.drawings.DrawingBase" FixedToPoint="true">
+      <Path>
+        <Point X="1.375" Y="0.5" />
+        <Point X="1.375" Y="0.26" />
+        <Point X="3.312" Y="0.26" />
+        <Point X="3.312" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAABAAAAAAAAAAAAAIAAAgACAAAAAIIAJQAEA=</HashCode>
+      <FileName>Business\Entities\Drawings\UnitDrawing.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.DTXDWG">
+    <Position X="4.75" Y="5.5" Width="2" />
+    <Members>
+      <Field Name="m_Freeze" Hidden="true" />
+      <Field Name="m_LayerName" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="rae.solutions.drawings.DTXDWG.LayerMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\Entities\Drawings\DTXDWG.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="rae.solutions.drawings.DTXDWG.LayerState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\Entities\Drawings\DTXDWG.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="rae.solutions.drawings.DTXDWG.ExportXML" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\Entities\Drawings\DTXDWG.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="rae.solutions.drawings.DTXDWG.XMLDataToGet" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\Entities\Drawings\DTXDWG.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="rae.solutions.drawings.DTXDWG.DWGVersion" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\Entities\Drawings\DTXDWG.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="rae.solutions.drawings.DTXDWG.DXFVersion" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\Entities\Drawings\DTXDWG.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAEI=</HashCode>
+      <FileName>Business\Entities\Drawings\DTXDWG.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.RefrigerantPipingDrawing">
+    <Position X="4.5" Y="1.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="rae.solutions.drawings.DrawingBase" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.375" Y="0.5" />
+        <Point X="1.375" Y="0.26" />
+        <Point X="5.438" Y="0.26" />
+        <Point X="5.438" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAAAAQAAAAAAAEAAAKAAAIAAAAAAAAQAOMAwA=</HashCode>
+      <FileName>Business\Entities\Drawings\RefrigerantPipingDrawing.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.FluidPipingDrawing">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="rae.solutions.drawings.DrawingBase" FixedToPoint="true">
+      <Path>
+        <Point X="1.844" Y="0.5" />
+        <Point X="1.844" Y="0.26" />
+        <Point X="7.438" Y="0.26" />
+        <Point X="7.438" Y="1.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Business\Entities\Drawings\FluidPipingDrawing.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.DrawingBase">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>Chls45qAwWNroA7Vz/uHuDFwFERcaoBiAcvMiRZ5j1Q=</HashCode>
+      <FileName>Business\Entities\Drawings\DrawingBase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.ecalc">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGBAAAAAAAAAAAAAAABAAAAAAABAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Business\Entities\Drawings\ecalc.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.chiller_ecalc">
+    <Position X="5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Business\Entities\Drawings\ecalc.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.cond_ecalc">
+    <Position X="9" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Business\Entities\Drawings\ecalc.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.pp_ecalc">
+    <Position X="3" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Business\Entities\Drawings\ecalc.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.drawings.cu_ecalc">
+    <Position X="7" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Business\Entities\Drawings\ecalc.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="rae.solutions.drawings.DrawingType">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAgAAAAAAIAAAAAIAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Entities\Drawings\DrawingType.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

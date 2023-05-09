@@ -1,0 +1,57 @@
+1.30.0.0, ModifyACChillerProcessFanToHoldDecimal
+1.28.0.0, CorrectOldStaticPressureAndAirDefostASeries
+1.27.0.0, AddStaticPressureForCuUcBalanceRefactoring
+1.26.0.0, Add35E2BalanceDataRefactoring
+1.25.0.0, Add35E2UnitKwPerTonRefactoring
+1.24.0.0, Add35E2CustomCondenserModelRefactoring
+1.23.0.0, Add35E2BalanceOptionsRefactoring
+1.22.0.0, ChangeEvaporativeCondenserQuantityToDoubleRefactoring
+1.21.0.0, AddTypeColumnToUnitCoolerRefactoring
+1.20.0.0, AddEvapTempToCondensingUnitRefactoring
+1.19.0.0, AddPumpPackageRefactoring
+1.18.0.0, SaveBoxloadContacts
+1.17.0.0, AddVoltagesToUnitCoolers
+1.16.0.0, AddFanWattsToChillerProcess
+1.15.0.0, AddMultiplierCodeRefactoring
+
+Instructions to add a new database refactoring:
+1. Add new class (ex. MyRefactoring)
+2. Import Rae.Data.Refactoring and Rae.Data.MicrosoftAccess namespaces
+3. Inherit from RefactoringBase
+4. Implement overrides and add constructor with connection string parameter
+5. Version assembly and update latest version in this doc
+6. Build and copy assembly to RAESolutions folder
+Note: RAESolutions will automatically execute new refactorings after login
+
+Code Template
+Imports Rae.Data.Refactoring
+Imports Rae.Data.MicrosoftAccess
+
+Public Class Refactoring : Inherits RefactoringBase
+   Sub New(connectionString As String)
+      me.connectionString_ = connectionString
+   End Sub
+
+   Overrides ReadOnly Property Description As String
+      Get
+         Return ""
+      End Get
+   End Property
+
+   Overrides ReadOnly Property ReleaseDate As Date
+      Get
+         Return New Date(2010, 01, 01)
+      End Get
+   End Property
+
+   Overrides ReadOnly Property Version As Deployment.Version
+      Get
+         Return New Deployment.Version(0, 0, 0, 0)
+      End Get
+   End Property
+   
+   Protected Overrides Sub Refactor()
+      Dim commands = New Commands(connectionString_)
+      commands.AddColumn("EvapChillerProcesses", New Column("SubcoolingCoilOption", New DataTypes.YesNo()))
+   End Sub
+End Class

@@ -1,0 +1,2648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1B7774E7-5973-4F84-A20F-2503F30D7D85}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Images\RaeSolutionsLogo.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>RaeSolutions</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>Rae.RaeSolutions</RootNamespace>
+    <StartupObject>Rae.RaeSolutions.My.MyApplication</StartupObject>
+    <WebReference_EnableProperties>true</WebReference_EnableProperties>
+    <WebReference_EnableSQLTypes>false</WebReference_EnableSQLTypes>
+    <WebReference_EnableLegacyEventingModel>true</WebReference_EnableLegacyEventingModel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsForms</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ManifestCertificateThumbprint>89B18F60B6CBA9886796D0B10F0EA63D1AF559EC</ManifestCertificateThumbprint>
+    <ManifestKeyFile>RaeSolutions_TemporaryKey.pfx</ManifestKeyFile>
+    <SignManifests>false</SignManifests>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>c:\tempRA2\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>RAESolutions</ProductName>
+    <PublisherName>RAE Corporation</PublisherName>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RaeSolutions.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <CodeAnalysisRuleSet>Migrated rules for RaeSolutions.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>RaeSolutions.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <CodeAnalysisRuleSet>Migrated rules for RaeSolutions.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Controls|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug Controls\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>RaeSolutions.xml</DocumentationFile>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <CodeAnalysisRuleSet>Migrated rules for RaeSolutions.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.85.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.85.0\lib\net40\ClosedXML.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DocumentFormat.OpenXml.DLL</HintPath>
+    </Reference>
+    <Reference Include="edtftpnet-1.1.4, Version=1.1.4.0, Culture=neutral" />
+    <Reference Include="Infragistics2.Shared.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="Infragistics2.Win.UltraWinEditors.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MyReferences\Infragistics2.Win.UltraWinEditors.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Infragistics2.Win.v8.1, Version=8.1.20081.1000, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>MyReferences\Infragistics2.Win.v8.1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+    </Reference>
+    <Reference Include="Rae.DatabaseMaintenance, Version=2007.12.3.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="RAE.Outliner, Version=1.0.1983.12778, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\JOSHH\My Documents\Visual Studio 2005\Projects\RaeSolutions\MyReferences\RAE.Outliner.dll</HintPath>
+    </Reference>
+    <Reference Include="RAE.Wizard, Version=2007.4.9.1, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\..\Common\Rae.Core\Rae.Core.vbproj">
+      <Project>{9B6AAAF0-A2DC-4D7F-9127-8D73FCA70376}</Project>
+      <Name>Rae.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Rae.Data\Rae.Data.vbproj">
+      <Project>{A89527B9-B088-4B4D-B459-6AABA992CC98}</Project>
+      <Name>Rae.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Rae.Reporting\Rae.Reporting.vbproj">
+      <Project>{0C0991EC-3DB2-4DA1-BF0A-89DA1BE38065}</Project>
+      <Name>Rae.Reporting %28Common\Rae.Reporting%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Rae.Ui\Rae.Ui.vbproj">
+      <Project>{F6B721E6-BB4C-4BCD-89E1-09A2CD421F75}</Project>
+      <Name>Rae.Ui</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rae.DataAccess.EquipmentOptions\Rae.DataAccess.EquipmentOptions.vbproj">
+      <Project>{2D2BEBD2-466E-4D11-A3EB-0CEB2C20D167}</Project>
+      <Name>Rae.DataAccess.EquipmentOptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rae.RaeSolutions\Rae.RaeSolutions.vbproj">
+      <Project>{E1BC426D-52AD-4842-9D4B-FAC29201668B}</Project>
+      <Name>Rae.RaeSolutions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\rae.reporting.beta\rae.reporting.vbproj">
+      <Project>{9D1FB2FF-A467-4603-98E6-530BE84407E1}</Project>
+      <Name>rae.reporting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rae.Security\Rae.Security.vbproj">
+      <Project>{3809E479-7F62-4E53-80D3-CF21A264B0BA}</Project>
+      <Name>Rae.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StandardRefrigeration\StandardRefrigeration.vbproj">
+      <Project>{CB36EC95-5A02-4D7A-AD3E-031A3169E7DF}</Project>
+      <Name>StandardRefrigeration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="30A0\air_cooled_chiller_balance_window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="30A0\BaseChillerForm.Designer.vb">
+      <DependentUpon>BaseChillerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="30A0\BaseChillerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="30A0\chiller_balance_table.vb">
+    </Compile>
+    <Compile Include="30A0\ChillerDataSet.Designer.vb">
+      <DependentUpon>ChillerDataSet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="30A0\ChillerDataSet.vb">
+      <DependentUpon>ChillerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="30A0\EvaporatorGrid.Designer.vb">
+      <DependentUpon>EvaporatorGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="30A0\EvaporatorGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="30A0\fluid_properties\air_cooled_chiller_window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="30A0\fluid_properties\controller.vb" />
+    <Compile Include="30A0\Grab.vb" />
+    <Compile Include="30A0\RepAirCooledChillerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="30A0\StandardRefrigerationTasks.vb" />
+    <Compile Include="AdvancedProgramOptions.Designer.vb">
+      <DependentUpon>AdvancedProgramOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdvancedProgramOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxLoads\box_load_report.vb" />
+    <Compile Include="catalog\unit_cooler_catalog_screen.Designer.vb">
+      <DependentUpon>unit_cooler_catalog_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="catalog\unit_cooler_catalog_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CondensingUnit\condensing_unit_rating_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\text_number.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="evaporative_condenser_chillers\evaporative_condenser_chiller_balance_window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="evaporative_condenser_chillers\options\i_pricing_repository.vb" />
+    <Compile Include="evaporative_condenser_chillers\options\option_control.Designer.vb">
+      <DependentUpon>option_control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="evaporative_condenser_chillers\options\option_control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="evaporative_condenser_chillers\options\sound_attenuation_option\controller.vb" />
+    <Compile Include="evaporative_condenser_chillers\options\sound_attenuation_option\dynamic_context.vb" />
+    <Compile Include="evaporative_condenser_chillers\options\sound_attenuation_option\motor_hp_list.vb" />
+    <Compile Include="evaporative_condenser_chillers\options\sound_attenuation_option\static_context.vb" />
+    <Compile Include="evaporative_condenser_chillers\options\subcooling_circuit_option\controller.vb" />
+    <Compile Include="evaporative_condenser_chillers\reports\evaporative_condenser_chiller_iplv_data.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>evaporative_condenser_chiller_iplv_data.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="evaporative_condenser_chillers\reports\evaporative_condenser_chiller_iplv_data.vb">
+      <DependentUpon>evaporative_condenser_chiller_iplv_data.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="evaporative_condenser_chillers\specific_heat_and_gravity\controller.vb" />
+    <Compile Include="OrderEntryForm.Designer.vb">
+      <DependentUpon>OrderEntryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEntryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEntry\LoadCloudProject.Designer.vb">
+      <DependentUpon>LoadCloudProject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEntry\LoadCloudProject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEntry\OrderEntry.Designer.vb">
+      <DependentUpon>OrderEntry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEntry\OrderEntry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEntry\ShareMyProjects.Designer.vb">
+      <DependentUpon>ShareMyProjects.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEntry\ShareMyProjects.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderEntry\ucSubmittalRequest.Designer.vb">
+      <DependentUpon>ucSubmittalRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEntry\ucSubmittalRequest.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrderEntry\ucIOMRequest.Designer.vb">
+      <DependentUpon>ucIOMRequest.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OrderEntry\ucIOMRequest.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\accessories\accessories_base.vb" />
+    <Compile Include="Pricing\accessories\chiller_accessories.vb" />
+    <Compile Include="Pricing\accessories\condenser_accessories.vb" />
+    <Compile Include="Pricing\accessories\condensing_unit_accessories.vb" />
+    <Compile Include="Pricing\accessories\fluid_cooler_accessories.vb" />
+    <Compile Include="Pricing\accessories\product_cooler_accessories.vb" />
+    <Compile Include="Pricing\accessories\pump_accessories.vb" />
+    <Compile Include="Pricing\accessories\unit_cooler_accessories.vb" />
+    <Compile Include="Pricing\CondensingUnitProposal.vb" />
+    <Compile Include="Pricing\grabbers\chiller_proposal_grabber.vb" />
+    <Compile Include="Pricing\grabbers\CondensingUnit_Proposal_Grabber.vb" />
+    <Compile Include="Pricing\order_write_ups\condenser_order_write_up.vb" />
+    <Compile Include="Pricing\order_write_ups\condensing_unit_order_write_up.vb" />
+    <Compile Include="Pricing\order_write_ups\fluid_cooler_order_write_up.vb" />
+    <Compile Include="Pricing\order_write_ups\order_write_up_base.vb" />
+    <Compile Include="Pricing\order_write_ups\product_cooler_order_write_up.vb" />
+    <Compile Include="Pricing\order_write_ups\pump_order_write_up.vb" />
+    <Compile Include="Pricing\order_write_ups\unit_cooler_order_write_up.vb" />
+    <Compile Include="Pricing\Presenters\product_cooler_pricing_presenter.vb" />
+    <Compile Include="Pricing\proposal.vb" />
+    <Compile Include="Pricing\ProposalGenerator.Designer.vb">
+      <DependentUpon>ProposalGenerator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\ProposalGenerator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\screens\condensing_unit_pricing_screen.Designer.vb">
+      <DependentUpon>condensing_unit_pricing_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\screens\condensing_unit_pricing_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\screens\EquipmentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\screens\product_cooler_pricing_screen.Designer.vb">
+      <DependentUpon>product_cooler_pricing_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\screens\product_cooler_pricing_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\unit_coolers\fan_and_defrost_voltage_are_required_to_view_unit_cooler_drawing.vb" />
+    <Compile Include="Print.Designer.vb">
+      <DependentUpon>Print.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Print.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionCreator.Designer.vb">
+      <DependentUpon>SpecialOptionCreator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionCreator.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionsForm.Designer.vb">
+      <DependentUpon>SpecialOptionsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionsGrid.Designer.vb">
+      <DependentUpon>SpecialOptionsGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionsGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionsView.Designer.vb">
+      <DependentUpon>SpecialOptionsView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionsView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionVerifier.Designer.vb">
+      <DependentUpon>SpecialOptionVerifier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Rae.Presentation.SpecialOptions\SpecialOptionVerifier.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cu_uc_balance\cu_uc_balance_window.balance_system.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesOrderEntryForm.Designer.vb">
+      <DependentUpon>SalesOrderEntryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SalesOrderEntryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shared\get_logo_file_path_command.vb" />
+    <Compile Include="Shared\which_division.vb" />
+    <Compile Include="unit_cooler_selection\controller.vb" />
+    <Compile Include="unit_cooler_selection\i_view.vb" />
+    <Compile Include="unit_cooler_selection\unit_cooler_selection_screen.Designer.vb">
+      <DependentUpon>unit_cooler_selection_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="unit_cooler_selection\unit_cooler_selection_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Water Cooled\ChillerWaterCooledForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="evaporative_condenser_chillers\CRDAL.vb" />
+    <Compile Include="Water Cooled\WaterCooledCondenser.Designer.vb">
+      <DependentUpon>WaterCooledCondenser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Water Cooled\WaterCooledCondenser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="BoxLoads\BoxLoadForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxLoads\BoxLoadLinksForm.Designer.vb">
+      <DependentUpon>BoxLoadLinksForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoxLoads\BoxLoadLinksForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxLoads\cl_connection.vb" />
+    <Compile Include="BoxLoads\CoolStuffCommon.vb" />
+    <Compile Include="BoxLoads\frmAshrae.Designer.vb">
+      <DependentUpon>frmAshrae.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoxLoads\frmAshrae.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxLoads\frmboxloadcalc2.Designer.vb">
+      <DependentUpon>frmboxloadcalc2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoxLoads\frmboxloadcalc2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoxLoads\frmWeather.Designer.vb">
+      <DependentUpon>frmWeather.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoxLoads\frmWeather.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1.Win.C1TrueDBGrid\AvailableOptionGrid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C1.Win.C1TrueDBGrid\OptionGrid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C1.Win.C1TrueDBGrid\SelectedOptionGrid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C1.Win.C1TrueDBGrid\SpecialOptionGrid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="C1.Win.C1TrueDBGrid\StandardOptionGrid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="catalog\catalog_form.Designer.vb">
+      <DependentUpon>catalog_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="catalog\catalog_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\Presenters\condenser_pricing_presenter.vb" />
+    <Compile Include="Pricing\screens\condenser_pricing_screen.Designer.vb">
+      <DependentUpon>condenser_pricing_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\screens\condenser_pricing_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shared\ApplicationUsageLogger.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\cFillCombobox.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Connectivity.vb" />
+    <Compile Include="Shared\ControlAssistant.vb" />
+    <Compile Include="Shared\execution_schedule.vb" />
+    <Compile Include="Shared\FormUsageLogger.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\GlobalExceptionHandler.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\IdGen.vb" />
+    <Compile Include="Shared\key_code.vb" />
+    <Compile Include="Shared\Location.vb" />
+    <Compile Include="Shared\LoggerBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\mFTP.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\AppInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\mValidator.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\mVisualStyles.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\MyColors.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\MyStyles.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shared\Updater.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="condensers\condenser_rating_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CondensingUnit\BestSelectionsGrid.Designer.vb">
+      <DependentUpon>BestSelectionsGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CondensingUnit\BestSelectionsGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CustomMultiplierForm.Designer.vb">
+      <DependentUpon>CustomMultiplierForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMultiplierForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Databases\CoolStuffboxload2DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoolStuffboxload2DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="NewProjectFromExisting\CopyExistingItemWorkFlow.vb" />
+    <Compile Include="NewProjectFromExisting\IItemAdder.vb" />
+    <Compile Include="NewProjectFromExisting\IItemSelection.vb" />
+    <Compile Include="NewProjectFromExisting\IItemSelector.vb" />
+    <Compile Include="NewProjectFromExisting\IProjectSelector.vb" />
+    <Compile Include="NewProjectFromExisting\ItemAdder.vb" />
+    <Compile Include="NewProjectFromExisting\ItemInfo.vb" />
+    <Compile Include="NewProjectFromExisting\ItemSelection.vb" />
+    <Compile Include="NewProjectFromExisting\ItemSelectionForm.Designer.vb">
+      <DependentUpon>ItemSelectionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NewProjectFromExisting\ItemSelectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewProjectFromExisting\ItemSelector.vb" />
+    <Compile Include="NewProjectFromExisting\ItemType.vb" />
+    <Compile Include="NewProjectFromExisting\ProjectSelector.vb" />
+    <Compile Include="Persistence\AskUserToSave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persistence\AskUserToSaveFactory.vb" />
+    <Compile Include="Persistence\IAskUserToSave.vb" />
+    <Compile Include="Persistence\NavigationController.vb" />
+    <Compile Include="Persistence\PersistenceController.vb" />
+    <Compile Include="Persistence\SaveForm.Designer.vb">
+      <DependentUpon>SaveForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Persistence\SaveForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persistence\SaveResponse.vb" />
+    <Compile Include="PriceSheets\PriceSheetForm.Designer.vb">
+      <DependentUpon>PriceSheetForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PriceSheets\PriceSheetForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriceSheets\ProgressForm.Designer.vb">
+      <DependentUpon>ProgressForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PriceSheets\ProgressForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\grabbers\equipment_grabber.vb" />
+    <Compile Include="Pricing\grabbers\grabber.vb" />
+    <Compile Include="Pricing\grabbers\pricing_grabber.vb" />
+    <Compile Include="Pricing\grabbers\project_grabber.vb" />
+    <Compile Include="Pricing\OrderWriteUps\ChillerOrderWriteUp.vb" />
+    <Compile Include="Pricing\grabbers\price.vb" />
+    <Compile Include="Pricing\Presenters\condensing_unit_pricing_presenter.vb" />
+    <Compile Include="Pricing\Presenters\fluid_cooler_pricing_presenter.vb" />
+    <Compile Include="Pricing\Presenters\unit_cooler_pricing_presenter.vb" />
+    <Compile Include="Pricing\screens\fluid_cooler_pricing_screen.Designer.vb">
+      <DependentUpon>fluid_cooler_pricing_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\screens\fluid_cooler_pricing_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\screens\unit_cooler_pricing_screen.Designer.vb">
+      <DependentUpon>unit_cooler_pricing_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\screens\unit_cooler_pricing_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectForms\ProjectListForm.Designer.vb">
+      <DependentUpon>ProjectListForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectForms\ProjectListForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectForms\ProjectSelectionForm.Designer.vb">
+      <DependentUpon>ProjectSelectionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectForms\ProjectSelectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persistence\RevisionNavigator.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="BoxLoads\BoxLoadListView.Designer.vb">
+      <DependentUpon>BoxLoadListView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BoxLoads\BoxLoadListView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PumpPackages\DollarLabel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="PumpPackages\PumpDataView.Designer.vb">
+      <DependentUpon>PumpDataView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PumpPackages\PumpDataView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PumpPackages\PumpModelPresenter.vb" />
+    <Compile Include="PumpPackages\PumpSelectionPresenter.vb" />
+    <Compile Include="PumpPackages\PumpSelectionView.Designer.vb">
+      <DependentUpon>PumpSelectionView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PumpPackages\PumpSelectionView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PumpPackages\View.Designer.vb">
+      <DependentUpon>View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PumpPackages\View.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="reports\CondenserResultsDataSet.Designer.vb">
+      <DependentUpon>CondenserResultsDataSet.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="reports\report_factory.vb" />
+    <Compile Include="Pricing\CheckInChangesForm.Designer.vb">
+      <DependentUpon>CheckInChangesForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\CheckInChangesForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Grid.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Pricing\screens\chiller_pricing_screen.Designer.vb">
+      <DependentUpon>chiller_pricing_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\screens\chiller_pricing_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\Presenters\chiller_presenter.vb" />
+    <Compile Include="Pricing\OptionQuantityForm.Designer.vb">
+      <DependentUpon>OptionQuantityForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\OptionQuantityForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\Presenters\equipment_pricing_presenter_base.vb" />
+    <Compile Include="Pricing\Presenters\pump_pricing_presenter.vb" />
+    <Compile Include="Pricing\grabbers\product_cooler_pricing_grabber.vb" />
+    <Compile Include="Pricing\ProjectRevisionForm.Designer.vb">
+      <DependentUpon>ProjectRevisionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\ProjectRevisionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dseUsage.vb">
+      <DependentUpon>dseUsage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FluidCooler\FluidCoolerForm.Designer.vb">
+      <DependentUpon>FluidCoolerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FluidCooler\FluidCoolerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FluidCooler\frm_Gas.Designer.vb">
+      <DependentUpon>frm_Gas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FluidCooler\frm_Gas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1PrintPreviewForm.vb" />
+    <Compile Include="LoginForm.Designer.vb">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PricingAirHandler\AirHandlerSection.Designer.vb">
+      <DependentUpon>AirHandlerSection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PricingAirHandler\AirHandlerSection.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PricingAirHandler\dseProject.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dseProject.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PricingAirHandler\form_project_info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PricingAirHandler\form_unit_info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PricingAirHandler\frmOpenAirHandler.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\BackupForm.Designer.vb">
+      <DependentUpon>BackupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\BackupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\screens\pump_package_pricing_screen.Designer.vb">
+      <DependentUpon>pump_package_pricing_screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\screens\pump_package_pricing_screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\PumpPackageResultControl.Designer.vb">
+      <DependentUpon>PumpPackageResultControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\PumpPackageResultControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\PumpSpecsControl.Designer.vb">
+      <DependentUpon>PumpSpecsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\PumpSpecsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cu_uc_balance\cu_uc_balance_window.fill_unit_coolers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cu_uc_balance\presenter.vb" />
+    <Compile Include="Updating.ContactDataStructure\Analyzer.vb" />
+    <Compile Include="Updating.ContactDataStructure\ContactConverterControl.Designer.vb">
+      <DependentUpon>ContactConverterControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updating.ContactDataStructure\ContactConverterControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Updating.ContactDataStructure\ContactDataStructureDescription.vb" />
+    <Compile Include="Updating.ContactDataStructure\ContactSelectionForm.Designer.vb">
+      <DependentUpon>ContactSelectionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updating.ContactDataStructure\ContactSelectionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updating.ContactDataStructure\ContactUpdateController.vb" />
+    <Compile Include="Updating.ContactDataStructure\UpdateWizardForm.Designer.vb">
+      <DependentUpon>UpdateWizardForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updating.ContactDataStructure\UpdateWizardForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updating.ContactDataStructure\WelcomeWizardForm.Designer.vb">
+      <DependentUpon>WelcomeWizardForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updating.ContactDataStructure\WelcomeWizardForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Updating.ContactDataStructure\WizardFormBase.Designer.vb">
+      <DependentUpon>WizardFormBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Updating.ContactDataStructure\WizardFormBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reports\chiller_order_write_up_report_viewer.vb" />
+    <Compile Include="reports\file_paths.vb" />
+    <Compile Include="reports\order_write_up_report_viewer.vb" />
+    <Compile Include="Settings.vb" />
+    <Compile Include="Shared\Constants.vb" />
+    <Compile Include="SpecBuilder\AcousticData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\AcousticSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\CompressorData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\CompressorSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\CondenserData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\CondenserSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\ControlsData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\ControlsSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\EvaporatorData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\EvaporatorSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\Exporter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\HazardData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\HazardSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\HousingAndPipingData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\HousingAndPipingSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\OptionManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\OtherData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\OtherSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\PumpData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\PumpSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\RefrigerantData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\RefrigerantSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\SpecBuilderData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\SpecBuilderManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\SpecBuilderOption.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\SpecBuilderWizardBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpecBuilder\UnitSpecBuilderWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Strings.vb" />
+    <Compile Include="Pricing\AddressControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\chiller_specs_control.Designer.vb">
+      <DependentUpon>chiller_specs_control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\chiller_specs_control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\CommonSpecsControl.Designer.vb">
+      <DependentUpon>CommonSpecsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\CommonSpecsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\CompanyForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\CondenserSpecsControl.Designer.vb">
+      <DependentUpon>CondenserSpecsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\CondenserSpecsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\CondensingUnitSpecsControl.Designer.vb">
+      <DependentUpon>CondensingUnitSpecsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\CondensingUnitSpecsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\DownloadProgressForm.Designer.vb">
+      <DependentUpon>DownloadProgressForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\DownloadProgressForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\DoYouWantToDeleteForm.Designer.vb">
+      <DependentUpon>DoYouWantToDeleteForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\DoYouWantToDeleteForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\NewUnknownTypePricingForm.Designer.vb">
+      <DependentUpon>NewUnknownTypePricingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\NewUnknownTypePricingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\ProcessGridColumns.vb" />
+    <Compile Include="Pricing\SaveOldRevisionBeforeNavigatingRevisionsForm.Designer.vb">
+      <DependentUpon>SaveOldRevisionBeforeNavigatingRevisionsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SaveOldRevisionBeforeNavigatingRevisionsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\SaveBeforeNavigatingRevisionsForm.Designer.vb">
+      <DependentUpon>SaveBeforeNavigatingRevisionsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SaveBeforeNavigatingRevisionsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\SaveOnCloseForm.Designer.vb">
+      <DependentUpon>SaveOnCloseForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SaveOnCloseForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\NewItemForm2.Designer.vb">
+      <DependentUpon>NewItemForm2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\NewItemForm2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\SaveOldRevisionAsRevisionForm.Designer.vb">
+      <DependentUpon>SaveOldRevisionAsRevisionForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SaveOldRevisionAsRevisionForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\NewPricingForm.Designer.vb">
+      <DependentUpon>NewPricingForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\NewPricingForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\DataGridViewCheckColumn.vb" />
+    <Compile Include="Pricing\DataGridViewValidationCell.vb" />
+    <Compile Include="Pricing\DataGridViewValidationColumn.vb" />
+    <Compile Include="Pricing\EquipmentGridColumns.vb" />
+    <Compile Include="Pricing\EquipmentListView.Designer.vb">
+      <DependentUpon>EquipmentListView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\EquipmentListView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ContactCompanyControl.Designer.vb">
+      <DependentUpon>ContactCompanyControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContactCompanyControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ContactManagerControl.Designer.vb">
+      <DependentUpon>ContactManagerControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContactManagerControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ContactSelectionControlFactory.vb" />
+    <Compile Include="Controls\ContactSelectionControl.Designer.vb">
+      <DependentUpon>ContactSelectionControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContactSelectionControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\FluidCoolerSpecsControl.Designer.vb">
+      <DependentUpon>FluidCoolerSpecsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\FluidCoolerSpecsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\EditContactForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\EquipmentSelector.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\ItemViewer.vb" />
+    <Compile Include="Pricing\ItemCreator.vb" />
+    <Compile Include="Pricing\NewProjectAndEquipmentForm.Designer.vb">
+      <DependentUpon>NewProjectAndEquipmentForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\NewProjectAndEquipmentForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\NewProjectForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\OpenProjectForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\PhoneControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\ProcessListView.Designer.vb">
+      <DependentUpon>ProcessListView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\ProcessListView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\ProductCoolerSpecsControl.Designer.vb">
+      <DependentUpon>ProductCoolerSpecsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\ProductCoolerSpecsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\OpenedProject.vb" />
+    <Compile Include="Pricing\ProjectInfo.vb" />
+    <Compile Include="Pricing\ProjectListView.Designer.vb">
+      <DependentUpon>ProjectListView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\ProjectListView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\QuickStart.Designer.vb">
+      <DependentUpon>QuickStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\QuickStart.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\RenameForm.designer.vb">
+      <DependentUpon>RenameForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\RenameForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\RevisionSave.vb" />
+    <Compile Include="Pricing\RevisionView.Designer.vb">
+      <DependentUpon>RevisionView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\RevisionView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\SaveItemChangedForm.Designer.vb">
+      <DependentUpon>SaveItemChangedForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SaveItemChangedForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\SaveToolStripPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Pricing\SelectContactForReportForm.Designer.vb">
+      <DependentUpon>SelectContactForReportForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SelectContactForReportForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\SelectedOptionsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SelectedOptionsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SelectedOptionsDataSet.vb">
+      <DependentUpon>SelectedOptionsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SpecialOptionCreatorControl.Designer.vb">
+      <DependentUpon>SpecialOptionCreatorControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SpecialOptionCreatorControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\SpecialOptionsControl.Designer.vb">
+      <DependentUpon>SpecialOptionsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SpecialOptionsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pricing\SpecialOptionCreatorForm.Designer.vb">
+      <DependentUpon>SpecialOptionCreatorForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SpecialOptionCreatorForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\ProjectForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\SuggestedOptions.Designer.vb">
+      <DependentUpon>SuggestedOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\SuggestedOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\UnitCoolerSpecsControl.Designer.vb">
+      <DependentUpon>UnitCoolerSpecsControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pricing\Spec_Controls\UnitCoolerSpecsControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="cu_uc_balance\cu_uc_balance_window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dseUsage.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dseUsage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\CloudEmailService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\CloudSaveService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\IsContractor\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OrderPlacementWS\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeForm.Designer.vb">
+      <DependentUpon>WelcomeForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <None Include="Web References\CloudSaveService\Companies.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\Contacts.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\Contacts1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\Equipment2.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\Equipment3.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\OrderEntryContacts.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\ProjectContacts.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\IsContractor\authenticate.disco" />
+    <None Include="ClassDiagram3.cd" />
+    <None Include="Web References\CloudEmailService\CloudEmail.disco" />
+    <None Include="packages.config" />
+    <None Include="Web References\CloudEmailService\CloudEmail.wsdl" />
+    <None Include="Web References\CloudEmailService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\CloudSaveService\ACChillerProcesses.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\Chiller.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\CloudProjectInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\cloudsave.disco" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Web References\CloudSaveService\cloudsave.wsdl" />
+    <None Include="Web References\CloudSaveService\Condenser.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\CondenserProcesses.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\CondensingUnit.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\CondensingUnitProcesses.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\Equipment.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\CloudSaveService\EquipmentOptions.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\EvapChillerProcesses.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\FluidCooler.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\FluidCoolerProcesses.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\OtherEquipmentCosts.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\ProcessEquip.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\Processes.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\ProcessSpecific.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\ProductCooler.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\ProjectList1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\Projects.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\PumpPackage.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\RatingEquipment.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\CloudSaveService\SpecialOptions.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\UnitCooler.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\UnitCoolerProcesses.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\UserShareList.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CloudSaveService\WCChillerProcesses.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\IsContractor\authenticate.wsdl" />
+    <None Include="Web References\IsContractor\AuthenticationResult.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\IsContractor\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\OrderPlacementWS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\OrderPlacementWS\TransferFile.disco" />
+    <EmbeddedResource Include="30A0\air_cooled_chiller_balance_window.resx">
+      <DependentUpon>air_cooled_chiller_balance_window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="30A0\BaseChillerForm.resx">
+      <DependentUpon>BaseChillerForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="30A0\EvaporatorGrid.resx">
+      <DependentUpon>EvaporatorGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="30A0\RepAirCooledChillerForm.resx">
+      <DependentUpon>RepAirCooledChillerForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdvancedProgramOptions.resx">
+      <DependentUpon>AdvancedProgramOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="catalog\unit_cooler_catalog_screen.resx">
+      <DependentUpon>unit_cooler_catalog_screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="evaporative_condenser_chillers\evaporative_condenser_chiller_balance_window.resx">
+      <DependentUpon>evaporative_condenser_chiller_balance_window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="evaporative_condenser_chillers\options\option_control.resx">
+      <DependentUpon>option_control.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEntryForm.resx">
+      <DependentUpon>OrderEntryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEntry\LoadCloudProject.resx">
+      <DependentUpon>LoadCloudProject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEntry\OrderEntry.resx">
+      <DependentUpon>OrderEntry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEntry\ShareMyProjects.resx">
+      <DependentUpon>ShareMyProjects.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEntry\ucIOMRequest.resx">
+      <DependentUpon>ucIOMRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderEntry\ucSubmittalRequest.resx">
+      <DependentUpon>ucSubmittalRequest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\ProposalGenerator.resx">
+      <DependentUpon>ProposalGenerator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\screens\EquipmentForm.resx">
+      <DependentUpon>EquipmentForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print.resx">
+      <DependentUpon>Print.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rae.Presentation.SpecialOptions\SpecialOptionCreator.resx">
+      <DependentUpon>SpecialOptionCreator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rae.Presentation.SpecialOptions\SpecialOptionsForm.resx">
+      <DependentUpon>SpecialOptionsForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rae.Presentation.SpecialOptions\SpecialOptionsGrid.resx">
+      <DependentUpon>SpecialOptionsGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rae.Presentation.SpecialOptions\SpecialOptionsView.resx">
+      <DependentUpon>SpecialOptionsView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rae.Presentation.SpecialOptions\SpecialOptionVerifier.resx">
+      <DependentUpon>SpecialOptionVerifier.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Databases\30a0capacities.txt" />
+    <Content Include="Databases\CompressorData.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\cri_report_logo.gif" />
+    <Content Include="Images\Down.png" />
+    <Content Include="Images\Down1.png" />
+    <Content Include="Images\rae_report_logo.gif" />
+    <Content Include="Images\rsi_report_logo.gif" />
+    <Content Include="Images\tsi_report_logo.gif" />
+    <Content Include="Images\Up.png" />
+    <Content Include="Images\Up1.png" />
+    <Content Include="MyReferences\DocumentFormat.OpenXml.dll" />
+    <Content Include="reports\GroupedSelectedOptionsReport.rpt">
+      <LastGenOutput>SelectedOptionsReport.vb</LastGenOutput>
+    </Content>
+    <Content Include="reports\EvaporativeCondenserChillerBalanceReport.rpt">
+      <LastGenOutput>rpt35A0.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="reports\evaporative_condenser_chiller_proposal_report.rpt">
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesOrderEntryForm.resx">
+      <DependentUpon>SalesOrderEntryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="unit_cooler_selection\unit_cooler_selection_screen.resx">
+      <DependentUpon>unit_cooler_selection_screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Water Cooled\ChillerWaterCooledForm.resx">
+      <DependentUpon>ChillerWaterCooledForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Water Cooled\WaterCooledCondenser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WaterCooledCondenser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoxLoads\BoxLoadLinksForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BoxLoadLinksForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoxLoads\frmAshrae.resx">
+      <DependentUpon>frmAshrae.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoxLoads\frmboxloadcalc2.resx">
+      <DependentUpon>frmboxloadcalc2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoxLoads\frmWeather.resx">
+      <DependentUpon>frmWeather.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="catalog\catalog_form.resx">
+      <DependentUpon>catalog_form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="condensers\condenser_rating_screen.resx">
+      <DependentUpon>condenser_rating_screen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C1PrintPreviewForm.resx">
+      <DependentUpon>C1PrintPreviewForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CondensingUnit\condensing_unit_rating_screen.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="BoxLoads\Cool Stuff.ico" />
+    <Content Include="Databases\LegacyPricing.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\PumpPackages.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Drawings\Drawings\Piping\35SWP1A.dxf" />
+    <None Include="Drawings\Drawings\Piping\RP1A.dxf" />
+    <None Include="Drawings\Drawings\Piping\RP1B.dxf" />
+    <None Include="Drawings\Drawings\Piping\SWP1A.dxf" />
+    <None Include="Drawings\Drawings\Piping\SWP1B.dxf" />
+    <None Include="Drawings\Drawings\Piping\SWP1C.dxf" />
+    <None Include="Drawings\Drawings\Piping\SWP1D.dxf" />
+    <None Include="Drawings\Drawings\Piping\W1.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-F.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-G.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-H.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-I.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\10-J.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\18-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-F.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-G.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-H.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-I.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-J.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-K.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\20-L.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-F.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-G.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-H.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-I.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-J.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-K.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30-L.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-A-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-B-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-C-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-D-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-E-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-F-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-F.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-G-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-G.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-H-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-H.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-I-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-I.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-J-P.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\30A2-J.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SD100.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SD120.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SD140.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SD160.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SD180.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SD220.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SD240.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SD280.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SM200.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SM240.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SM280.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SM320.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SM360.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SM440.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SS110.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SS120.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SS140.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SS50.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SS60.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SS70.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SS80.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\35E2SS90.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\A 1 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\A 2 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\A 3 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\A 4 FAN-TALL.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\A 4 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BALV 1 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BALV 2 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BALV 3 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BALV 4 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BALV 5 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BOC 2 FAN42.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BOC 2 FAN51.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BOC 3 FAN42.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BOC 3 FAN51.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BOC 4 FAN42.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BOC 4 FAN51.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BOC 5 FAN42.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\BOC 5 FAN51.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DD-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DD-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DD-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DD-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DM-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DM-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DM-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DS-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DS-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DS-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DS-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DS-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DS-F.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\DS-G.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FC 12.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FC 2.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FC 24.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FC 36.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FC 4.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FC 48.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FC 72.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FC 96.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FH 2 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FH 3 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FH 4 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FH 5 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FH 6 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FV 20-50.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FV 20-74.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FV 30-100.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FV 32-135.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FV 40-195.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\FV 40-275.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\LUI-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\LUI-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\LUO-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\LUO-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-F.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-G.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-H.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-I.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-J.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-K.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\NIBR-L.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFC-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFC-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFC-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFC-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFC-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFC-F.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFC-G.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFC-H.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFC-I.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFE 2 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFE 3 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFE 4 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PFE1 FAN.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPH-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPH-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPH-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPH-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPH-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPO-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPO-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPO-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPO-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\PPO-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\RS-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-C.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-D.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-E.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-F.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-G.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-H.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-I.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-J.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-K.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\WIBR-L.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\XBOC-A.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\XBOC-B.dxf" />
+    <None Include="Drawings\Drawings\Unit\MasterDrawings\XBOC-C.dxf" />
+    <None Include="evaporative_condenser_chillers\reports\evaporative_condenser_chiller_iplv_data.xsc">
+      <DependentUpon>evaporative_condenser_chiller_iplv_data.xsd</DependentUpon>
+    </None>
+    <None Include="evaporative_condenser_chillers\reports\evaporative_condenser_chiller_iplv_data.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>evaporative_condenser_chiller_iplv_data.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="evaporative_condenser_chillers\reports\evaporative_condenser_chiller_iplv_data.xss">
+      <DependentUpon>evaporative_condenser_chiller_iplv_data.xsd</DependentUpon>
+    </None>
+    <None Include="Images\Accept.png" />
+    <Content Include="Images\BoxloadSmoke.png" />
+    <Content Include="Images\Boxload.png" />
+    <None Include="Images\cancel.png" />
+    <None Include="Images\help.png" />
+    <Content Include="Images\OpenProject.png" />
+    <Content Include="Images\OpenProjectSmoke.png" />
+    <Content Include="Images\NewProject.png" />
+    <Content Include="Images\NewProjectSmoke.png" />
+    <Content Include="Images\report.png" />
+    <Content Include="MyReferences\Infragistics2.Shared.v8.1.dll" />
+    <Content Include="MyReferences\Infragistics2.Win.UltraWinEditors.v8.1.dll" />
+    <Content Include="MyReferences\Infragistics2.Win.v8.1.dll" />
+    <Content Include="MyReferences\Rae.DatabaseMaintenance.dll" />
+    <Content Include="MyReferences\Rae.MainframeDataAccess.dll" />
+    <Content Include="reports\FluidCoolerRatingReport.rpt">
+      <LastGenOutput>rpt35A0WC.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="CondensingUnit\BestSelectionsGrid.resx">
+      <DependentUpon>BestSelectionsGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMultiplierForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CustomMultiplierForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewProjectFromExisting\ItemSelectionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ItemSelectionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persistence\SaveForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SaveForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriceSheets\PriceSheetForm.resx">
+      <DependentUpon>PriceSheetForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriceSheets\ProgressForm.resx">
+      <DependentUpon>ProgressForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectForms\ProjectListForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProjectListForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PumpPackages\PumpDataView.resx">
+      <DependentUpon>PumpDataView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PumpPackages\PumpSelectionView.resx">
+      <DependentUpon>PumpSelectionView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PumpPackages\View.resx">
+      <DependentUpon>View.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Migrated rules for RaeSolutions.ruleset" />
+    <None Include="reports\10A0_cover_sheet.docx" />
+    <None Include="reports\20A0_cover_sheet.docx" />
+    <None Include="reports\30A0_cover_sheet.docx" />
+    <None Include="reports\30A1_cover_sheet.docx" />
+    <None Include="reports\32A0_cover_sheet.docx" />
+    <None Include="reports\33A0_cover_sheet.docx" />
+    <None Include="reports\34W0_cover_sheet.docx" />
+    <None Include="reports\air_cooled_chiller_balance_template.docx" />
+    <None Include="reports\BALV_cover_sheet.docx" />
+    <None Include="reports\box_load_template.docx" />
+    <None Include="reports\chiller_accessories_template.docx" />
+    <None Include="reports\compressor_warranty.docx" />
+    <None Include="reports\condenser_accessories_template.docx" />
+    <None Include="reports\condenser_order_write_up_template.docx" />
+    <None Include="reports\condenser_rating_template.docx" />
+    <None Include="reports\condensing_unit_accessories_template.docx" />
+    <None Include="reports\condensing_unit_order_write_up_template.docx" />
+    <None Include="reports\condensing_unit_rating_template.docx" />
+    <None Include="reports\cover_letter_template.docx" />
+    <None Include="reports\cover_page_template.docx" />
+    <None Include="reports\cu_uc_balance_template.docx" />
+    <None Include="reports\D_cover_sheet.docx" />
+    <None Include="reports\evaporative_condenser_chiller_balance_template.docx" />
+    <None Include="reports\evaporative_condenser_chiller_plv_template.docx" />
+    <None Include="reports\FC_cover_sheet.docx" />
+    <None Include="reports\fluid_cooler_accessories_template.docx" />
+    <None Include="reports\fluid_cooler_order_write_up_template.docx" />
+    <None Include="reports\F_cover_sheet.docx" />
+    <None Include="reports\HPC_cover_sheet.docx" />
+    <None Include="reports\LUI_cover_sheet.docx" />
+    <None Include="reports\PFC_cover_sheet.docx" />
+    <None Include="reports\PFE_cover_sheet.docx" />
+    <None Include="reports\price_sheet_template.docx" />
+    <None Include="reports\product_cooler_accessories_template.docx" />
+    <None Include="reports\product_cooler_order_write_up_template.docx" />
+    <None Include="reports\Project.rpt">
+    </None>
+    <None Include="reports\ProjectR.rpt">
+      <LastGenOutput>ProjectR.vb</LastGenOutput>
+    </None>
+    <None Include="reports\BoxLoadProjectSubReport.rpt">
+    </None>
+    <None Include="reports\CompressorWarranty.rpt" />
+    <EmbeddedResource Include="reports\SelectedOptionsWithNoPricingReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SelectedOptionsWithNoPricingReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoxLoads\BoxLoadListView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BoxLoadListView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\CheckInChangesForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CheckInChangesForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\OptionQuantityForm.resx">
+      <DependentUpon>OptionQuantityForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\ProjectRevisionForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProjectRevisionForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContactCompanyControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContactCompanyControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContactManagerControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContactManagerControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ContactSelectionControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ContactSelectionControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FluidCooler\FluidCoolerForm.resx">
+      <DependentUpon>FluidCoolerForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FluidCooler\frm_Gas.resx">
+      <DependentUpon>frm_Gas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="licenses.licx" />
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PricingAirHandler\AirHandlerSection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AirHandlerSection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PricingAirHandler\form_project_info.resX">
+      <DependentUpon>form_project_info.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PricingAirHandler\form_unit_info.resX">
+      <DependentUpon>form_unit_info.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PricingAirHandler\frmOpenAirHandler.resx">
+      <DependentUpon>frmOpenAirHandler.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="30A0\ChillerDataSet.xsc">
+      <DependentUpon>ChillerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="30A0\ChillerDataSet.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="30A0\ChillerDataSet.xss">
+      <DependentUpon>ChillerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Databases\CoolStuffboxload2DataSet.xsc">
+      <DependentUpon>CoolStuffboxload2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Databases\CoolStuffboxload2DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoolStuffboxload2DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Databases\CoolStuffboxload2DataSet.xss">
+      <DependentUpon>CoolStuffboxload2DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Databases\raeREP.pdf" />
+    <Content Include="Databases\CoolStuffboxload2.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\DrawingData.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\FluidCooler.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\Motors.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Databases\TipOfTheDay.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\sectC5.PNG" />
+    <Content Include="Images\Pricing.png" />
+    <Content Include="Images\PricingSmoke.png" />
+    <Content Include="Images\SelectionRating.png" />
+    <Content Include="Images\SelectionRatingSmoke.png" />
+    <Content Include="MyReferences\O2S.Components.PDF4NET.dll" />
+    <Content Include="MyReferences\Rae.RaeSolutions.Data.Refactoring.Projects.dll" />
+    <Content Include="MyReferences\RAE.Reporting.dll" />
+    <Content Include="MyReferences\RAE.UI.dll" />
+    <Content Include="MyReferences\RAECoilWeightDLL.dll" />
+    <Content Include="MyReferences\RAEDLL_Coil_Pricing.dll" />
+    <Content Include="MyReferences\RAE_SelectionRating.dll" />
+    <Content Include="Images\RaeSolutionsLogo.ico" />
+    <Content Include="reports\AirHandlerProjectReport.rpt">
+      <LastGenOutput>rptAirHandlerProject.vb</LastGenOutput>
+    </Content>
+    <Content Include="reports\AirHandlerUnitReport.rpt">
+      <LastGenOutput>rptAirHandlerUnit2.vb</LastGenOutput>
+    </Content>
+    <Content Include="reports\chiller_order_write_up_report.rpt">
+      <LastGenOutput>ChillerOrderWriteUpReport.vb</LastGenOutput>
+    </Content>
+    <Content Include="reports\evaporative_condenser_chiller_iplv_report.rpt">
+      <LastGenOutput>rpt35A0.vb</LastGenOutput>
+    </Content>
+    <Content Include="reports\AirCooledChillerRatingReport.rpt">
+      <LastGenOutput>ChillerRatingReport.vb</LastGenOutput>
+    </Content>
+    <Content Include="reports\SelectedOptionsReport.rpt">
+      <LastGenOutput>SelectedOptionsReport.vb</LastGenOutput>
+    </Content>
+    <EmbeddedResource Include="Pricing\BackupForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BackupForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\PumpPackageResultControl.resx">
+      <DependentUpon>PumpPackageResultControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\Spec_Controls\PumpSpecsControl.resx">
+      <DependentUpon>PumpSpecsControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updating.ContactDataStructure\ContactConverterControl.resx">
+      <DependentUpon>ContactConverterControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updating.ContactDataStructure\ContactSelectionForm.resx">
+      <DependentUpon>ContactSelectionForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updating.ContactDataStructure\UpdateWizardForm.resx">
+      <DependentUpon>UpdateWizardForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updating.ContactDataStructure\WelcomeWizardForm.resx">
+      <DependentUpon>WelcomeWizardForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Updating.ContactDataStructure\WizardFormBase.resx">
+      <DependentUpon>WizardFormBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reports\PriceSheetReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PriceSheetReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\AcousticSpecBuilderWizard.resx">
+      <DependentUpon>AcousticSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\CompressorSpecBuilderWizard.resx">
+      <DependentUpon>CompressorSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\CondenserSpecBuilderWizard.resx">
+      <DependentUpon>CondenserSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\ControlsSpecBuilderWizard.resx">
+      <DependentUpon>ControlsSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\EvaporatorSpecBuilderWizard.resx">
+      <DependentUpon>EvaporatorSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\HazardSpecBuilderWizard.resx">
+      <DependentUpon>HazardSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\HousingAndPipingSpecBuilderWizard.resx">
+      <DependentUpon>HousingAndPipingSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\OtherSpecBuilderWizard.resx">
+      <DependentUpon>OtherSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\PumpSpecBuilderWizard.resx">
+      <DependentUpon>PumpSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\RefrigerantSpecBuilderWizard.resx">
+      <DependentUpon>RefrigerantSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\SpecBuilderWizardBase.resx">
+      <DependentUpon>SpecBuilderWizardBase.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpecBuilder\UnitSpecBuilderWizard.resx">
+      <DependentUpon>UnitSpecBuilderWizard.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\AddressControl.resx">
+      <DependentUpon>AddressControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\Spec_Controls\chiller_specs_control.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>chiller_specs_control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\Spec_Controls\CommonSpecsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommonSpecsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\CompanyForm.resx">
+      <DependentUpon>CompanyForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\Spec_Controls\CondenserSpecsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CondenserSpecsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\Spec_Controls\CondensingUnitSpecsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CondensingUnitSpecsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\DownloadProgressForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DownloadProgressForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\DoYouWantToDeleteForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DoYouWantToDeleteForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\NewUnknownTypePricingForm.resx">
+      <DependentUpon>NewUnknownTypePricingForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SaveOldRevisionBeforeNavigatingRevisionsForm.resx">
+      <DependentUpon>SaveOldRevisionBeforeNavigatingRevisionsForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SaveBeforeNavigatingRevisionsForm.resx">
+      <DependentUpon>SaveBeforeNavigatingRevisionsForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SaveOnCloseForm.resx">
+      <DependentUpon>SaveOnCloseForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SaveOldRevisionAsRevisionForm.resx">
+      <DependentUpon>SaveOldRevisionAsRevisionForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\NewItemForm2.resx">
+      <DependentUpon>NewItemForm2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\NewPricingForm.resx">
+      <DependentUpon>NewPricingForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\EquipmentListView.resx">
+      <DependentUpon>EquipmentListView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\Spec_Controls\FluidCoolerSpecsControl.resx">
+      <DependentUpon>FluidCoolerSpecsControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\EditContactForm.resx">
+      <DependentUpon>EditContactForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\EquipmentSelector.resx">
+      <DependentUpon>EquipmentSelector.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\NewProjectAndEquipmentForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewProjectAndEquipmentForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\NewProjectForm.resx">
+      <DependentUpon>NewProjectForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\OpenProjectForm.resx">
+      <DependentUpon>OpenProjectForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\PhoneControl.resx">
+      <DependentUpon>PhoneControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\ProcessListView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProcessListView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\Spec_Controls\ProductCoolerSpecsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProductCoolerSpecsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\ProjectListView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ProjectListView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\QuickStart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>QuickStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\RenameForm.resx">
+      <DependentUpon>RenameForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\RevisionView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RevisionView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SaveItemChangedForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SaveItemChangedForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SelectContactForReportForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SelectContactForReportForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SpecialOptionCreatorControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SpecialOptionCreatorControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SpecialOptionsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SpecialOptionsControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SpecialOptionCreatorForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SpecialOptionCreatorForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\ProjectForm.resx">
+      <DependentUpon>ProjectForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\SuggestedOptions.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SuggestedOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pricing\Spec_Controls\UnitCoolerSpecsControl.resx">
+      <DependentUpon>UnitCoolerSpecsControl.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cu_uc_balance\cu_uc_balance_window.resx">
+      <DependentUpon>cu_uc_balance_window.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>WelcomeForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Databases\EquipmentOptions.mdb">
+    </None>
+    <None Include="Databases\OrderAssistance.mdb">
+    </None>
+    <None Include="Databases\Projects.mdb" />
+    <None Include="Databases\Water_Cooled_Condenser_Capacities.mdb">
+    </None>
+    <Content Include="Images\blueGradient.bmp" />
+    <Content Include="Images\Century-logo-small.jpg" />
+    <Content Include="Images\century_ref.gif" />
+    <Content Include="Images\cog.png" />
+    <Content Include="Images\exclamation.png" />
+    <Content Include="Images\hide.jpg" />
+    <Content Include="Images\hideGlow.jpg" />
+    <Content Include="Images\lightBlueGradient2.bmp" />
+    <Content Include="Images\magnifyingGlass32px.bmp" />
+    <Content Include="Images\orangeGradient.bmp" />
+    <Content Include="Images\PF1-H copy.png" />
+    <Content Include="Images\PortableDocumentFormat.ico" />
+    <Content Include="Images\RAE-logo-small.jpg" />
+    <Content Include="Images\RAE-rgb.JPG" />
+    <Content Include="Images\RaeSolutionsSmall.gif" />
+    <Content Include="Images\RaeSolutionsSmall.png" />
+    <Content Include="Images\sectBLD1.png" />
+    <Content Include="Images\sectC1.png" />
+    <Content Include="Images\sectC2.png" />
+    <Content Include="Images\sectC3.png" />
+    <Content Include="Images\sectD1.png" />
+    <Content Include="Images\sectD2.png" />
+    <Content Include="Images\sectFF1.png" />
+    <Content Include="Images\sectFF2.png" />
+    <Content Include="Images\sectFF3.png" />
+    <Content Include="Images\sectHF1.png" />
+    <Content Include="Images\sectHF2.png" />
+    <Content Include="Images\sectMB1.png" />
+    <Content Include="Images\sectPF1.png" />
+    <Content Include="Images\sectSS1.png" />
+    <Content Include="Images\sectSS2.png" />
+    <Content Include="Images\sectSS3.png" />
+    <Content Include="Images\sectUS1.png" />
+    <Content Include="Images\show.jpg" />
+    <Content Include="Images\showGlow.jpg" />
+    <Content Include="Images\Small Tsi-rgb.JPG" />
+    <Content Include="Images\Solcolorsm.jpg" />
+    <Content Include="Images\SpecBuilder.gif" />
+    <Content Include="Images\test.png" />
+    <Content Include="Images\TSI-logo-small.jpg" />
+    <Content Include="Images\TsiLargeColor.jpg" />
+    <Content Include="Images\whitebox.GIF" />
+    <Content Include="Images\xred40.bmp" />
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="MyReferences\AppUpdater.dll" />
+    <Content Include="MyReferences\CrystalDecisions.CrystalReports.Engine.dll" />
+    <Content Include="MyReferences\CrystalDecisions.Enterprise.Framework.dll" />
+    <Content Include="MyReferences\CrystalDecisions.Enterprise.InfoStore.dll" />
+    <Content Include="MyReferences\CrystalDecisions.ReportSource.dll" />
+    <Content Include="MyReferences\CrystalDecisions.Shared.dll" />
+    <Content Include="MyReferences\CrystalDecisions.Windows.Forms.dll" />
+    <Content Include="MyReferences\edtftpnet-1.1.4.dll" />
+    <Content Include="MyReferences\RAE.DataAccess.EquipmentOptions.dll" />
+    <Content Include="MyReferences\RAE.Outliner.dll" />
+    <Content Include="MyReferences\RAE.RaeSolutions.Prebuild.exe" />
+    <Content Include="MyReferences\RAE.Security.dll" />
+    <Content Include="MyReferences\RAE.Validation.dll" />
+    <Content Include="MyReferences\RAE.Wizard.dll" />
+    <Content Include="PricingAirHandler\dseProject.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dseProject.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="My Project\DataSources\CRDAL.datasource" />
+    <None Include="My Project\DataSources\RAE.RaeSolutions.Business.Entities.MetaData.datasource" />
+    <None Include="PricingAirHandler\dseProject.xss">
+      <DependentUpon>dseProject.xsd</DependentUpon>
+    </None>
+    <None Include="RAESolutions_TemporaryKey.pfx" />
+    <None Include="RAE_Solutions.FO" />
+    <None Include="reports\CondenserResultsDataSet.xsc">
+      <DependentUpon>CondenserResultsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="reports\CondenserResultsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondenserResultsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reports\CondenserResultsDataSet.xss">
+      <DependentUpon>CondenserResultsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="reports\pump_accessories_template.docx" />
+    <None Include="reports\PumpPackageOptionsReport.rpt" />
+    <None Include="reports\pump_order_write_up_template.docx" />
+    <None Include="reports\RS_cover_sheet.docx" />
+    <EmbeddedResource Include="Resources\NewDocument.png" />
+    <EmbeddedResource Include="Resources\Add.png" />
+    <EmbeddedResource Include="Resources\Checked.bmp" />
+    <EmbeddedResource Include="Resources\OK.bmp" />
+    <EmbeddedResource Include="Resources\Open.png" />
+    <EmbeddedResource Include="Resources\Key.png" />
+    <EmbeddedResource Include="Resources\Lock.png" />
+    <EmbeddedResource Include="Resources\Rename.png" />
+    <EmbeddedResource Include="Resources\SaveRev.ico" />
+    <EmbeddedResource Include="Resources\lightning.png" />
+    <EmbeddedResource Include="Resources\Pencil.png" />
+    <EmbeddedResource Include="Resources\GoToArrow.png" />
+    <EmbeddedResource Include="Resources\Drawing.png" />
+    <EmbeddedResource Include="Resources\Copy.png" />
+    <EmbeddedResource Include="Resources\Delete.png" />
+    <EmbeddedResource Include="Resources\ConvertToEquipment.png" />
+    <EmbeddedResource Include="Resources\First.png" />
+    <EmbeddedResource Include="Resources\Info.png" />
+    <EmbeddedResource Include="Resources\Last.png" />
+    <EmbeddedResource Include="Resources\Message.png" />
+    <EmbeddedResource Include="Resources\ListFlat.png" />
+    <EmbeddedResource Include="Resources\ListGrouped.png" />
+    <EmbeddedResource Include="Resources\Next2.png" />
+    <EmbeddedResource Include="Resources\OptionTextbox.png" />
+    <EmbeddedResource Include="Resources\Phone.png" />
+    <EmbeddedResource Include="Resources\Previous.png" />
+    <EmbeddedResource Include="Resources\Print.png" />
+    <EmbeddedResource Include="Resources\PrintPreview.png" />
+    <EmbeddedResource Include="Resources\RAESolutionsLogo.ico" />
+    <EmbeddedResource Include="Resources\Report.png" />
+    <EmbeddedResource Include="Resources\Warning.png" />
+    <EmbeddedResource Include="Resources\Save.png" />
+    <EmbeddedResource Include="Resources\RoomRectangle.png" />
+    <EmbeddedResource Include="Resources\RoomL1.png" />
+    <EmbeddedResource Include="Resources\RoomL2.png" />
+    <EmbeddedResource Include="Resources\RoomL3.png" />
+    <EmbeddedResource Include="Resources\RoomL4.png" />
+    <EmbeddedResource Include="Resources\UserAdd.png" />
+    <EmbeddedResource Include="Resources\UserDelete.png" />
+    <EmbeddedResource Include="Resources\ReportSearch.png" />
+    <EmbeddedResource Include="Resources\Unchecked.png" />
+    <Content Include="Pricing\SelectedOptionsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SelectedOptionsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="dseUsage.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dseUsage.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="reports\UnitCooler_cover_sheet.docx" />
+    <None Include="reports\unit_cooler_accessories_template.docx" />
+    <None Include="reports\unit_cooler_order_write_up_template.docx" />
+    <None Include="Web References\OrderPlacementWS\TransferFile.wsdl" />
+    <None Include="_GettingStarted\getting_started.txt" />
+    <None Include="Databases\10A0_PFC.mdb" />
+    <Content Include="Databases\20a0capacitiesDEC17.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Databases\30a0capacities.mdb" />
+    <None Include="Databases\AirHandlers.mdb" />
+    <None Include="Resources\RefreshDocViewHS.png" />
+    <None Include="Resources\GoRtlHS.png" />
+    <None Include="Databases\Master 30.mdb" />
+    <None Include="Databases\UNITCOOLERS DB.mdb" />
+    <None Include="Databases\UserNamePassword_Encrypted.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Pricing\Project.cd" />
+    <None Include="Web References\RaeSolutionsLogWs\RaeSolutionsLog.disco" />
+    <None Include="dseUsage.xss">
+      <DependentUpon>dseUsage.xsd</DependentUpon>
+    </None>
+    <None Include="Files\CenturyProductInfo.pdf" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Files\AirHandlingUnits.pdf" />
+    <None Include="PricingAirHandler\Databases\InfoReturn.mdb" />
+    <None Include="PricingAirHandler\dseProject.xsc">
+      <DependentUpon>dseProject.xsd</DependentUpon>
+    </None>
+    <None Include="PricingAirHandler\dseProject.xsx">
+      <DependentUpon>dseProject.xsd</DependentUpon>
+    </None>
+    <None Include="Pricing\SelectedOptionsDataSet.xsc">
+      <DependentUpon>SelectedOptionsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Pricing\SelectedOptionsDataSet.xss">
+      <DependentUpon>SelectedOptionsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Pricing\SelectedOptionsDataSet.xsx">
+      <DependentUpon>SelectedOptionsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dseUsage.xsc">
+      <DependentUpon>dseUsage.xsd</DependentUpon>
+    </None>
+    <None Include="dseUsage.xsx">
+      <DependentUpon>dseUsage.xsd</DependentUpon>
+    </None>
+    <None Include="_GettingStarted\reg.bat" />
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="BusinessObjects.CrystalReports.NET.2.0">
+      <Visible>False</Visible>
+      <ProductName>Crystal Reports for .NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Databases\10A0_PFC.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\20a0capacitiesDEC17.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\30a0capacities.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\AirHandlers.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\EquipmentOptions.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\Master 30.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\Master Blank U C Balance.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\OrderAssistance.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\Projects.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\TempUCBalance.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\U C Balance.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\UNITCOOLERS DB.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Databases\UserNamePassword_Encrypted.mdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="RAECoilWeightDLL">
+      <Guid>{BFCDE9E0-CCFD-11D3-8114-00606770584D}</Guid>
+      <VersionMajor>18</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="RAEDLL_Coil_Pricing">
+      <Guid>{6AB7512E-218C-4DCE-BE00-AC09E92F97D8}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="RAE_SelectionRating">
+      <Guid>{C7408AEF-491A-4A99-BF72-8F9AB5CB3F08}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Component Include="Rae.RaeSolutions.Data.Refactoring.Projects.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Drawings\Drawings\Electrical\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://apps.util.rae-corp.net/ttphelp/raesolutionsonline/OrderPlacement/TransferFile.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OrderPlacementWS\</RelPath>
+      <UpdateFromURL>http://apps.util.rae-corp.net/ttphelp/raesolutionsonline/OrderPlacement/TransferFile.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RaeSolutions_OrderPlacementWS_TransferFile</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://service.raecloud.com/raesolutionsonline/webservices/authenticate.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\IsContractor\</RelPath>
+      <UpdateFromURL>http://service.raecloud.com/raesolutionsonline/webservices/authenticate.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RaeSolutions_IsContractor_Authenticate</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://service.raecloud.com/raesolutionsonline2020/cloudsaving/cloudsave.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CloudSaveService\</RelPath>
+      <UpdateFromURL>http://service.raecloud.com/raesolutionsonline2020/cloudsaving/cloudsave.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RaeSolutions_CloudSaveService_CloudSave</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://service.raecloud.com/raesolutionswebservices/CloudEmail.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CloudEmailService\</RelPath>
+      <UpdateFromURL>http://service.raecloud.com/raesolutionswebservices/CloudEmail.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RaeSolutions_CloudEmailService_WebService1</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked" 
+  if not exist "$(TargetPath).locked" if exist "$(TargetPath)" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

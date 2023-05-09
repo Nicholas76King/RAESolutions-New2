@@ -1,0 +1,911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProjectTypeGuids>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E1BC426D-52AD-4842-9D4B-FAC29201668B}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Rae.RaeSolutions</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>On</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>RAE.RAESolutions.IntelligenceCenter.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42107,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>Migrated rules for Rae.RaeSolutions.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>RAE.RAESolutions.IntelligenceCenter.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42107,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>Migrated rules for Rae.RaeSolutions.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug Controls|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug Controls\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>RAE.RAESolutions.IntelligenceCenter.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42107,42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRules>
+    </CodeAnalysisRules>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.vb</CodeAnalysisModuleSuppressionsFile>
+    <CodeAnalysisRuleSet>Migrated rules for Rae.RaeSolutions.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\Rae.Solutions\MyReferences\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <HintPath>..\Rae.Solutions\MyReferences\CrystalDecisions.Enterprise.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304">
+      <HintPath>..\Rae.Solutions\MyReferences\CrystalDecisions.Enterprise.InfoStore.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\Rae.Solutions\MyReferences\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\Rae.Solutions\MyReferences\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <HintPath>..\Rae.Solutions\MyReferences\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="O2S.Components.PDF4NET, Version=2.9.0.0, Culture=neutral, PublicKeyToken=80d03dd9e5b85317">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rae.Solutions\MyReferences\O2S.Components.PDF4NET.dll</HintPath>
+    </Reference>
+    <Reference Include="Rae.MainframeDataAccess, Version=2007.12.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rae.Solutions\MyReferences\Rae.MainframeDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\..\Common\Rae.Core\Rae.Core.vbproj">
+      <Project>{9B6AAAF0-A2DC-4D7F-9127-8D73FCA70376}</Project>
+      <Name>Rae.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Rae.Data\Rae.Data.vbproj">
+      <Project>{A89527B9-B088-4B4D-B459-6AABA992CC98}</Project>
+      <Name>Rae.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RAE.BuzzDllInterface\RAE.BuzzDllInterface.vbproj">
+      <Project>{0580BE85-84B6-43F5-A02B-3B3FA847C15D}</Project>
+      <Name>RAE.BuzzDllInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rae.DataAccess.EquipmentOptions\Rae.DataAccess.EquipmentOptions.vbproj">
+      <Project>{2D2BEBD2-466E-4D11-A3EB-0CEB2C20D167}</Project>
+      <Name>Rae.DataAccess.EquipmentOptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\rae.reporting.beta\rae.reporting.vbproj">
+      <Project>{9D1FB2FF-A467-4603-98E6-530BE84407E1}</Project>
+      <Name>rae.reporting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rae.Security\Rae.Security.vbproj">
+      <Project>{3809E479-7F62-4E53-80D3-CF21A264B0BA}</Project>
+      <Name>Rae.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StandardRefrigeration\StandardRefrigeration.vbproj">
+      <Project>{CB36EC95-5A02-4D7A-AD3E-031A3169E7DF}</Project>
+      <Name>StandardRefrigeration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\Access.vb" />
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\AirHandlerReferenceData1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirHandlerReferenceData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Entities\PriceSheets\options_tables_elements.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\PriceSheets\report_file.vb" />
+    <Compile Include="Business\Entities\UCTADialog.Designer.vb">
+      <DependentUpon>UCTADialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Entities\UCTADialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\compressors\CompressorLimits.vb" />
+    <Compile Include="rae.solutions\drawings\chiller_electrical_spec.vb" />
+    <Compile Include="rae.solutions\drawings\condenser_electrical_info.vb" />
+    <Compile Include="rae.solutions\drawings\condensing_unit_electrical_info.vb" />
+    <Compile Include="rae.solutions\drawings\LayerManipulator.vb" />
+    <Compile Include="rae.solutions\drawings\pump_package_electrical_info.vb" />
+    <Compile Include="rae.solutions\drawings\validators\fan_amps_are_in_database.vb" />
+    <Compile Include="rae.solutions\drawings\validators\unit_cooler_model_is_in_database.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers_beta\chilller.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers_beta\coil.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers_beta\h1_calculator.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers_beta\leaving_fluid_temp_is_in_range.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers_beta\spec.vb" />
+    <Compile Include="rae.solutions\chillers\balance_service.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\evaporator_mapper.vb" />
+    <Compile Include="rae.solutions\condensers\condensers_table.vb" />
+    <Compile Include="rae.solutions\condensing_units\refrigerant_head_pressure_will_not_trip_sensor.vb" />
+    <Compile Include="rae.solutions\cu_uc_balances\balance_system\balance.vb" />
+    <Compile Include="rae.solutions\cu_uc_balances\balance_system\balance_dataset.Designer.vb">
+      <DependentUpon>balance_dataset.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="rae.solutions\cu_uc_balances\balance_system\unit_evaluator.vb" />
+    <Compile Include="rae.solutions\cu_uc_balances\balance_system\spec.vb" />
+    <Compile Include="rae.solutions\unit_coolers\database_formatter.vb" />
+    <Compile Include="rae.solutions\unit_coolers\selections\unit_cooler_result.vb" />
+    <Compile Include="rae.solutions\unit_coolers\unit_cooler_multiplier.vb" />
+    <Compile Include="rae.solutions\cu_uc_balances\balance_system\unit_cooler.vb" />
+    <Compile Include="rae.solutions\unit_coolers\boc_catalog\catalog.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\iplv\plv_algorithm.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\iplv\nplv_commands.vb" />
+    <Compile Include="rae.solutions\chillers\plv_commands.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\electrical_calculator.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\electrical_data.vb" />
+    <Compile Include="Business\Entities\PumpPackage\pump_package_codes.vb" />
+    <Compile Include="Rae.DataAccess.SpecialOptions\ConnectionString.vb" />
+    <Compile Include="Rae.DataAccess.SpecialOptions\SpecialOptionsDa.vb" />
+    <Compile Include="Rae.DataAccess.SpecialOptions\SpecialOptionsTable.vb" />
+    <Compile Include="Rae.DataAccess.SpecialOptions\SqlFactory.vb" />
+    <Compile Include="rae.reflection\domain.vb" />
+    <Compile Include="Business\Entities\ACChillerProcessItem.vb" />
+    <Compile Include="Business\Entities\AirHandlerReferenceData.vb">
+      <DependentUpon>AirHandlerReferenceData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Entities\BoxLoad.vb" />
+    <Compile Include="Business\Entities\BoxLoadList.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers\db.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers\rep_repository.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers\table.vb" />
+    <Compile Include="rae.solutions\calculations\compressor_polynomial.vb" />
+    <Compile Include="rae.solutions\calculations\pressure_temperature_conversion.vb" />
+    <Compile Include="Business\Entities\chiller_equipment.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\iplv\iplv_commands.vb" />
+    <Compile Include="rae.solutions\chillers\iplv_output.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\evaporator_list.vb" />
+    <Compile Include="Business\Entities\ChillerInfo.vb" />
+    <Compile Include="rae.solutions\chillers\Glycol.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers\i_repostiory.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers\rep_service.vb" />
+    <Compile Include="rae.solutions\chillers\Series.vb" />
+    <Compile Include="Business\Entities\Cofans\cofan.vb" />
+    <Compile Include="Business\Entities\Cofans\cofan_repository.vb" />
+    <Compile Include="Business\Entities\Cofans\coil.vb" />
+    <Compile Include="Business\Entities\Cofans\repository.vb" />
+    <Compile Include="Business\Entities\Cofans\settings.vb" />
+    <Compile Include="Business\Entities\Coil.vb" />
+    <Compile Include="Business\Entities\CoilPricingWrapper.vb" />
+    <Compile Include="rae.solutions\compressors\bitzer_scroll_compressor_limits.vb" />
+    <Compile Include="rae.solutions\compressors\coef.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers\compressor_info.vb" />
+    <Compile Include="rae.solutions\compressors\compressor_type.vb" />
+    <Compile Include="rae.solutions\compressors\compressor_limits_base.vb" />
+    <Compile Include="rae.solutions\compressors\compressor_limits_factory.vb" />
+    <Compile Include="rae.solutions\compressors\db_compressor_limits.vb" />
+    <Compile Include="rae.solutions\compressors\i_compressor_limits.vb" />
+    <Compile Include="rae.solutions\compressors\i_compressor_repository.vb" />
+    <Compile Include="rae.solutions\compressors\zr_and_zp_compressor_limits.vb" />
+    <Compile Include="Business\Entities\Condenser.vb" />
+    <Compile Include="Business\Entities\CondenserCache.vb" />
+    <Compile Include="Business\Entities\CondenserRefrigerants.vb" />
+    <Compile Include="Business\Entities\CondensingUnitProcessItem.vb" />
+    <Compile Include="Business\Entities\CondensingUnitRatingDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CondensingUnitRatingDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="rae.solutions\condensing_units\Balance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\condensing_units\Best_Matches.vb" />
+    <Compile Include="rae.solutions\condensing_units\Calculator.vb" />
+    <Compile Include="rae.solutions\condensing_units\Coil_Capacity.vb" />
+    <Compile Include="rae.solutions\condensing_units\Condensing_Unit.vb" />
+    <Compile Include="rae.solutions\condensing_units\Criteria.vb" />
+    <Compile Include="rae.solutions\condensing_units\H1_Calculator.vb" />
+    <Compile Include="rae.solutions\condensing_units\I_Repository.vb" />
+    <Compile Include="rae.solutions\catalog\d_series_balances_for_catalog.vb" />
+    <Compile Include="rae.solutions\catalog\d_series_data.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\iplv\conversion.vb" />
+    <Compile Include="rae.solutions\motors\repository.vb" />
+    <Compile Include="rae.solutions\refrigerant.vb" />
+    <Compile Include="Business\Entities\CopyObj.vb" />
+    <Compile Include="rae.solutions\unit_coolers\criteria.vb" />
+    <Compile Include="rae.solutions\unit_coolers\query.vb" />
+    <Compile Include="rae.solutions\unit_coolers\repository.vb" />
+    <Compile Include="rae.solutions\unit_coolers\service.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\cu_uc_balances\calculate_balance\service.vb" />
+    <Compile Include="rae.solutions\cu_uc_balances\calculate_balance\unit.vb" />
+    <Compile Include="rae.solutions\cu_uc_balances\calculate_balance\units.vb" />
+    <Compile Include="rae.solutions\unit_coolers\table.vb" />
+    <Compile Include="rae.solutions\unit_coolers\unit_cooler.vb" />
+    <Compile Include="rae.solutions\drawings\chiller_electrical_data.vb" />
+    <Compile Include="rae.solutions\drawings\chiller_electrical_info.vb" />
+    <Compile Include="rae.solutions\drawings\CompressorType.vb" />
+    <Compile Include="rae.solutions\drawings\condensing_unit_data.vb" />
+    <Compile Include="rae.solutions\drawings\DB.vb" />
+    <Compile Include="rae.solutions\drawings\DrawingBase.vb" />
+    <Compile Include="rae.solutions\drawings\DrawingPath.vb" />
+    <Compile Include="rae.solutions\drawings\drawing_repository.vb" />
+    <Compile Include="rae.solutions\drawings\drawing_service.vb" />
+    <Compile Include="rae.solutions\drawings\DrawingType.vb" />
+    <Compile Include="rae.solutions\drawings\DTXDWG.vb" />
+    <Compile Include="rae.solutions\drawings\FluidPipingDrawing.vb" />
+    <Compile Include="rae.solutions\drawings\i_drawing_repository.vb" />
+    <Compile Include="rae.solutions\drawings\i_drawing_service.vb" />
+    <Compile Include="rae.solutions\drawings\RefrigerantPipingDrawingNames.vb" />
+    <Compile Include="rae.solutions\drawings\SharedConnectionFactory.vb" />
+    <Compile Include="rae.solutions\drawings\unit_cooler_electrical_data.vb" />
+    <Compile Include="rae.solutions\drawings\unit_cooler_electrical_info.vb" />
+    <Compile Include="Business\Entities\EquipmentFactory.vb" />
+    <Compile Include="Business\Entities\EquipmentOptionManager.vb" />
+    <Compile Include="Business\Entities\EvaporativeCondenserChillerBalance.vb" />
+    <Compile Include="Business\Entities\CondenserEquipmentItem.vb" />
+    <Compile Include="Business\Entities\CondenserProcessItem.vb" />
+    <Compile Include="Business\Entities\CondensingUnitEquipmentItem.vb" />
+    <Compile Include="Business\Entities\EquipmentItem.vb" />
+    <Compile Include="Business\Entities\EquipmentItemList.vb" />
+    <Compile Include="Business\Entities\EquipmentOption.vb" />
+    <Compile Include="Business\Entities\EquipmentOptionList.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\approach_is_in_range.vb" />
+    <Compile Include="rae.solutions\calculations\balance_compressor_and_condenser.vb" />
+    <Compile Include="rae.solutions\compressors\compressor_is_within_limits.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\evaporating_temp_meets_min_recommendation.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\evaporative_condenser.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\chiller.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\balance.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\evaporator_at_approach_should_return_from_acme_dll.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\repository.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\evaporative_condenser_table.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\h1_calculator.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\logger.vb" />
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\table.vb" />
+    <Compile Include="Business\Entities\FluidCooler.vb" />
+    <Compile Include="Business\Entities\FluidCoolerCircuiting.vb" />
+    <Compile Include="Business\Entities\FluidCoolerCoil.vb" />
+    <Compile Include="Business\Entities\FluidCoolerEquipmentItem.vb" />
+    <Compile Include="Business\Entities\FluidCoolerFan.vb" />
+    <Compile Include="Business\Entities\FluidCoolerProcessItem.vb" />
+    <Compile Include="Business\Entities\FluidCoolerSeries.vb" />
+    <Compile Include="Business\Entities\IdentityFactory.vb" />
+    <Compile Include="Business\Entities\IHaveName.vb" />
+    <Compile Include="Business\Entities\PumpPackage\ChillerModel.vb" />
+    <Compile Include="Business\Entities\PumpPackage\OpenTankOption.vb" />
+    <Compile Include="Business\Entities\PumpPackage\pump_package_code.vb" />
+    <Compile Include="Business\Entities\PumpPackage\PumpPackageModel.vb" />
+    <Compile Include="Business\Entities\PumpPackage\PumpPackageWeightCalculator.vb" />
+    <Compile Include="Business\Entities\PumpPackage\RuntimeWarning.vb" />
+    <Compile Include="Business\Entities\PumpPackage\IPumpRepository.vb" />
+    <Compile Include="Business\Entities\ItemList.vb" />
+    <Compile Include="Business\Entities\NaturalGasHeater.vb" />
+    <Compile Include="rae.solutions\drawings\DrawingPdf.vb" />
+    <Compile Include="Business\Entities\PumpPackage\PumpData.vb" />
+    <Compile Include="Business\Entities\PumpPackage\PumpDbModel.vb" />
+    <Compile Include="Business\Entities\PumpPackage\PumpEquipment.vb" />
+    <Compile Include="Business\Entities\PumpPackage\PumpRaeModel.vb" />
+    <Compile Include="Business\Entities\PumpPackage\PumpRepositoryFactory.vb" />
+    <Compile Include="Business\Entities\PumpPackage\PumpSystem.vb" />
+    <Compile Include="Business\Entities\PumpPackage\TankCode.vb" />
+    <Compile Include="Business\Entities\PumpPackage\TankOption.vb" />
+    <Compile Include="Business\Entities\Rae.Persistence\ICanBePersisted.vb" />
+    <Compile Include="rae.solutions\drawings\RefrigerantPipingDrawing.vb" />
+    <Compile Include="Business\Entities\ProcessItem.vb" />
+    <Compile Include="Business\Entities\ProcessItemList.vb" />
+    <Compile Include="Business\Entities\ProductCoolerEquipmentItem.vb" />
+    <Compile Include="Business\Entities\PriceSheets\BroadSeries.vb" />
+    <Compile Include="Business\Entities\PriceSheets\CoverPdf.vb" />
+    <Compile Include="Business\Entities\PriceSheets\FilterBy.vb" />
+    <Compile Include="Business\Entities\PriceSheets\IPriceSheetReport.vb" />
+    <Compile Include="Business\Entities\PriceSheets\IPriceSheetRepository.vb" />
+    <Compile Include="Business\Entities\PriceSheets\IPriceViewer.vb" />
+    <Compile Include="Business\Entities\PriceSheets\Locations.vb" />
+    <Compile Include="Business\Entities\PriceSheets\PageArranger.vb" />
+    <Compile Include="Business\Entities\PriceSheets\PageType.vb" />
+    <Compile Include="Business\Entities\PriceSheets\Pdf.vb" />
+    <Compile Include="Business\Entities\PriceSheets\PriceByDivisionViewer.vb" />
+    <Compile Include="Business\Entities\PriceSheets\PriceByModelViewer.vb" />
+    <Compile Include="Business\Entities\PriceSheets\PriceBySeriesViewer.vb" />
+    <Compile Include="Business\Entities\PriceSheets\PriceSheetReport.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\PriceSheets\PriceSheetRepository.vb" />
+    <Compile Include="Business\Entities\PriceSheets\PriceViewer.vb" />
+    <Compile Include="Business\Entities\PriceSheets\SeriesOptionsAssociation.vb" />
+    <Compile Include="Business\Entities\PriceSheets\SeriesPageTypeAssociation.vb" />
+    <Compile Include="Business\Entities\PriceSheets\Series_Options_List.vb" />
+    <Compile Include="Business\Entities\PriceSheets\ViewerFactory.vb" />
+    <Compile Include="rae.solutions\unit_coolers\model_with_refrigerant.vb" />
+    <Compile Include="rae.solutions\unit_coolers\unit_cooler_list.vb" />
+    <Compile Include="rae.solutions\unit_coolers\selections\unit_cooler_input.vb" />
+    <Compile Include="rae.solutions\users.vb" />
+    <Compile Include="rae.solutions\user_list.vb" />
+    <Compile Include="rae.validation\validator_base.vb" />
+    <Compile Include="raen\equations.vb" />
+    <Compile Include="Business\Entities\RelatedCommonOption.vb" />
+    <Compile Include="Business\Entities\RevisionBase.vb" />
+    <Compile Include="Business\Entities\SpecialOption.vb" />
+    <Compile Include="Business\Entities\SpecialOptionList.vb" />
+    <Compile Include="Business\Entities\SplitCondenserInfo.vb" />
+    <Compile Include="Business\Entities\TipOfTheDay.vb" />
+    <Compile Include="Business\Entities\unit_cooler.vb" />
+    <Compile Include="Business\Entities\cu_uc_balance_screen_model.vb" />
+    <Compile Include="rae.solutions\drawings\UnitDrawing.vb" />
+    <Compile Include="rae.solutions\user.vb" />
+    <Compile Include="Business\Entities\UserDataProtector.vb" />
+    <Compile Include="Business\Entities\WCChillerProcessItem.vb" />
+    <Compile Include="Business\Entities\WCCondenser.vb" />
+    <Compile Include="Business\FinMaterial.vb" />
+    <Compile Include="rae.solutions\group.vb" />
+    <Compile Include="Business\Intelligence\AirHandlerConstants.vb" />
+    <Compile Include="Business\CourtesyTitle.vb" />
+    <Compile Include="Business\Entities\chiller_specifications.vb" />
+    <Compile Include="Business\Entities\CommentList.vb" />
+    <Compile Include="Business\Entities\CompanyList.vb" />
+    <Compile Include="Business\Entities\CondenserSpecifications.vb" />
+    <Compile Include="Business\Entities\ContactList.vb" />
+    <Compile Include="Business\Entities\ContactNumList.vb" />
+    <Compile Include="Business\Entities\ProductCoolerSpecifications.vb" />
+    <Compile Include="Business\Entities\FluidCoolerSpecifications.vb" />
+    <Compile Include="Business\Entities\ProjectManager.vb" />
+    <Compile Include="Business\Entities\ProjectPricing.vb" />
+    <Compile Include="Business\Entities\VoltageRating.vb" />
+    <Compile Include="Business\Entities\Attachment.vb" />
+    <Compile Include="Business\Agents\AirHandlerDataAgent.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Agents\ChillerAgent.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Agents\Compressor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\Address.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\air_cooled_chillers\chiller.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\air_cooled_chillers\circuit.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\air_cooled_chillers\coil.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\chillers\Evaporator.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\Company.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\CompanyContact.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\compressors\compressor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\compressors\CompressorSafety.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\Contact.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\DeficientContact.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\Email.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\Fan.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\Name.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\CommonSpecifications.vb" />
+    <Compile Include="rae.solutions\condensing_units\Condensing_Unit_Info.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\condensing_unit_specifications.vb" />
+    <Compile Include="Business\Entities\Painter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\ContactNum.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Division.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\air_cooled_chillers\repository.vb" />
+    <Compile Include="rae.solutions\air_cooled_chillers\service.vb" />
+    <Compile Include="rae.solutions\chillers\base_chiller_service.vb" />
+    <Compile Include="Business\Intelligence\Chillers\ChillerIntel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\evaporative_condenser_chillers\service.vb" />
+    <Compile Include="Business\Intelligence\Chillers\FreezingPoint.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Intelligence\Compressor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Intelligence\CompressorTemperatureLimits.vb" />
+    <Compile Include="Business\Intelligence\CondensingUnitRatingService.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Intelligence\FanIntel.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Intelligence\FanCurve.vb" />
+    <Compile Include="Business\Intelligence\PriceCalculator.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Intelligence\UnitCooler.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\IPersistable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\MetaData.vb" />
+    <Compile Include="Business\Entities\Modification.vb" />
+    <Compile Include="Business\Entities\Comment.vb" />
+    <Compile Include="Business\Entities\MultiplierCode.vb" />
+    <Compile Include="Business\ProcessType.vb" />
+    <Compile Include="Business\ReleaseStatus.vb" />
+    <Compile Include="rae.solutions\user_group.vb" />
+    <Compile Include="ConfigFactory.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\repositories\evaporator_dto.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\repositories\evaporator_repository.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\repositories\query.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\DrawingRepo.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\repositories\evaporator_table.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\repositories\i_evaporator_repository.vb" />
+    <Compile Include="DataAccess\Projects\PumpEquipmentDa.vb" />
+    <Compile Include="DataAccess\Projects\Tables\PumpTable.vb" />
+    <Compile Include="DataAccess\PumpRepository.vb" />
+    <Compile Include="DataAccess\Tables\CondensersDatabase.vb" />
+    <Compile Include="rae.solutions\compressors\compressor_repository.vb" />
+    <Compile Include="rae.solutions\compressors\compressor_table.vb" />
+    <Compile Include="rae.solutions\condensing_units\Repository.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\condensing_units\Table.vb" />
+    <Compile Include="rae.solutions\condensing_units\Query.vb" />
+    <Compile Include="Rae.Data.Access\LegacyPricing\LegacyPricing.vb" />
+    <Compile Include="Rae.Data.Access\BoxLoads\BoxLoadDto.vb" />
+    <Compile Include="Rae.Data.Access\BoxLoads\BoxLoadProjects.vb" />
+    <Compile Include="Rae.Data.Access\BoxLoads\BoxLoadProjectsSql.vb" />
+    <Compile Include="Rae.Data.Access\Tools\CustomMultipliers.vb" />
+    <Compile Include="Rae.Data.Access\Tools\CustomMultipliersTable.vb" />
+    <Compile Include="Rae.Data.Access\DataAccessFactory.vb" />
+    <Compile Include="Rae.Data.Access\IConnectionFactory.vb" />
+    <Compile Include="Rae.Data.Access\IConnectToDatabase.vb" />
+    <Compile Include="Rae.Data.Access\Identities\IdentitiesTable.vb" />
+    <Compile Include="Rae.Data.Access\Items\IItemDto.vb" />
+    <Compile Include="Rae.Data.Access\Items\ItemTable.vb" />
+    <Compile Include="Rae.Data.Access\Items\Item.vb" />
+    <Compile Include="Rae.Data.Access\DataAccessBase.vb" />
+    <Compile Include="Rae.Data.Access\Items\ItemSql.vb" />
+    <Compile Include="Rae.Data.Access\Items\IItemDataAccess.vb" />
+    <Compile Include="Rae.Data.Access\IDataAccess.vb" />
+    <Compile Include="Rae.Data.Access\Connection.vb" />
+    <Compile Include="Rae.Data.Access\ConnectionFactory.vb" />
+    <Compile Include="rae.solutions\condensers\CondenserDataAccess.vb" />
+    <Compile Include="DataAccess\EquipmentOptionsAgent\DependentCommonOptionsDA.vb" />
+    <Compile Include="DataAccess\EquipmentOptionsAgent\OptionsDA.vb" />
+    <Compile Include="Business\Entities\ProjectItem.vb" />
+    <Compile Include="DataAccess\AirHandlers.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\Chillers\ChillerDataAccess.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rae.solutions\chillers\Condenser.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\CompressorDataAccess.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\FluidCoolerDataAccess.vb" />
+    <Compile Include="DataAccess\Projects\ACChillerProcessDA.vb" />
+    <Compile Include="DataAccess\Projects\ChillerEquipmentDa.vb" />
+    <Compile Include="DataAccess\Projects\CommonEquipmentDa.vb" />
+    <Compile Include="DataAccess\Projects\CompaniesDa.vb" />
+    <Compile Include="DataAccess\Projects\CondenserEquipmentItemDa.vb" />
+    <Compile Include="DataAccess\Projects\CondenserProcessDA.vb" />
+    <Compile Include="DataAccess\Projects\CondensingUnitEquipmentItemDa.vb" />
+    <Compile Include="DataAccess\Projects\CondensingUnitProcessDA.vb" />
+    <Compile Include="DataAccess\Projects\ContactsDataAccess.vb" />
+    <Compile Include="DataAccess\Projects\EquipmentItemDa.vb" />
+    <Compile Include="DataAccess\Projects\EquipmentOptionsDa.vb" />
+    <Compile Include="DataAccess\Projects\EvaporativeCondenserChillerBalanceDa.vb" />
+    <Compile Include="DataAccess\Projects\FluidCoolerEquipmentItemDa.vb" />
+    <Compile Include="DataAccess\Projects\FluidCoolerProcessItemDA.vb" />
+    <Compile Include="DataAccess\Projects\OtherEquipmentCostsDa.vb" />
+    <Compile Include="DataAccess\Projects\ProcessEquipDA.vb" />
+    <Compile Include="DataAccess\Projects\ProcessItemDA.vb" />
+    <Compile Include="DataAccess\Projects\ProductCoolerEquipmentItemDa.vb" />
+    <Compile Include="DataAccess\Projects\ProjectContactsDataAccess.vb" />
+    <Compile Include="DataAccess\Projects\ProjectsDataAccess.vb" />
+    <Compile Include="DataAccess\Projects\SpecialOptionsDa.vb" />
+    <Compile Include="DataAccess\Projects\Tables\ACChillerProcessTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\ChillerTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\CompaniesTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\CondenserProcessesTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\CondenserTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\CondensingUnitProcessTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\CondensingUnitTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\ContactsTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\EvapChillerProcessTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\FluidCoolerTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\EquipmentTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\OptionsObjectTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\EquipmentOptionsTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\OtherEquipmentCostsTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\ProcessesTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\ProductCoolerTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\ProjectContactsTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\ProjectsTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\SpecialOptionsTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\UnitCoolerProcessTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\UnitCoolerTable.vb" />
+    <Compile Include="DataAccess\Projects\Tables\WCChillerProcessTable.vb" />
+    <Compile Include="DataAccess\Projects\UnitCoolerEquipmentItemDa.vb" />
+    <Compile Include="DataAccess\Projects\UnitCoolerProcessDA.vb" />
+    <Compile Include="DataAccess\Projects\WCChillerProcessDA.vb" />
+    <Compile Include="DataAccess\ReleaseManager.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\OptionsDS.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OptionsDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\OptionsDS.vb">
+      <DependentUpon>OptionsDS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess\OrderAssistanceDa.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataAccess\Tables\EvaporativeCondenserDTL.vb" />
+    <Compile Include="DataAccess\TipOfTheDayDataAccess.vb" />
+    <Compile Include="DataAccess\UnitCoolerDataAccess.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Business\Entities\equipment_pricing.vb" />
+    <Compile Include="Business\Entities\ItemBase.vb" />
+    <Compile Include="Business\Entities\ItemID.vb" />
+    <Compile Include="Business\IMetaData.vb" />
+    <Compile Include="Business\Importance.vb" />
+    <Compile Include="Business\EquipmentType.vb" />
+    <Compile Include="Business\IChangeAware.vb" />
+    <Compile Include="Business\ValidationStatus.vb" />
+    <Compile Include="DataAccess\WaterCooledDA.vb" />
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Rae.Data.Access\BoxLoads\BoxLoadProjectsTable.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Rae.Data.Access\ConnectionName.vb" />
+    <Compile Include="Rae.Data.Access\Identities\Identities.vb" />
+    <Compile Include="Rae.Engineering\Components\Refrigerant.vb" />
+    <Compile Include="Rae.Engineering\Fluids\CoolingMedia.vb" />
+    <Compile Include="Rae.Engineering\Fluids\Ethylene.vb" />
+    <Compile Include="Rae.Engineering\Fluids\FluidFactory.vb" />
+    <Compile Include="Rae.Engineering\Fluids\Glycol.vb" />
+    <Compile Include="Rae.Engineering\Fluids\IFluid.vb" />
+    <Compile Include="Rae.Engineering\Fluids\Propylene.vb" />
+    <Compile Include="Rae.Engineering\Fluids\Water.vb" />
+    <Compile Include="Rae.Persistence\IAmAwareOfChanges.vb" />
+    <Compile Include="Rae.Persistence\IAmAwareOfPersistence.vb" />
+    <Compile Include="Rae.Persistence\ICanBeRevisioned.vb" />
+    <Compile Include="Rae.Persistence\ICanBeSaved.vb" />
+    <Compile Include="Rae.Persistence\ICanBeSavedAsRevision.vb" />
+    <Compile Include="Rae.Persistence\ICanNavigate.vb" />
+    <Compile Include="Rae.Persistence\IManageRevisions.vb" />
+    <Compile Include="Rae.Persistence\NavigatedEventArgs.vb" />
+    <Compile Include="Rae.Persistence\NavigatingEventArgs.vb" />
+    <Compile Include="Rae.Persistence\Navigator.vb" />
+    <Compile Include="Rae.Persistence\Revision.vb" />
+    <Compile Include="Rae.Persistence\RevisionList.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\evaporator.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\evaporator_factory.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\evaporator_rating.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\evaporator_service_factory.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\evaporator_spec.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\i_evaporator_service.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\mapper.vb" />
+    <Compile Include="rae.solutions\drawings\ecalc.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\evaporator_service.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\rae_evaporator_service.vb" />
+    <Compile Include="rae.solutions\chiller_evaporators\tx_evaporator_service.vb" />
+    <Compile Include="rae.validation\i_validate.vb" />
+    <Compile Include="rae.validation\message.vb" />
+    <Compile Include="rae.validation\validator_list.vb" />
+    <Compile Include="Settings.vb" />
+    <Compile Include="Utility.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Web References\DrawingService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Content Include="Business\Entities\AirHandlerReferenceData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <CustomToolNamespace>RAE.RAESolutions.Business.Entities</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>AirHandlerReferenceData1.Designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="DataAccess\OptionsDS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <CustomToolNamespace>RAE.RAESolutions.DataAccess</CustomToolNamespace>
+      <LastGenOutput>OptionsDS.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Web References\DrawingService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\DrawingService\webservice2.disco" />
+    <None Include="app.config" />
+    <None Include="Business\Entities\AirHandlerReferenceData.xsc">
+      <DependentUpon>AirHandlerReferenceData.xsd</DependentUpon>
+    </None>
+    <None Include="Business\Entities\AirHandlerReferenceData.xss">
+      <DependentUpon>AirHandlerReferenceData.xsd</DependentUpon>
+    </None>
+    <None Include="Business\Entities\AirHandlerReferenceData.xsx">
+      <DependentUpon>AirHandlerReferenceData.xsd</DependentUpon>
+    </None>
+    <None Include="Business\Entities\CondensingUnitRatingDataSet.xsc">
+      <DependentUpon>CondensingUnitRatingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Business\Entities\CondensingUnitRatingDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CondensingUnitRatingDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Business\Entities\CondensingUnitRatingDataSet.xss">
+      <DependentUpon>CondensingUnitRatingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Business\Entities\Contact.cd" />
+    <None Include="Business\Entities\Project.cd" />
+    <None Include="Documentation\compressor repository.cd" />
+    <None Include="Documentation\Drawings.cd" />
+    <None Include="DataAccess\OptionsDS.xsc">
+      <DependentUpon>OptionsDS.xsd</DependentUpon>
+    </None>
+    <None Include="DataAccess\OptionsDS.xss">
+      <DependentUpon>OptionsDS.xsd</DependentUpon>
+    </None>
+    <None Include="DataAccess\OptionsDS.xsx">
+      <DependentUpon>OptionsDS.xsd</DependentUpon>
+    </None>
+    <None Include="DataAccess\EquipmentOptionsAgent\EquipmentOptionsAgent.cd" />
+    <None Include="DataAccess\Projects\Projects Data Access.cd" />
+    <None Include="Migrated rules for Rae.RaeSolutions.ruleset" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Rae.Persistence\Revisioning.cd" />
+    <None Include="rae.solutions\cu_uc_balances\balance_system\balance_dataset.xsc">
+      <DependentUpon>balance_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="rae.solutions\cu_uc_balances\balance_system\balance_dataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>balance_dataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="rae.solutions\cu_uc_balances\balance_system\balance_dataset.xss">
+      <DependentUpon>balance_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\DrawingService\webservice2.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="RAEDLL_Coil_Pricing">
+      <Guid>{6AB7512E-218C-4DCE-BE00-AC09E92F97D8}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.FileIO" />
+    <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Rae.Data.Access\Fans\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://service.raecloud.com/webservicedxf/webservice2.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DrawingService\</RelPath>
+      <UpdateFromURL>http://service.raecloud.com/webservicedxf/webservice2.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Rae_RaeSolutions_DrawingService_WebService2</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Business\Entities\UCTADialog.resx">
+      <DependentUpon>UCTADialog.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

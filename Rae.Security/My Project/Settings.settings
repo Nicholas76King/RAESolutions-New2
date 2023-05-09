@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Rae_Security_SDWAuthenticate_Authenticate" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://apps.util.rae-corp.net/TTPHELP/RAESolutionsOnline/WebServices/Authenticate.asmx</Value>
+    </Setting>
+    <Setting Name="Rae_Security_IsContractor_Authenticate" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://service.raecloud.com/raesolutionsonline/webservices/authenticate.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ChillerDataSet" targetNamespace="http://tempuri.org/ChillerRatingDataSet.xsd" xmlns:mstns="http://tempuri.org/ChillerRatingDataSet.xsd" xmlns="http://tempuri.org/ChillerRatingDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ChillerDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ChillerDataSet" msprop:Generator_DataSetName="ChillerDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results" msprop:Generator_UserTableName="Results" msprop:Generator_RowDeletedName="ResultsRowDeleted" msprop:Generator_RowChangedName="ResultsRowChanged" msprop:Generator_RowClassName="ResultsRow" msprop:Generator_RowChangingName="ResultsRowChanging" msprop:Generator_RowEvArgName="ResultsRowChangeEvent" msprop:Generator_RowEvHandlerName="ResultsRowChangeEventHandler" msprop:Generator_TableClassName="ResultsDataTable" msprop:Generator_TableVarName="tableResults" msprop:Generator_RowDeletingName="ResultsRowDeleting" msprop:Generator_TablePropName="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LeavingTemperature" msprop:Generator_UserColumnName="LeavingTemperature" msprop:Generator_ColumnVarNameInTable="columnLeavingTemperature" msprop:Generator_ColumnPropNameInRow="LeavingTemperature" msprop:Generator_ColumnPropNameInTable="LeavingTemperatureColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AmbientTemperature" msprop:Generator_UserColumnName="AmbientTemperature" msprop:Generator_ColumnPropNameInRow="AmbientTemperature" msprop:Generator_ColumnVarNameInTable="columnAmbientTemperature" msprop:Generator_ColumnPropNameInTable="AmbientTemperatureColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EvaporatorTemperature" msprop:Generator_UserColumnName="EvaporatorTemperature" msprop:Generator_ColumnPropNameInRow="EvaporatorTemperature" msprop:Generator_ColumnVarNameInTable="columnEvaporatorTemperature" msprop:Generator_ColumnPropNameInTable="EvaporatorTemperatureColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CondenserTemperature" msprop:Generator_UserColumnName="CondenserTemperature" msprop:Generator_ColumnPropNameInRow="CondenserTemperature" msprop:Generator_ColumnVarNameInTable="columnCondenserTemperature" msprop:Generator_ColumnPropNameInTable="CondenserTemperatureColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Capacity" msprop:Generator_UserColumnName="Capacity" msprop:Generator_ColumnPropNameInRow="Capacity" msprop:Generator_ColumnVarNameInTable="columnCapacity" msprop:Generator_ColumnPropNameInTable="CapacityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitPower" msprop:Generator_UserColumnName="UnitPower" msprop:Generator_ColumnPropNameInRow="UnitPower" msprop:Generator_ColumnVarNameInTable="columnUnitPower" msprop:Generator_ColumnPropNameInTable="UnitPowerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FlowRate" msprop:Generator_UserColumnName="FlowRate" msprop:Generator_ColumnPropNameInRow="FlowRate" msprop:Generator_ColumnVarNameInTable="columnFlowRate" msprop:Generator_ColumnPropNameInTable="FlowRateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EvaporatorPressureDrop" msprop:Generator_UserColumnName="EvaporatorPressureDrop" msprop:Generator_ColumnPropNameInRow="EvaporatorPressureDrop" msprop:Generator_ColumnVarNameInTable="columnEvaporatorPressureDrop" msprop:Generator_ColumnPropNameInTable="EvaporatorPressureDropColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CompressorEfficiency" msprop:Generator_UserColumnName="CompressorEfficiency" msprop:Generator_ColumnPropNameInRow="CompressorEfficiency" msprop:Generator_ColumnVarNameInTable="columnCompressorEfficiency" msprop:Generator_ColumnPropNameInTable="CompressorEfficiencyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitEfficiency" msprop:Generator_UserColumnName="UnitEfficiency" msprop:Generator_ColumnPropNameInRow="UnitEfficiency" msprop:Generator_ColumnVarNameInTable="columnUnitEfficiency" msprop:Generator_ColumnPropNameInTable="UnitEfficiencyColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

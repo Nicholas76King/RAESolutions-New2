@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.CondensingUnitsDA">
+    <Position X="4" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\CondensingUnitsDA.vb</FileName>
+      <NewMemberFileName>DataAccess\Submittal\CondensingUnitEquipmentDA.vb</NewMemberFileName>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.ProjectsDA">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\ProjectsDA.vb</FileName>
+      <NewMemberFileName>DataAccess\Submittal\Submittal.vb</NewMemberFileName>
+      <HashCode>AIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.RepsDA">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\RepDA.vb</FileName>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.RepCompaniesDA">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\RepCompaniesDA.vb</FileName>
+      <HashCode>AIQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.EquipmentDA">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\EquipmentDA.vb</FileName>
+      <HashCode>AIQAAMAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Internal" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.OptionsDA">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\OptionsDA.vb</FileName>
+      <HashCode>AIQAAAAACAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.Tables.CondensingUnitsTable">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\Tables\CondensingUnitsTable.vb</FileName>
+      <HashCode>ABAAEgAIBAAAAAAAAgAAgEBAYAAAAAEQAAAAAQAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.Tables.EquipmentTable">
+    <Position X="4.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\Tables\EquipmentTable.vb</FileName>
+      <HashCode>AAAgAAAAAAAgAAAEAFgAgAQAJBAAAAAEAAgAgwAAQAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.Tables.OptionsObjectTable">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\Tables\OptionsObjectTable.vb</FileName>
+      <HashCode>AAAAAAACAQAggAAAhAAgAAAAgAgAAAAAAAACgAAACAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.Tables.ProjectsTable">
+    <Position X="2.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\Tables\ProjectsTable.vb</FileName>
+      <HashCode>AAAgAAAAAIAgAAAEAAEAAAQABRBAAAAAAAAEAYCAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.Tables.RepCompaniesTable">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\Tables\RepCompaniesTable.vb</FileName>
+      <HashCode>gAAAQAAAACAAgAgIBAAAAAQAAAAAEAAqAAAARQAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.Tables.RepsTable">
+    <Position X="13.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\Tables\RepsTable.vb</FileName>
+      <HashCode>gAACQEAAACIAAAgIBAAAAAAAAAAAEAAqAAAARQAAAAg=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.Tables.EquipmentOptionsTable">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\Tables\EquipmentOptionsTable.vb</FileName>
+      <HashCode>AAACAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAgQAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.EquipmentItemDA">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\EquipmentItemDA.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.CondensingUnitEquipmentItemDA">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\CondensingUnitEquipmentItemDA.vb</FileName>
+      <HashCode>AIQAAAAgAAAAAAAAAAAAAAAAAAEAAEAAAAAAAAEAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Private" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="RAE.RAESolutions.DataAccess.Projects.OtherEquipmentCostsDA">
+    <Position X="4" Y="2" Width="2" />
+    <TypeIdentifier>
+      <FileName>DataAccess\Projects\OtherEquipmentCostsDA.vb</FileName>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

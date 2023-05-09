@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://apps.util.rae-corp.net/ttphelp/raesolutionsonline/OrderPlacement/TransferFile.asmx?wsdl" docRef="http://apps.util.rae-corp.net/ttphelp/raesolutionsonline/OrderPlacement/TransferFile.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://apps.util.rae-corp.net/ttphelp/raesolutionsonline/OrderPlacement/TransferFile.asmx" xmlns:q1="http://rae-corp.com/" binding="q1:TransferFileSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://apps.util.rae-corp.net/ttphelp/raesolutionsonline/OrderPlacement/TransferFile.asmx" xmlns:q2="http://rae-corp.com/" binding="q2:TransferFileSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

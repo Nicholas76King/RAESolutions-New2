@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Persistence Controller&#xD;&#xA;implemented in application, since it will differ between applications.">
+    <Position X="2.24" Y="3.458" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Navigable Item">
+    <Position X="4.26" Y="3.458" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Navigator &lt;&gt; Navigation Controller &lt;&gt; Navigable Item">
+    <Position X="0.5" Y="2.916" Height="0.333" Width="5.44" />
+  </Comment>
+  <Class Name="Rae.Persistence.Revision">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAIQgAAAAAAAQEoAAAAAAAAAAAAAAAAAAgAAAAYCA=</HashCode>
+      <FileName>Rae.Persistence\Revision.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Rae.Persistence.RevisionList">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AkIAAABAAAAAAwAAgACAAAAAAAAAAAAAIBACAAAEAAA=</HashCode>
+      <FileName>Rae.Persistence\RevisionList.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rae.Persistence.Navigator">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAACAAAAEAAACAAAAgAAQAAAAACA=</HashCode>
+      <FileName>Rae.Persistence\Navigator.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Rae.Persistence.ICanBeRevisioned">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAABAAAAAAAAAAAAAAEAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Rae.Persistence\ICanBeRevisioned.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Rae.Persistence.ICanNavigate">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAEAAAAAAAAAAAQAAAAACA=</HashCode>
+      <FileName>Rae.Persistence\ICanNavigate.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,11 @@
+RECH_Master
+
+Table for both RECH and 35E2 models. They appear to be the same. TSI uses 35E2 models and I think OEM uses RECH.
+
+Note: Not Intuitive
+Chillers that have 4 circuits are represented with the columns of just the first 2 circuits; the columns for circuit 3 and 4 are ignored currently.
+All the 4 circuit units have symmetric circuits so instead of repeating the data just the quantities were changed such as compressor quantity.
+So basically the 4 circuit units are represented as 2 circuit units with twice the quantities.
+
+Note:
+SS and SD units have 1 condenser and SMs have 2 condensers.

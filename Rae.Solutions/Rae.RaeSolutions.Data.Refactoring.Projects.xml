@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Rae.RaeSolutions.Data.Refactoring.Projects
+</name>
+</assembly>
+<members>
+<member name="P:Rae.RaeSolutions.Data.Refactoring.Projects.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Rae.RaeSolutions.Data.Refactoring.Projects.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Rae.RaeSolutions.Data.Refactoring.Projects.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Rae.RaeSolutions.Data.Refactoring.Projects.SaveBoxloadContacts">
+	<summary>Adds contact columns and removes unused columns to box load table.</summary>
+</member>
+</members>
+</doc>

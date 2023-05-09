@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="evaporative_condenser_chiller_iplv_data" targetNamespace="http://tempuri.org/evaporative_condenser_chiller_iplv_data.xsd" xmlns:mstns="http://tempuri.org/evaporative_condenser_chiller_iplv_data.xsd" xmlns="http://tempuri.org/evaporative_condenser_chiller_iplv_data.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="evaporative_condenser_chiller_iplv_data" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="evaporative_condenser_chiller_iplv_data" msprop:Generator_UserDSName="evaporative_condenser_chiller_iplv_data">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="iplv_data" msprop:Generator_TableClassName="iplv_dataDataTable" msprop:Generator_RowEvArgName="iplv_dataRowChangeEvent" msprop:Generator_TableVarName="tableiplv_data" msprop:Generator_TablePropName="iplv_data" msprop:Generator_RowDeletingName="iplv_dataRowDeleting" msprop:Generator_UserTableName="iplv_data" msprop:Generator_RowChangingName="iplv_dataRowChanging" msprop:Generator_RowDeletedName="iplv_dataRowDeleted" msprop:Generator_RowChangedName="iplv_dataRowChanged" msprop:Generator_RowEvHandlerName="iplv_dataRowChangeEventHandler" msprop:Generator_RowClassName="iplv_dataRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x0025__x0020_of_x0020_Load" msdata:Caption="% Load" msprop:Generator_ColumnVarNameInTable="_column__of_Load" msprop:Generator_ColumnPropNameInRow="___of_Load" msprop:Generator_ColumnPropNameInTable="___of_LoadColumn" msprop:Generator_UserColumnName="% of Load" type="xs:string" minOccurs="0" />
+              <xs:element name="Leaving_x0020_Fluid_x0020__x005B__x00B0_F_x005D_" msprop:Generator_ColumnVarNameInTable="_columnLeaving_Fluid___F_" msprop:Generator_ColumnPropNameInRow="_Leaving_Fluid___F_" msprop:Generator_ColumnPropNameInTable="_Leaving_Fluid___F_Column" msprop:Generator_UserColumnName="Leaving Fluid [°F]" type="xs:string" minOccurs="0" />
+              <xs:element name="Ambient_x0020__x005B__x00B0_F_x005D_" msprop:Generator_ColumnVarNameInTable="_columnAmbient___F_" msprop:Generator_ColumnPropNameInRow="_Ambient___F_" msprop:Generator_ColumnPropNameInTable="_Ambient___F_Column" msprop:Generator_UserColumnName="Ambient [°F]" type="xs:string" minOccurs="0" />
+              <xs:element name="Capacity_x0020__x005B_Tons_x005D_" msprop:Generator_ColumnVarNameInTable="_columnCapacity__Tons_" msprop:Generator_ColumnPropNameInRow="_Capacity__Tons_" msprop:Generator_ColumnPropNameInTable="_Capacity__Tons_Column" msprop:Generator_UserColumnName="Capacity [Tons]" type="xs:string" minOccurs="0" />
+              <xs:element name="Compressor_x0020_EER" msprop:Generator_ColumnVarNameInTable="columnCompressor_EER" msprop:Generator_ColumnPropNameInRow="Compressor_EER" msprop:Generator_ColumnPropNameInTable="Compressor_EERColumn" msprop:Generator_UserColumnName="Compressor EER" type="xs:string" minOccurs="0" />
+              <xs:element name="Compressor_x0020__x005B_KW_x002F_Ton_x005D_" msprop:Generator_ColumnVarNameInTable="_columnCompressor__KW_Ton_" msprop:Generator_ColumnPropNameInRow="_Compressor__KW_Ton_" msprop:Generator_ColumnPropNameInTable="_Compressor__KW_Ton_Column" msprop:Generator_UserColumnName="Compressor [KW/Ton]" type="xs:string" minOccurs="0" />
+              <xs:element name="Unit_x0020_EER" msprop:Generator_ColumnVarNameInTable="columnUnit_EER" msprop:Generator_ColumnPropNameInRow="Unit_EER" msprop:Generator_ColumnPropNameInTable="Unit_EERColumn" msprop:Generator_UserColumnName="Unit EER" type="xs:string" minOccurs="0" />
+              <xs:element name="Unit_x0020__x005B_KW_x002F_Ton_x005D_" msprop:Generator_ColumnVarNameInTable="_columnUnit__KW_Ton_" msprop:Generator_ColumnPropNameInRow="_Unit__KW_Ton_" msprop:Generator_ColumnPropNameInTable="_Unit__KW_Ton_Column" msprop:Generator_UserColumnName="Unit [KW/Ton]" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

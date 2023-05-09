@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="dseUsage" targetNamespace="http://tempuri.org/dseUsage.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/dseUsage.xsd" xmlns:mstns="http://tempuri.org/dseUsage.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="dseUsage" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="ApplicationUsage">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ApplicationID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Username" type="xs:string" minOccurs="0" />
+							<xs:element name="StartTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndTime" type="xs:dateTime" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="FormUsage">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="FormID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="ApplicationID" type="xs:int" minOccurs="0" />
+							<xs:element name="StartTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="EndTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FormName" type="xs:string" minOccurs="0" />
+							<xs:element name="Model" type="xs:string" minOccurs="0" />
+							<xs:element name="Refrigerant" type="xs:string" minOccurs="0" />
+							<xs:element name="SuctionTemperature" type="xs:float" minOccurs="0" />
+							<xs:element name="AmbientTemperature" type="xs:float" minOccurs="0" />
+							<xs:element name="Division" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="UserInformation">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="UserID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="Username" type="xs:string" minOccurs="0" />
+							<xs:element name="OSPlatform" type="xs:string" minOccurs="0" />
+							<xs:element name="OSVersion" type="xs:string" minOccurs="0" />
+							<xs:element name="Network" type="xs:boolean" minOccurs="0" />
+							<xs:element name="ResolutionWidth" type="xs:int" minOccurs="0" />
+							<xs:element name="ResolutionHeight" type="xs:int" minOccurs="0" />
+							<xs:element name="NumAppOpenings" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="dseUsageKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:ApplicationUsage" />
+			<xs:field xpath="mstns:ApplicationID" />
+		</xs:unique>
+		<xs:unique name="dseUsageKey2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:FormUsage" />
+			<xs:field xpath="mstns:FormID" />
+		</xs:unique>
+		<xs:unique name="dseUsageKey3" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:UserInformation" />
+			<xs:field xpath="mstns:UserID" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

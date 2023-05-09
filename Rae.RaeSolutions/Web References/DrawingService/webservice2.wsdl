@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="dxfToPDF">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dxf" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dxfToPDFResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dxfToPDFResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dxfToPDFLink">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dxf" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="dxfToPDFLinkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dxfToPDFLinkResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="dxfToPDFSoapIn">
+    <wsdl:part name="parameters" element="tns:dxfToPDF" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFSoapOut">
+    <wsdl:part name="parameters" element="tns:dxfToPDFResponse" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFLinkSoapIn">
+    <wsdl:part name="parameters" element="tns:dxfToPDFLink" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFLinkSoapOut">
+    <wsdl:part name="parameters" element="tns:dxfToPDFLinkResponse" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFHttpGetIn">
+    <wsdl:part name="dxf" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFLinkHttpGetIn">
+    <wsdl:part name="dxf" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFLinkHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFHttpPostIn">
+    <wsdl:part name="dxf" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFLinkHttpPostIn">
+    <wsdl:part name="dxf" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="dxfToPDFLinkHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="WebService2Soap">
+    <wsdl:operation name="dxfToPDF">
+      <wsdl:input message="tns:dxfToPDFSoapIn" />
+      <wsdl:output message="tns:dxfToPDFSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dxfToPDFLink">
+      <wsdl:input message="tns:dxfToPDFLinkSoapIn" />
+      <wsdl:output message="tns:dxfToPDFLinkSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebService2HttpGet">
+    <wsdl:operation name="dxfToPDF">
+      <wsdl:input message="tns:dxfToPDFHttpGetIn" />
+      <wsdl:output message="tns:dxfToPDFHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dxfToPDFLink">
+      <wsdl:input message="tns:dxfToPDFLinkHttpGetIn" />
+      <wsdl:output message="tns:dxfToPDFLinkHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WebService2HttpPost">
+    <wsdl:operation name="dxfToPDF">
+      <wsdl:input message="tns:dxfToPDFHttpPostIn" />
+      <wsdl:output message="tns:dxfToPDFHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="dxfToPDFLink">
+      <wsdl:input message="tns:dxfToPDFLinkHttpPostIn" />
+      <wsdl:output message="tns:dxfToPDFLinkHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService2Soap" type="tns:WebService2Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="dxfToPDF">
+      <soap:operation soapAction="http://tempuri.org/dxfToPDF" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dxfToPDFLink">
+      <soap:operation soapAction="http://tempuri.org/dxfToPDFLink" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService2Soap12" type="tns:WebService2Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="dxfToPDF">
+      <soap12:operation soapAction="http://tempuri.org/dxfToPDF" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dxfToPDFLink">
+      <soap12:operation soapAction="http://tempuri.org/dxfToPDFLink" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService2HttpGet" type="tns:WebService2HttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="dxfToPDF">
+      <http:operation location="/dxfToPDF" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dxfToPDFLink">
+      <http:operation location="/dxfToPDFLink" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService2HttpPost" type="tns:WebService2HttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="dxfToPDF">
+      <http:operation location="/dxfToPDF" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="dxfToPDFLink">
+      <http:operation location="/dxfToPDFLink" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService2">
+    <wsdl:port name="WebService2Soap" binding="tns:WebService2Soap">
+      <soap:address location="http://service.raecloud.com/webservicedxf/webservice2.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService2Soap12" binding="tns:WebService2Soap12">
+      <soap12:address location="http://service.raecloud.com/webservicedxf/webservice2.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService2HttpGet" binding="tns:WebService2HttpGet">
+      <http:address location="http://service.raecloud.com/webservicedxf/webservice2.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService2HttpPost" binding="tns:WebService2HttpPost">
+      <http:address location="http://service.raecloud.com/webservicedxf/webservice2.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

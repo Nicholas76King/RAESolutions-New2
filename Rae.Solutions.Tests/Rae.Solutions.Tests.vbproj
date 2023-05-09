@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B2C9DB5-62A1-4345-8A9C-124F82D0FF3B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>rae.solutions.tests</RootNamespace>
+    <AssemblyName>rae.solutions.tests</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>rae.solutions.tests.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>rae.solutions.tests.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.TeamFoundation, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.TeamFoundation.Client, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.TeamFoundation.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.TeamFoundation.VersionControl.Client, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.TeamFoundation.VersionControl.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
+    <Import Include="Microsoft.VisualStudio.TestTools.UnitTesting.Assert" />
+    <Import Include="Rae.RaeSolutions.Business.Entities" />
+    <Import Include="System" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business\BoxLoadPersistenceTest.vb" />
+    <Compile Include="Business\ChillerEquipmentTest.vb" />
+    <Compile Include="Business\CoilPricingWrapperTest.vb" />
+    <Compile Include="Business\CommonSpecificationsTest.vb" />
+    <Compile Include="Business\CondenserTest.vb" />
+    <Compile Include="Business\condensing_unit_specifications_.vb" />
+    <Compile Include="Business\DrawingTests.vb" />
+    <Compile Include="Business\ExpirationManagerTest.vb" />
+    <Compile Include="Business\FluidTests.vb" />
+    <Compile Include="Business\Given_a_pump.vb" />
+    <Compile Include="Business\Given_runtime.vb" />
+    <Compile Include="Business\ItemIdTest.vb" />
+    <Compile Include="Business\MetadataTest.vb" />
+    <Compile Include="Business\MultiplierCodeTests.vb" />
+    <Compile Include="Business\NameTests.vb" />
+    <Compile Include="Business\NaturalGasHeaterTest.vb" />
+    <Compile Include="Business\pump_package_model.vb" />
+    <Compile Include="Business\SpecialOptionTest.vb" />
+    <Compile Include="Business\TankOptionTests.vb" />
+    <Compile Include="Business\pricing_.vb" />
+    <Compile Include="Business\VoltageRatingTest.vb" />
+    <Compile Include="DataAccess\BoxLoadTests.vb" />
+    <Compile Include="DataAccess\CompaniesDataAccessTest.vb" />
+    <Compile Include="DataAccess\DrawingRepoTests.vb" />
+    <Compile Include="DataAccess\Given_compressor_ZR34K3E_with_refrigerant_407c.vb" />
+    <Compile Include="DataAccess\IdentitiesDataAccessTests.vb" />
+    <Compile Include="DataAccess\nullable_value_.vb" />
+    <Compile Include="DataAccess\ProjectContactsDataAccessTests.vb" />
+    <Compile Include="DataAccess\ReleaseManagerTest.vb" />
+    <Compile Include="tests\manual\word_.vb" />
+    <Compile Include="tests\tools\compressors_without_amp_data_.vb" />
+    <Compile Include="tests\tools\generate_standard_drawings.vb" />
+    <Compile Include="Given_dollar_label_is_set.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="tests\balance_should.vb" />
+    <Compile Include="tests\best_matches_.vb" />
+    <Compile Include="tests\chillers\30A0CS5_R22_standard_.vb" />
+    <Compile Include="tests\chillers\approach_is_in_range_.vb" />
+    <Compile Include="tests\chillers\iplv_for_35E2s_.vb" />
+    <Compile Include="tests\chillers\test_base.vb" />
+    <Compile Include="tests\chiller_evaporators\the_evaporator_mapper.vb" />
+    <Compile Include="tests\friend_scope\the_evaporator_repository.vb" />
+    <Compile Include="tests\chiller_evaporators\the_evaporator_service.vb" />
+    <Compile Include="tests\cofans\cofan_.vb" />
+    <Compile Include="tests\friend_scope\cofan_repository_.vb" />
+    <Compile Include="tests\friend_scope\fan_curve_.vb" />
+    <Compile Include="tests\compressor_repository_.vb" />
+    <Compile Include="tests\condensing_unit_ratings\managed_custom_20a0cm160.vb" />
+    <Compile Include="tests\condensing_unit_repository_.vb" />
+    <Compile Include="tests\config.vb" />
+    <Compile Include="tests\cu_uc_balance_.vb" />
+    <Compile Include="tests\manual\multithreading_with_amce_dll\evaporative_condenser_chiller_35E2SD100_.vb" />
+    <Compile Include="tests\manual\multithreading_with_amce_dll\evaporative_condenser_chiller_35E2SM240_.vb" />
+    <Compile Include="tests\manual\multithreading_with_amce_dll\evaporative_condenser_chiller_35E2SS50_.vb" />
+    <Compile Include="tests\manual\multithreading_with_amce_dll\evaporative_condenser_chiller_mocks.vb" />
+    <Compile Include="tests\Mocks.vb" />
+    <Compile Include="tests\friend_scope\reflection_.vb" />
+    <Compile Include="tests\friend_scope\User_wants_condensing_unit_electrical_data.vb" />
+    <Compile Include="tests\tools\unit_coolers_in_engineering_database_but_not_in_pricing.vb" />
+    <Compile Include="tests\tools\update_.vb" />
+    <Compile Include="tests\validation_summary_.vb" />
+    <Compile Include="unit_cooler_selection_.vb" />
+    <Compile Include="When_viewing_drawings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Rae.Core\Rae.Core.vbproj">
+      <Project>{9B6AAAF0-A2DC-4D7F-9127-8D73FCA70376}</Project>
+      <Name>Rae.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Common\Rae.Data\Rae.Data.vbproj">
+      <Project>{A89527B9-B088-4B4D-B459-6AABA992CC98}</Project>
+      <Name>Rae.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rae.DataAccess.EquipmentOptions\Rae.DataAccess.EquipmentOptions.vbproj">
+      <Project>{2D2BEBD2-466E-4D11-A3EB-0CEB2C20D167}</Project>
+      <Name>Rae.DataAccess.EquipmentOptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rae.RaeSolutions\Rae.RaeSolutions.vbproj">
+      <Project>{E1BC426D-52AD-4842-9D4B-FAC29201668B}</Project>
+      <Name>Rae.RaeSolutions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\rae.reporting.beta\rae.reporting.beta.vbproj">
+      <Project>{9D1FB2FF-A467-4603-98E6-530BE84407E1}</Project>
+      <Name>rae.reporting.beta</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rae.Solutions\RaeSolutions.vbproj">
+      <Project>{1B7774E7-5973-4F84-A20F-2503F30D7D85}</Project>
+      <Name>RaeSolutions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StandardRefrigeration\StandardRefrigeration.vbproj">
+      <Project>{CB36EC95-5A02-4D7A-AD3E-031A3169E7DF}</Project>
+      <Name>StandardRefrigeration</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

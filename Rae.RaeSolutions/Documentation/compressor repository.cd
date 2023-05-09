@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="rae.solutions.air_cooled_chillers.rep_service">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>rae.solutions\air_cooled_chillers\rep_service.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.air_cooled_chillers.service">
+    <Position X="0.5" Y="2.25" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AABAAAAQAAAAAAAAAAAAAAAABAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>rae.solutions\air_cooled_chillers\service.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.chillers.base_chiller_service">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <NestedTypes>
+      <Struct Name="rae.solutions.chillers.base_chiller_service.model_number" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>rae.solutions\chillers\base_chiller_service.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAgQAAAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>rae.solutions\chillers\base_chiller_service.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rae.solutions.evaporative_condenser_chillers.service">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>rae.solutions\evaporative_condenser_chillers\service.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="rae.solutions.compressors.i_compressor_repository">
+    <Position X="3.25" Y="7.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>rae.solutions\compressors\i_compressor_repository.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

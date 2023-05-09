@@ -1,0 +1,16 @@
+open from source control:	on developertfs server (need to be a tfs user)
+register com components:	run reg.bat as administrator
+license componentone: 		S/N: SE30609-VV-141872
+install eDrawings:			\\fileserver1\software\SolidWorks ADD-ON\eDrawings2007\setup.exe
+							don't need to license
+license infragistics:		install \\fileserver1\software\infragistics\
+							key: 9207-1200663-5596133
+install rae auto updater:	\\fileserver1\FileSer1_e\UpDate Control\Rae_Auto_Update_Setup\Package
+							create folder Update_Program at c:\program files\rae_auto_update\
+install crystal reports:	run cr10 cd, insert cr9 cd when installation to find setup.exe, then replace cr10 cd
+							install crystal reports section from vs2005 cd (yes still using 2005 cr components)
+make databases writeable	uncheck readonly checkbox for drawing folder (drawingdata, 20a0capacitiesdec17 and projects databases)
+copy standard ref. dll		from standardrefrigeration project to windows\system32
+run AcmeXHX setup			registers com components; zip file is in standard refrigeration project in dependencies folder
+build each project			i had to build each project before i could build the solution, 
+							build referenced projects before project that references them

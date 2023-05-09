@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="RAE.RAESolutions.ItemCreator">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Submittal\ItemCreator.vb</FileName>
+      <HashCode>AAAIAAARQBAAAAAAAAAQAAAAAAAAAAAAAAQAAAAACCA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RAE.RAESolutions.ItemViewer">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Submittal\ItemViewer.vb</FileName>
+      <HashCode>AiAAAABAACAAAAAAAAAAAAAAEAAAEBAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="RAE.RAESolutions.OpenedProject">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Submittal\OpenedProject.vb</FileName>
+      <HashCode>AAAAABAACAAAAAAAAAAAAAAAAABAFAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="RAE.RAESolutions.ProjectInfo">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Submittal\ProjectInfo.vb</FileName>
+      <HashCode>AAAAQAAAAAAAAQAAAAAAAAAAAAAAgAAAEAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

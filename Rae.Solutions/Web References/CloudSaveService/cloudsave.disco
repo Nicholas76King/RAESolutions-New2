@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://service.raecloud.com/raesolutionsonline2020/cloudsaving/cloudsave.asmx?wsdl" docRef="http://service.raecloud.com/raesolutionsonline2020/cloudsaving/cloudsave.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://service.raecloud.com/raesolutionsonline2020/cloudsaving/cloudsave.asmx" xmlns:q1="http://raesolutions.net/" binding="q1:CloudSaveSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://service.raecloud.com/raesolutionsonline2020/cloudsaving/cloudsave.asmx" xmlns:q2="http://raesolutions.net/" binding="q2:CloudSaveSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

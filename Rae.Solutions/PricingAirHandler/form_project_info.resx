@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="DseProject1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>111, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="dgrC1Projects.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAADdJREFUKFNjYMAE
+        /7GIgYWQJXCxURTCFOE1ESSJoQAmiI9GcSayQqzuR3cLVithOvH6DpsisBgAoKoc5C8W7oEAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="dgrC1Projects.PrintInfo.PageSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACRTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5QYWdlU2V0dGluZ3MHAAAAD3ByaW50ZXJTZXR0aW5ncwVjb2xvcglwYXBlclNp
+        emULcGFwZXJTb3VyY2URcHJpbnRlclJlc29sdXRpb24JbGFuZHNjYXBlB21hcmdpbnMEBAQEBAQEJ1N5
+        c3RlbS5EcmF3aW5nLlByaW50aW5nLlByaW50ZXJTZXR0aW5ncwIAAAAgU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuVHJpU3RhdGUCAAAAIVN5c3RlbS5EcmF3aW5nLlByaW50aW5nLlBhcGVyU2l6ZQIAAAAjU3lz
+        dGVtLkRyYXdpbmcuUHJpbnRpbmcuUGFwZXJTb3VyY2UCAAAAKVN5c3RlbS5EcmF3aW5nLlByaW50aW5n
+        LlByaW50ZXJSZXNvbHV0aW9uAgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAf
+        U3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuTWFyZ2lucwIAAAACAAAACQMAAAAF/P///yBTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5UcmlTdGF0ZQEAAAAFdmFsdWUAAgIAAAAACgoKAfv////8////AAkGAAAABQMA
+        AAAnU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRlclNldHRpbmdzEgAAAAtwcmludGVyTmFtZQpk
+        cml2ZXJOYW1lCm91dHB1dFBvcnQLcHJpbnRUb0ZpbGUUcHJpbnREaWFsb2dEaXNwbGF5ZWQKZXh0cmFi
+        eXRlcwlleHRyYWluZm8GY29waWVzBmR1cGxleAdjb2xsYXRlE2RlZmF1bHRQYWdlU2V0dGluZ3MIZnJv
+        bVBhZ2UGdG9QYWdlB21heFBhZ2UHbWluUGFnZQpwcmludFJhbmdlDGRldm1vZGVieXRlcw1jYWNoZWRE
+        ZXZtb2RlAQEBAAAABwAEBAQAAAAABAAHAQEHAgceU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuRHVwbGV4
+        AgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAkU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuUGFnZVNldHRpbmdzAgAAAAgICAgiU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRSYW5n
+        ZQIAAAAHAgIAAAAKBgcAAAAACQcAAAAAAAAACv//Bfj///8eU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcu
+        RHVwbGV4AQAAAAd2YWx1ZV9fAAgCAAAA/////wH3/////P///wAJCgAAAAAAAAAAAAAADycAAAAAAAAF
+        9f///yJTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QcmludFJhbmdlAQAAAAd2YWx1ZV9fAAgCAAAAAAAA
+        AAAACgUGAAAAH1N5c3RlbS5EcmF3aW5nLlByaW50aW5nLk1hcmdpbnMEAAAABGxlZnQFcmlnaHQDdG9w
+        BmJvdHRvbQAAAAAICAgIAgAAAGQAAABkAAAAZAAAAGQAAAABCgAAAAEAAAAJAwAAAAHz/////P///wAK
+        CgoB8v////z///8ACQ8AAAABDwAAAAYAAABkAAAAZAAAAGQAAABkAAAACw==
+</value>
+  </data>
+  <data name="dgrC1Projects.PropBag" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;Styles type="C1.Win.C1TrueDBGrid.Design.ContextWrapper"&gt;&lt;Data&gt;Style15{}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}OddRow{}Style5{}Style1{}RecordSelector{AlignImage:Center;}Style6{}Style8{}Footer{}Style3{}Style12{}HighlightRow{ForeColor:HighlightText;BackColor:Highlight;}Editor{}Style4{}FilterBar{}EvenRow{BackColor:Aqua;}Style11{}Style13{}Caption{AlignHorz:Center;}Selected{ForeColor:HighlightText;BackColor:Highlight;}Style9{}Style2{}Style14{}Normal{Font:Tahoma, 8.25pt;AlignVert:Center;}Style7{}Heading{Wrap:True;BackColor:Control;Border:Raised,,1, 1, 1, 1;ForeColor:ControlText;AlignVert:Center;}Style10{AlignHorz:Near;}Group{AlignVert:Center;Border:None,,0, 0, 0, 0;BackColor:ControlDark;}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1TrueDBGrid.MergeView HBarStyle="None" VBarStyle="Always" AllowColMove="False" AllowColSelect="False" Name="" CaptionHeight="17" ColumnCaptionHeight="22" ColumnFooterHeight="17" MarqueeStyle="HighlightRow" RecordSelectorWidth="1" DefRecSelWidth="17" RecordSelectors="False" VerticalScrollGroup="1" HorizontalScrollGroup="1"&gt;&lt;Height&gt;168&lt;/Height&gt;&lt;CaptionStyle parent="Style2" me="Style10" /&gt;&lt;EditorStyle parent="Editor" me="Style5" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style8" /&gt;&lt;FilterBarStyle parent="FilterBar" me="Style13" /&gt;&lt;FooterStyle parent="Footer" me="Style3" /&gt;&lt;GroupStyle parent="Group" me="Style12" /&gt;&lt;HeadingStyle parent="Heading" me="Style2" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style7" /&gt;&lt;InactiveStyle parent="Inactive" me="Style4" /&gt;&lt;OddRowStyle parent="OddRow" me="Style9" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style11" /&gt;&lt;SelectedStyle parent="Selected" me="Style6" /&gt;&lt;Style parent="Normal" me="Style1" /&gt;&lt;ClientRect&gt;0, 0, 210, 168&lt;/ClientRect&gt;&lt;BorderSide&gt;0&lt;/BorderSide&gt;&lt;/C1.Win.C1TrueDBGrid.MergeView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="Editor" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Normal" me="FilterBar" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;None&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;ClientArea&gt;0, 0, 210, 170&lt;/ClientArea&gt;&lt;PrintPageHeaderStyle parent="" me="Style14" /&gt;&lt;PrintPageFooterStyle parent="" me="Style15" /&gt;&lt;/Blob&gt;</value>
+  </data>
+  <data name="dgrC1AirHandler.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAADdJREFUKFNjYMAE
+        /7GIgYWQJXCxURTCFOE1ESSJoQAmiI9GcSayQqzuR3cLVithOvH6DpsisBgAoKoc5C8W7oEAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="dgrC1AirHandler.PrintInfo.PageSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACRTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5QYWdlU2V0dGluZ3MHAAAAD3ByaW50ZXJTZXR0aW5ncwVjb2xvcglwYXBlclNp
+        emULcGFwZXJTb3VyY2URcHJpbnRlclJlc29sdXRpb24JbGFuZHNjYXBlB21hcmdpbnMEBAQEBAQEJ1N5
+        c3RlbS5EcmF3aW5nLlByaW50aW5nLlByaW50ZXJTZXR0aW5ncwIAAAAgU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuVHJpU3RhdGUCAAAAIVN5c3RlbS5EcmF3aW5nLlByaW50aW5nLlBhcGVyU2l6ZQIAAAAjU3lz
+        dGVtLkRyYXdpbmcuUHJpbnRpbmcuUGFwZXJTb3VyY2UCAAAAKVN5c3RlbS5EcmF3aW5nLlByaW50aW5n
+        LlByaW50ZXJSZXNvbHV0aW9uAgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAf
+        U3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuTWFyZ2lucwIAAAACAAAACQMAAAAF/P///yBTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5UcmlTdGF0ZQEAAAAFdmFsdWUAAgIAAAAACgoKAfv////8////AAkGAAAABQMA
+        AAAnU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRlclNldHRpbmdzEgAAAAtwcmludGVyTmFtZQpk
+        cml2ZXJOYW1lCm91dHB1dFBvcnQLcHJpbnRUb0ZpbGUUcHJpbnREaWFsb2dEaXNwbGF5ZWQKZXh0cmFi
+        eXRlcwlleHRyYWluZm8GY29waWVzBmR1cGxleAdjb2xsYXRlE2RlZmF1bHRQYWdlU2V0dGluZ3MIZnJv
+        bVBhZ2UGdG9QYWdlB21heFBhZ2UHbWluUGFnZQpwcmludFJhbmdlDGRldm1vZGVieXRlcw1jYWNoZWRE
+        ZXZtb2RlAQEBAAAABwAEBAQAAAAABAAHAQEHAgceU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuRHVwbGV4
+        AgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAkU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuUGFnZVNldHRpbmdzAgAAAAgICAgiU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRSYW5n
+        ZQIAAAAHAgIAAAAKBgcAAAAACQcAAAAAAAAACv//Bfj///8eU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcu
+        RHVwbGV4AQAAAAd2YWx1ZV9fAAgCAAAA/////wH3/////P///wAJCgAAAAAAAAAAAAAADycAAAAAAAAF
+        9f///yJTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QcmludFJhbmdlAQAAAAd2YWx1ZV9fAAgCAAAAAAAA
+        AAAACgUGAAAAH1N5c3RlbS5EcmF3aW5nLlByaW50aW5nLk1hcmdpbnMEAAAABGxlZnQFcmlnaHQDdG9w
+        BmJvdHRvbQAAAAAICAgIAgAAAGQAAABkAAAAZAAAAGQAAAABCgAAAAEAAAAJAwAAAAHz/////P///wAK
+        CgoB8v////z///8ACQ8AAAABDwAAAAYAAABkAAAAZAAAAGQAAABkAAAACw==
+</value>
+  </data>
+  <data name="dgrC1AirHandler.PropBag" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;DataCols&gt;&lt;C1DataColumn Caption="Tag" DataField="Tag"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Airflow" DataField="Airflow" DataTypeInternal="System.Double"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Project ID" DataField="ProjectID" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="External Static Pressure" DataField="ExternalStaticPressure" DataTypeInternal="System.Double"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Location" DataField="Location"&gt;&lt;ValueItems Presentation="ComboBox"&gt;&lt;internalValues&gt;&lt;ValueItem type="C1.Win.C1TrueDBGrid.ValueItem" Value="Indoor" /&gt;&lt;ValueItem type="C1.Win.C1TrueDBGrid.ValueItem" Value="Outdoor" /&gt;&lt;/internalValues&gt;&lt;/ValueItems&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Paint" DataField="Paint" DataTypeInternal="System.Boolean"&gt;&lt;ValueItems Presentation="CheckBox" /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="AirHandlerID" DataField="AirHandlerID" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Panel Thickness" DataField="PanelThickness" DataTypeInternal="System.Int16"&gt;&lt;ValueItems Presentation="ComboBox"&gt;&lt;internalValues&gt;&lt;ValueItem type="C1.Win.C1TrueDBGrid.ValueItem" Value="1" /&gt;&lt;ValueItem type="C1.Win.C1TrueDBGrid.ValueItem" Value="2" /&gt;&lt;ValueItem type="C1.Win.C1TrueDBGrid.ValueItem" Value="3" /&gt;&lt;ValueItem type="C1.Win.C1TrueDBGrid.ValueItem" Value="4" /&gt;&lt;/internalValues&gt;&lt;/ValueItems&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="AirHandlerID" DataField="AirHandlerID" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Panel Thickness" DataField="PanelThickness" DataTypeInternal="System.Int16"&gt;&lt;ValueItems Presentation="ComboBox"&gt;&lt;internalValues&gt;&lt;ValueItem type="C1.Win.C1TrueDBGrid.ValueItem" Value="2" /&gt;&lt;ValueItem type="C1.Win.C1TrueDBGrid.ValueItem" Value="4" /&gt;&lt;/internalValues&gt;&lt;/ValueItems&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Select Model" DataField=""&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;/DataCols&gt;&lt;Styles type="C1.Win.C1TrueDBGrid.Design.ContextWrapper"&gt;&lt;Data&gt;Style212{AlignHorz:Center;}Style307{}OddRow{}Style168{}Style164{AlignHorz:Center;}Style6{}Style286{}Style282{}RecordSelector{AlignImage:Center;}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}Style20{AlignHorz:Center;}Style249{AlignHorz:Center;}Style8{}Style32{}Style253{}Style279{AlignHorz:Center;}Style15{AlignHorz:Near;}Style216{}Style215{}Style306{}Style302{AlignHorz:Center;}Style1{Font:Tahoma, 8.25pt;AlignVert:Center;}Style24{}Style167{}Style285{AlignHorz:Center;}Style281{}Caption{AlignHorz:Center;}Style27{AlignHorz:Center;}Style303{AlignHorz:Near;}Selected{ForeColor:HighlightText;BackColor:Highlight;}Style22{}Style248{AlignHorz:Center;}Style31{}Normal{Font:Tahoma, 8.25pt;}Style278{AlignHorz:Center;}EvenRow{BackColor:Aqua;}Style28{}Style10{AlignHorz:Near;BackColor:Control;}Group{BackColor:ControlDark;Border:None,,0, 0, 0, 0;AlignVert:Center;}Style305{}Style13{}Footer{}Style289{}Style166{}Style288{}Style284{AlignHorz:Center;}Style280{}Style252{}Style26{AlignHorz:Center;}FilterBar{}Heading{Wrap:True;AlignVert:Center;Border:Raised,,1, 1, 1, 1;ForeColor:ControlText;BackColor:Control;}Style19{}Style21{AlignHorz:Center;}Style4{}Style14{AlignHorz:Near;}Style251{}Style3{}Style23{}Style17{}Style214{}Style5{BackColor:Highlight;}Style304{}Editor{}HighlightRow{ForeColor:HighlightText;BackColor:Highlight;}Style169{}Style165{AlignHorz:Center;}Style287{}Style283{}Style25{}Style18{}Style7{}Style30{}Style2{}Style250{}Style33{}Style9{}Style29{}Style16{}Style11{}Style12{}Style217{}Style213{AlignHorz:Far;}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1TrueDBGrid.MergeView Name="" CaptionHeight="17" ColumnCaptionHeight="32" ColumnFooterHeight="17" MarqueeStyle="DottedCellBorder" RecordSelectorWidth="17" DefRecSelWidth="17" VerticalScrollGroup="1" HorizontalScrollGroup="1"&gt;&lt;Height&gt;208&lt;/Height&gt;&lt;CaptionStyle parent="Style2" me="Style10" /&gt;&lt;EditorStyle parent="Editor" me="Style5" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style8" /&gt;&lt;FilterBarStyle parent="FilterBar" me="Style13" /&gt;&lt;FooterStyle parent="Footer" me="Style3" /&gt;&lt;GroupStyle parent="Group" me="Style12" /&gt;&lt;HeadingStyle parent="Heading" me="Style2" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style7" /&gt;&lt;InactiveStyle parent="Inactive" me="Style4" /&gt;&lt;OddRowStyle parent="OddRow" me="Style9" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style11" /&gt;&lt;SelectedStyle parent="Selected" me="Style6" /&gt;&lt;Style parent="Normal" me="Style1" /&gt;&lt;internalCols&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style302" /&gt;&lt;Style parent="Style1" me="Style303" /&gt;&lt;FooterStyle parent="Style3" me="Style304" /&gt;&lt;EditorStyle parent="Style5" me="Style305" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style307" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style306" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;0&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style164" /&gt;&lt;Style parent="Style1" me="Style165" /&gt;&lt;FooterStyle parent="Style3" me="Style166" /&gt;&lt;EditorStyle parent="Style5" me="Style167" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style169" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style168" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;76&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;1&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style248" /&gt;&lt;Style parent="Style1" me="Style249" /&gt;&lt;FooterStyle parent="Style3" me="Style250" /&gt;&lt;EditorStyle parent="Style5" me="Style251" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style253" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style252" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;93&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;3&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;DropDownList&gt;True&lt;/DropDownList&gt;&lt;HeadingStyle parent="Style2" me="Style278" /&gt;&lt;Style parent="Style1" me="Style279" /&gt;&lt;FooterStyle parent="Style3" me="Style280" /&gt;&lt;EditorStyle parent="Style5" me="Style281" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style283" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style282" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;77&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;Button&gt;True&lt;/Button&gt;&lt;DCIdx&gt;4&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style284" /&gt;&lt;Style parent="Style1" me="Style285" /&gt;&lt;FooterStyle parent="Style3" me="Style286" /&gt;&lt;EditorStyle parent="Style5" me="Style287" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style289" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style288" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;55&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;5&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;DropDownList&gt;True&lt;/DropDownList&gt;&lt;HeadingStyle parent="Style2" me="Style20" /&gt;&lt;Style parent="Style1" me="Style21" /&gt;&lt;FooterStyle parent="Style3" me="Style22" /&gt;&lt;EditorStyle parent="Style5" me="Style23" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style25" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style24" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;92&lt;/Width&gt;&lt;Height&gt;22&lt;/Height&gt;&lt;Button&gt;True&lt;/Button&gt;&lt;DCIdx&gt;9&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style26" /&gt;&lt;Style parent="Style1" me="Style27" /&gt;&lt;FooterStyle parent="Style3" me="Style28" /&gt;&lt;EditorStyle parent="Style5" me="Style29" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style31" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style30" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;Height&gt;22&lt;/Height&gt;&lt;ButtonText&gt;True&lt;/ButtonText&gt;&lt;ButtonAlways&gt;True&lt;/ButtonAlways&gt;&lt;Button&gt;True&lt;/Button&gt;&lt;DCIdx&gt;10&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style212" /&gt;&lt;Style parent="Style1" me="Style213" /&gt;&lt;FooterStyle parent="Style3" me="Style214" /&gt;&lt;EditorStyle parent="Style5" me="Style215" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style217" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style216" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;63&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;2&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style14" /&gt;&lt;Style parent="Style1" me="Style15" /&gt;&lt;FooterStyle parent="Style3" me="Style16" /&gt;&lt;EditorStyle parent="Style5" me="Style17" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style19" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style18" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;69&lt;/Width&gt;&lt;Height&gt;22&lt;/Height&gt;&lt;DCIdx&gt;8&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;/internalCols&gt;&lt;ClientRect&gt;0, 0, 610, 208&lt;/ClientRect&gt;&lt;BorderSide&gt;0&lt;/BorderSide&gt;&lt;/C1.Win.C1TrueDBGrid.MergeView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="Editor" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Normal" me="FilterBar" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;Modified&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;ClientArea&gt;0, 0, 610, 208&lt;/ClientArea&gt;&lt;PrintPageHeaderStyle parent="" me="Style32" /&gt;&lt;PrintPageFooterStyle parent="" me="Style33" /&gt;&lt;/Blob&gt;</value>
+  </data>
+  <data name="dgrC1Summary.Images" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAADdJREFUKFNjYMAE
+        /7GIgYWQJXCxURTCFOE1ESSJoQAmiI9GcSayQqzuR3cLVithOvH6DpsisBgAoKoc5C8W7oEAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="dgrC1Summary.PrintInfo.PageSettings" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0
+        dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACRTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5QYWdlU2V0dGluZ3MHAAAAD3ByaW50ZXJTZXR0aW5ncwVjb2xvcglwYXBlclNp
+        emULcGFwZXJTb3VyY2URcHJpbnRlclJlc29sdXRpb24JbGFuZHNjYXBlB21hcmdpbnMEBAQEBAQEJ1N5
+        c3RlbS5EcmF3aW5nLlByaW50aW5nLlByaW50ZXJTZXR0aW5ncwIAAAAgU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuVHJpU3RhdGUCAAAAIVN5c3RlbS5EcmF3aW5nLlByaW50aW5nLlBhcGVyU2l6ZQIAAAAjU3lz
+        dGVtLkRyYXdpbmcuUHJpbnRpbmcuUGFwZXJTb3VyY2UCAAAAKVN5c3RlbS5EcmF3aW5nLlByaW50aW5n
+        LlByaW50ZXJSZXNvbHV0aW9uAgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAf
+        U3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuTWFyZ2lucwIAAAACAAAACQMAAAAF/P///yBTeXN0ZW0uRHJh
+        d2luZy5QcmludGluZy5UcmlTdGF0ZQEAAAAFdmFsdWUAAgIAAAAACgoKAfv////8////AAkGAAAABQMA
+        AAAnU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRlclNldHRpbmdzEgAAAAtwcmludGVyTmFtZQpk
+        cml2ZXJOYW1lCm91dHB1dFBvcnQLcHJpbnRUb0ZpbGUUcHJpbnREaWFsb2dEaXNwbGF5ZWQKZXh0cmFi
+        eXRlcwlleHRyYWluZm8GY29waWVzBmR1cGxleAdjb2xsYXRlE2RlZmF1bHRQYWdlU2V0dGluZ3MIZnJv
+        bVBhZ2UGdG9QYWdlB21heFBhZ2UHbWluUGFnZQpwcmludFJhbmdlDGRldm1vZGVieXRlcw1jYWNoZWRE
+        ZXZtb2RlAQEBAAAABwAEBAQAAAAABAAHAQEHAgceU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuRHVwbGV4
+        AgAAACBTeXN0ZW0uRHJhd2luZy5QcmludGluZy5UcmlTdGF0ZQIAAAAkU3lzdGVtLkRyYXdpbmcuUHJp
+        bnRpbmcuUGFnZVNldHRpbmdzAgAAAAgICAgiU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcuUHJpbnRSYW5n
+        ZQIAAAAHAgIAAAAKBgcAAAAACQcAAAAAAAAACv//Bfj///8eU3lzdGVtLkRyYXdpbmcuUHJpbnRpbmcu
+        RHVwbGV4AQAAAAd2YWx1ZV9fAAgCAAAA/////wH3/////P///wAJCgAAAAAAAAAAAAAADycAAAAAAAAF
+        9f///yJTeXN0ZW0uRHJhd2luZy5QcmludGluZy5QcmludFJhbmdlAQAAAAd2YWx1ZV9fAAgCAAAAAAAA
+        AAAACgUGAAAAH1N5c3RlbS5EcmF3aW5nLlByaW50aW5nLk1hcmdpbnMEAAAABGxlZnQFcmlnaHQDdG9w
+        BmJvdHRvbQAAAAAICAgIAgAAAGQAAABkAAAAZAAAAGQAAAABCgAAAAEAAAAJAwAAAAHz/////P///wAK
+        CgoB8v////z///8ACQ8AAAABDwAAAAYAAABkAAAAZAAAAGQAAABkAAAACw==
+</value>
+  </data>
+  <data name="dgrC1Summary.PropBag" xml:space="preserve">
+    <value>&lt;?xml version="1.0"?&gt;&lt;Blob&gt;&lt;DataCols&gt;&lt;C1DataColumn Caption="Airflow" DataField="Airflow" DataTypeInternal="System.Double"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="AirHandlerID" DataField="AirHandlerID" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Base Cost" DataField="BaseCost" DataTypeInternal="System.Single"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="BaseMaterial" DataField="BaseMaterial"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="CabinetIndex" DataField="CabinetIndex" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="CoilFaceVelocity" DataField="CoilFaceVelocity" DataTypeInternal="System.Double"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="CoilIndex" DataField="CoilIndex" DataTypeInternal="System.Int16"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="CoilSize" DataField="CoilSize"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="ExternalStaticPressure" DataField="ExternalStaticPressure" DataTypeInternal="System.Double"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="FilterFaceVelocity" DataField="FilterFaceVelocity" DataTypeInternal="System.Double"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="FilterSize" DataField="FilterSize"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Height" DataField="Height" DataTypeInternal="System.Single"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Length" DataField="Length" DataTypeInternal="System.Single"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="List Price" DataField="ListPrice" DataTypeInternal="System.Single"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Location" DataField="Location"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="MarginPrice" DataField="MarginPrice" DataTypeInternal="System.Single"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Model Number" DataField="ModelNumber"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="NumAirSeals" DataField="NumAirSeals" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="NumDoors" DataField="NumDoors" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Paint" DataField="Paint" DataTypeInternal="System.Boolean"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="PanelThickness" DataField="PanelThickness" DataTypeInternal="System.Int16"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="ProjectID" DataField="ProjectID" DataTypeInternal="System.Int32"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="ShipWeight" DataField="ShipWeight"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Tag" DataField="Tag"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Width" DataField="Width" DataTypeInternal="System.Single"&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;C1DataColumn Caption="Unit Report" DataField=""&gt;&lt;ValueItems /&gt;&lt;GroupInfo /&gt;&lt;/C1DataColumn&gt;&lt;/DataCols&gt;&lt;Styles type="C1.Win.C1TrueDBGrid.Design.ContextWrapper"&gt;&lt;Data&gt;Style295{}Style306{}Style217{}Style289{}Style193{}Style284{AlignHorz:Far;}Style11{}Style245{}Style238{}Style1{AlignVert:Center;}Style194{AlignHorz:Far;}Style179{}FilterBar{}Style186{}Style176{AlignHorz:Center;}Style225{AlignHorz:Near;}Style233{}Style164{AlignHorz:Far;}Style283{}Style187{}Style264{}Style256{}Style301{}Style197{}Style240{}HighlightRow{ForeColor:HighlightText;BackColor:Highlight;}Style192{}Style8{}OddRow{}Style188{AlignHorz:Far;}Style180{}Style237{AlignHorz:Center;}Style18{}Style236{AlignHorz:Center;}Style253{}Style171{AlignHorz:Far;}Style185{}Style224{AlignHorz:Near;}Style167{}Style312{}Style223{}Style294{}Style219{AlignHorz:Far;}Style279{AlignHorz:Center;}Style300{}Style257{}Style290{AlignHorz:Far;}Style212{AlignHorz:Far;}Style255{AlignHorz:Near;}Style247{}Style286{}Style15{AlignHorz:Center;}Style202{}Style278{AlignHorz:Center;}Style10{AlignHorz:Near;}Style175{}Style231{AlignHorz:Center;}Style170{AlignHorz:Far;}Style227{}Style166{}EvenRow{BackColor:Aqua;}Style218{AlignHorz:Far;}Style12{}Style196{}Style303{AlignHorz:Near;}Style210{}Style293{}Style220{}Style21{}Style6{}Style205{}Style190{}Style2{}Style182{AlignHorz:Near;}Style235{}Style195{AlignHorz:Far;}Style174{}Style276{}Style168{}Style173{}Style207{AlignHorz:Near;}Style311{}Style226{}Style260{AlignHorz:Center;}Style7{}Style296{AlignHorz:Near;}Style230{AlignHorz:Center;}Style280{}Style263{}Style222{}Style259{}Style302{AlignHorz:Near;}Style213{AlignHorz:Far;}Style209{}Style292{}Style241{}Style288{}Style211{}Footer{}Style204{}Style203{}Style242{AlignHorz:Center;}Normal{Font:Tahoma, 8.25pt;}Style199{}Style14{AlignHorz:Center;}Style215{}Style271{}Editor{}Style198{}Style172{}Style310{}Style267{AlignHorz:Far;}Style262{}Style305{}Style258{}Style16{}Style3{}Style287{}Style221{}Style250{}Style189{AlignHorz:Far;}Style19{}Style265{}Style177{AlignHorz:Far;}Inactive{ForeColor:InactiveCaptionText;BackColor:InactiveCaption;}Style244{}Style184{}Selected{ForeColor:HighlightText;BackColor:Highlight;}Style20{}Style206{AlignHorz:Near;}Style4{}Style181{}Style270{}Style232{}Style228{}Style13{}Style313{}Style266{AlignHorz:Far;}Style309{AlignHorz:Center;}Style299{}Style251{}Style304{}Style291{AlignHorz:Far;}Group{BackColor:ControlDark;Border:None,,0, 0, 0, 0;AlignVert:Center;}Style243{AlignHorz:Far;}Style275{}Style249{AlignHorz:Near;}Style282{}Caption{AlignHorz:Center;}Style229{}Style274{}Style273{AlignHorz:Far;}RecordSelector{AlignImage:Center;}Style269{}Style169{}Style277{}Style261{AlignHorz:Near;}Style308{AlignHorz:Center;}Heading{Wrap:True;AlignVert:Center;Border:Raised,,1, 1, 1, 1;ForeColor:ControlText;BackColor:Control;}Style297{AlignHorz:Near;}Style298{}Style281{}Style307{}Style214{}Style254{AlignHorz:Near;}Style252{}Style248{AlignHorz:Near;}Style5{}Style246{}Style285{AlignHorz:Far;}Style216{}Style191{}Style201{AlignHorz:Far;}Style200{AlignHorz:Far;}Style239{}Style183{AlignHorz:Near;}Style178{}Style234{}Style9{}Style272{AlignHorz:Far;}Style268{}Style17{}Style165{AlignHorz:Far;}Style208{}&lt;/Data&gt;&lt;/Styles&gt;&lt;Splits&gt;&lt;C1.Win.C1TrueDBGrid.MergeView AllowColMove="False" AllowColSelect="False" AllowRowSelect="False" Name="" CaptionHeight="17" ColumnCaptionHeight="22" ColumnFooterHeight="17" MarqueeStyle="DottedCellBorder" RecordSelectorWidth="17" DefRecSelWidth="17" VerticalScrollGroup="1" HorizontalScrollGroup="1"&gt;&lt;Height&gt;236&lt;/Height&gt;&lt;CaptionStyle parent="Style2" me="Style10" /&gt;&lt;EditorStyle parent="Editor" me="Style5" /&gt;&lt;EvenRowStyle parent="EvenRow" me="Style8" /&gt;&lt;FilterBarStyle parent="FilterBar" me="Style13" /&gt;&lt;FooterStyle parent="Footer" me="Style3" /&gt;&lt;GroupStyle parent="Group" me="Style12" /&gt;&lt;HeadingStyle parent="Heading" me="Style2" /&gt;&lt;HighLightRowStyle parent="HighlightRow" me="Style7" /&gt;&lt;InactiveStyle parent="Inactive" me="Style4" /&gt;&lt;OddRowStyle parent="OddRow" me="Style9" /&gt;&lt;RecordSelectorStyle parent="RecordSelector" me="Style11" /&gt;&lt;SelectedStyle parent="Selected" me="Style6" /&gt;&lt;Style parent="Normal" me="Style1" /&gt;&lt;internalCols&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style164" /&gt;&lt;Style parent="Style1" me="Style165" /&gt;&lt;FooterStyle parent="Style3" me="Style166" /&gt;&lt;EditorStyle parent="Style5" me="Style167" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style169" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style168" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;0&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style170" /&gt;&lt;Style parent="Style1" me="Style171" /&gt;&lt;FooterStyle parent="Style3" me="Style172" /&gt;&lt;EditorStyle parent="Style5" me="Style173" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style175" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style174" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;1&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style260" /&gt;&lt;Style parent="Style1" me="Style261" /&gt;&lt;FooterStyle parent="Style3" me="Style262" /&gt;&lt;EditorStyle parent="Style5" me="Style263" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style265" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style264" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;85&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;16&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style236" /&gt;&lt;Style parent="Style1" me="Style237" /&gt;&lt;FooterStyle parent="Style3" me="Style238" /&gt;&lt;EditorStyle parent="Style5" me="Style239" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style241" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style240" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;45&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;12&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style308" /&gt;&lt;Style parent="Style1" me="Style309" /&gt;&lt;FooterStyle parent="Style3" me="Style310" /&gt;&lt;EditorStyle parent="Style5" me="Style311" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style313" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style312" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;45&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;24&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style230" /&gt;&lt;Style parent="Style1" me="Style231" /&gt;&lt;FooterStyle parent="Style3" me="Style232" /&gt;&lt;EditorStyle parent="Style5" me="Style233" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style235" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style234" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;45&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;11&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style242" /&gt;&lt;Style parent="Style1" me="Style243" /&gt;&lt;FooterStyle parent="Style3" me="Style244" /&gt;&lt;EditorStyle parent="Style5" me="Style245" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style247" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style246" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;85&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;13&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style176" /&gt;&lt;Style parent="Style1" me="Style177" /&gt;&lt;FooterStyle parent="Style3" me="Style178" /&gt;&lt;EditorStyle parent="Style5" me="Style179" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style181" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style180" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;85&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;2&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style182" /&gt;&lt;Style parent="Style1" me="Style183" /&gt;&lt;FooterStyle parent="Style3" me="Style184" /&gt;&lt;EditorStyle parent="Style5" me="Style185" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style187" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style186" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;3&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style188" /&gt;&lt;Style parent="Style1" me="Style189" /&gt;&lt;FooterStyle parent="Style3" me="Style190" /&gt;&lt;EditorStyle parent="Style5" me="Style191" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style193" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style192" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;4&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style194" /&gt;&lt;Style parent="Style1" me="Style195" /&gt;&lt;FooterStyle parent="Style3" me="Style196" /&gt;&lt;EditorStyle parent="Style5" me="Style197" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style199" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style198" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;5&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style200" /&gt;&lt;Style parent="Style1" me="Style201" /&gt;&lt;FooterStyle parent="Style3" me="Style202" /&gt;&lt;EditorStyle parent="Style5" me="Style203" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style205" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style204" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;6&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style206" /&gt;&lt;Style parent="Style1" me="Style207" /&gt;&lt;FooterStyle parent="Style3" me="Style208" /&gt;&lt;EditorStyle parent="Style5" me="Style209" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style211" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style210" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;7&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style212" /&gt;&lt;Style parent="Style1" me="Style213" /&gt;&lt;FooterStyle parent="Style3" me="Style214" /&gt;&lt;EditorStyle parent="Style5" me="Style215" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style217" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style216" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;8&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style218" /&gt;&lt;Style parent="Style1" me="Style219" /&gt;&lt;FooterStyle parent="Style3" me="Style220" /&gt;&lt;EditorStyle parent="Style5" me="Style221" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style223" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style222" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;9&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style224" /&gt;&lt;Style parent="Style1" me="Style225" /&gt;&lt;FooterStyle parent="Style3" me="Style226" /&gt;&lt;EditorStyle parent="Style5" me="Style227" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style229" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style228" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;10&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style248" /&gt;&lt;Style parent="Style1" me="Style249" /&gt;&lt;FooterStyle parent="Style3" me="Style250" /&gt;&lt;EditorStyle parent="Style5" me="Style251" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style253" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style252" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;14&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style254" /&gt;&lt;Style parent="Style1" me="Style255" /&gt;&lt;FooterStyle parent="Style3" me="Style256" /&gt;&lt;EditorStyle parent="Style5" me="Style257" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style259" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style258" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;83&lt;/Width&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;15&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style266" /&gt;&lt;Style parent="Style1" me="Style267" /&gt;&lt;FooterStyle parent="Style3" me="Style268" /&gt;&lt;EditorStyle parent="Style5" me="Style269" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style271" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style270" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;17&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style272" /&gt;&lt;Style parent="Style1" me="Style273" /&gt;&lt;FooterStyle parent="Style3" me="Style274" /&gt;&lt;EditorStyle parent="Style5" me="Style275" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style277" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style276" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;18&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style278" /&gt;&lt;Style parent="Style1" me="Style279" /&gt;&lt;FooterStyle parent="Style3" me="Style280" /&gt;&lt;EditorStyle parent="Style5" me="Style281" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style283" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style282" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;19&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style284" /&gt;&lt;Style parent="Style1" me="Style285" /&gt;&lt;FooterStyle parent="Style3" me="Style286" /&gt;&lt;EditorStyle parent="Style5" me="Style287" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style289" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style288" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;20&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style290" /&gt;&lt;Style parent="Style1" me="Style291" /&gt;&lt;FooterStyle parent="Style3" me="Style292" /&gt;&lt;EditorStyle parent="Style5" me="Style293" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style295" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style294" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;21&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style296" /&gt;&lt;Style parent="Style1" me="Style297" /&gt;&lt;FooterStyle parent="Style3" me="Style298" /&gt;&lt;EditorStyle parent="Style5" me="Style299" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style301" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style300" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;22&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style302" /&gt;&lt;Style parent="Style1" me="Style303" /&gt;&lt;FooterStyle parent="Style3" me="Style304" /&gt;&lt;EditorStyle parent="Style5" me="Style305" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style307" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style306" /&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Height&gt;15&lt;/Height&gt;&lt;DCIdx&gt;23&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;C1DisplayColumn&gt;&lt;HeadingStyle parent="Style2" me="Style14" /&gt;&lt;Style parent="Style1" me="Style15" /&gt;&lt;FooterStyle parent="Style3" me="Style16" /&gt;&lt;EditorStyle parent="Style5" me="Style17" /&gt;&lt;GroupHeaderStyle parent="Style1" me="Style19" /&gt;&lt;GroupFooterStyle parent="Style1" me="Style18" /&gt;&lt;Visible&gt;True&lt;/Visible&gt;&lt;ColumnDivider&gt;DarkGray,Single&lt;/ColumnDivider&gt;&lt;Width&gt;75&lt;/Width&gt;&lt;Height&gt;22&lt;/Height&gt;&lt;ButtonText&gt;True&lt;/ButtonText&gt;&lt;ButtonAlways&gt;True&lt;/ButtonAlways&gt;&lt;Button&gt;True&lt;/Button&gt;&lt;DCIdx&gt;25&lt;/DCIdx&gt;&lt;/C1DisplayColumn&gt;&lt;/internalCols&gt;&lt;ClientRect&gt;0, 0, 489, 236&lt;/ClientRect&gt;&lt;BorderSide&gt;0&lt;/BorderSide&gt;&lt;/C1.Win.C1TrueDBGrid.MergeView&gt;&lt;/Splits&gt;&lt;NamedStyles&gt;&lt;Style parent="" me="Normal" /&gt;&lt;Style parent="Normal" me="Heading" /&gt;&lt;Style parent="Heading" me="Footer" /&gt;&lt;Style parent="Heading" me="Caption" /&gt;&lt;Style parent="Heading" me="Inactive" /&gt;&lt;Style parent="Normal" me="Selected" /&gt;&lt;Style parent="Normal" me="Editor" /&gt;&lt;Style parent="Normal" me="HighlightRow" /&gt;&lt;Style parent="Normal" me="EvenRow" /&gt;&lt;Style parent="Normal" me="OddRow" /&gt;&lt;Style parent="Heading" me="RecordSelector" /&gt;&lt;Style parent="Normal" me="FilterBar" /&gt;&lt;Style parent="Caption" me="Group" /&gt;&lt;/NamedStyles&gt;&lt;vertSplits&gt;1&lt;/vertSplits&gt;&lt;horzSplits&gt;1&lt;/horzSplits&gt;&lt;Layout&gt;Modified&lt;/Layout&gt;&lt;DefaultRecSelWidth&gt;17&lt;/DefaultRecSelWidth&gt;&lt;ClientArea&gt;0, 0, 491, 238&lt;/ClientArea&gt;&lt;PrintPageHeaderStyle parent="" me="Style20" /&gt;&lt;PrintPageFooterStyle parent="" me="Style21" /&gt;&lt;/Blob&gt;</value>
+  </data>
+  <metadata name="lbl_Unit_Net.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>346, 17</value>
+  </metadata>
+  <metadata name="ck_selection_1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>222, 17</value>
+  </metadata>
+  <metadata name="errProjectInfo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>458, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>87</value>
+  </metadata>
+  <metadata name="conProject.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>578, 17</value>
+  </metadata>
+  <data name="conProject.ConnectionString" xml:space="preserve">
+    <value>Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Registry Path=;Jet OLEDB:Database Locking Mode=1;Data Source="C:\Program Files\Microsoft Visual Studio .NET\Common7\IDE\RAESolutions\PricingAirHandler\Databases\InfoReturn.mdb";Mode=Share Deny None;Jet OLEDB:Engine Type=5;Provider="Microsoft.Jet.OLEDB.4.0";Jet OLEDB:System database=;Jet OLEDB:SFP=False;persist security info=False;Extended Properties=;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Create System Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;User ID=Admin;Jet OLEDB:Global Bulk Transactions=1</value>
+  </data>
+  <metadata name="dadProject.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>682, 17</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM SavedProject WHERE (ProjectID = ?) AND (Altitude = ? OR ? IS NULL AND Altitude IS NULL) AND (Contractor = ? OR ? IS NULL AND Contractor IS NULL) AND (Engineer = ? OR ? IS NULL AND Engineer IS NULL) AND (FreightCost = ? OR ? IS NULL AND FreightCost IS NULL) AND (Location = ? OR ? IS NULL AND Location IS NULL) AND (Misc1Cost = ? OR ? IS NULL AND Misc1Cost IS NULL) AND (Misc1Label = ? OR ? IS NULL AND Misc1Label IS NULL) AND (Misc2Cost = ? OR ? IS NULL AND Misc2Cost IS NULL) AND (Misc2Label = ? OR ? IS NULL AND Misc2Label IS NULL) AND (Misc3Cost = ? OR ? IS NULL AND Misc3Cost IS NULL) AND (Misc3Label = ? OR ? IS NULL AND Misc3Label IS NULL) AND (Multiplier = ? OR ? IS NULL AND Multiplier IS NULL) AND (Owner = ? OR ? IS NULL AND Owner IS NULL) AND (ProjectName = ? OR ? IS NULL AND ProjectName IS NULL) AND (Quantity = ? OR ? IS NULL AND Quantity IS NULL) AND (QuoteNumber = ? OR ? IS NULL AND QuoteNumber IS NULL) AND (SalesPerson = ? OR ? IS NULL AND SalesPerson IS NULL) AND (StartupCost = ? OR ? IS NULL AND StartupCost IS NULL) AND (TotalListPrice = ? OR ? IS NULL AND TotalListPrice IS NULL) AND (Voltage = ? OR ? IS NULL AND Voltage IS NULL) AND (WarrantyCost = ? OR ? IS NULL AND WarrantyCost IS NULL)</value>
+  </data>
+  <metadata name="OleDbInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO SavedProject(Altitude, Contractor, CustomerNotes, Engineer, FreightCost, JobNotes, Location, Misc1Cost, Misc1Label, Misc2Cost, Misc2Label, Misc3Cost, Misc3Label, Multiplier, Owner, ProjectName, Quantity, QuoteNumber, SalesPerson, StartupCost, TotalListPrice, Voltage, WarrantyCost) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</value>
+  </data>
+  <metadata name="OleDbSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT Altitude, Contractor, CustomerNotes, Engineer, FreightCost, JobNotes, Location, Misc1Cost, Misc1Label, Misc2Cost, Misc2Label, Misc3Cost, Misc3Label, Multiplier, Owner, ProjectID, ProjectName, Quantity, QuoteNumber, SalesPerson, StartupCost, TotalListPrice, Voltage, WarrantyCost FROM SavedProject WHERE (QuoteNumber = ?)</value>
+  </data>
+  <metadata name="OleDbUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE SavedProject SET Altitude = ?, Contractor = ?, CustomerNotes = ?, Engineer = ?, FreightCost = ?, JobNotes = ?, Location = ?, Misc1Cost = ?, Misc1Label = ?, Misc2Cost = ?, Misc2Label = ?, Misc3Cost = ?, Misc3Label = ?, Multiplier = ?, Owner = ?, ProjectName = ?, Quantity = ?, QuoteNumber = ?, SalesPerson = ?, StartupCost = ?, TotalListPrice = ?, Voltage = ?, WarrantyCost = ? WHERE (ProjectID = ?) AND (Altitude = ? OR ? IS NULL AND Altitude IS NULL) AND (Contractor = ? OR ? IS NULL AND Contractor IS NULL) AND (Engineer = ? OR ? IS NULL AND Engineer IS NULL) AND (FreightCost = ? OR ? IS NULL AND FreightCost IS NULL) AND (Location = ? OR ? IS NULL AND Location IS NULL) AND (Misc1Cost = ? OR ? IS NULL AND Misc1Cost IS NULL) AND (Misc1Label = ? OR ? IS NULL AND Misc1Label IS NULL) AND (Misc2Cost = ? OR ? IS NULL AND Misc2Cost IS NULL) AND (Misc2Label = ? OR ? IS NULL AND Misc2Label IS NULL) AND (Misc3Cost = ? OR ? IS NULL AND Misc3Cost IS NULL) AND (Misc3Label = ? OR ? IS NULL AND Misc3Label IS NULL) AND (Multiplier = ? OR ? IS NULL AND Multiplier IS NULL) AND (Owner = ? OR ? IS NULL AND Owner IS NULL) AND (ProjectName = ? OR ? IS NULL AND ProjectName IS NULL) AND (Quantity = ? OR ? IS NULL AND Quantity IS NULL) AND (QuoteNumber = ? OR ? IS NULL AND QuoteNumber IS NULL) AND (SalesPerson = ? OR ? IS NULL AND SalesPerson IS NULL) AND (StartupCost = ? OR ? IS NULL AND StartupCost IS NULL) AND (TotalListPrice = ? OR ? IS NULL AND TotalListPrice IS NULL) AND (Voltage = ? OR ? IS NULL AND Voltage IS NULL) AND (WarrantyCost = ? OR ? IS NULL AND WarrantyCost IS NULL)</value>
+  </data>
+  <metadata name="dadAirHandler.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM SavedAirHandler WHERE (AirHandlerID = ?) AND (Airflow = ? OR ? IS NULL AND Airflow IS NULL) AND (BaseCost = ? OR ? IS NULL AND BaseCost IS NULL) AND (BaseMaterial = ? OR ? IS NULL AND BaseMaterial IS NULL) AND (CabinetIndex = ? OR ? IS NULL AND CabinetIndex IS NULL) AND (CoilFaceVelocity = ? OR ? IS NULL AND CoilFaceVelocity IS NULL) AND (CoilIndex = ? OR ? IS NULL AND CoilIndex IS NULL) AND (CoilSize = ? OR ? IS NULL AND CoilSize IS NULL) AND (ExternalStaticPressure = ? OR ? IS NULL AND ExternalStaticPressure IS NULL) AND (FilterFaceVelocity = ? OR ? IS NULL AND FilterFaceVelocity IS NULL) AND (FilterSize = ? OR ? IS NULL AND FilterSize IS NULL) AND (Height = ? OR ? IS NULL AND Height IS NULL) AND (Length = ? OR ? IS NULL AND Length IS NULL) AND (ListPrice = ? OR ? IS NULL AND ListPrice IS NULL) AND (Location = ? OR ? IS NULL AND Location IS NULL) AND (MarginPrice = ? OR ? IS NULL AND MarginPrice IS NULL) AND (ModelNumber = ? OR ? IS NULL AND ModelNumber IS NULL) AND (NumAirSeals = ? OR ? IS NULL AND NumAirSeals IS NULL) AND (NumDoors = ? OR ? IS NULL AND NumDoors IS NULL) AND (Paint = ?) AND (PanelThickness = ? OR ? IS NULL AND PanelThickness IS NULL) AND (ProjectID = ? OR ? IS NULL AND ProjectID IS NULL) AND (ShipWeight = ? OR ? IS NULL AND ShipWeight IS NULL) AND (Tag = ? OR ? IS NULL AND Tag IS NULL) AND (Width = ? OR ? IS NULL AND Width IS NULL)</value>
+  </data>
+  <metadata name="OleDbInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO SavedAirHandler(Airflow, BaseCost, BaseMaterial, CabinetIndex, CoilFaceVelocity, CoilIndex, CoilSize, ExternalStaticPressure, FilterFaceVelocity, FilterSize, Height, Length, ListPrice, Location, MarginPrice, ModelNumber, NumAirSeals, NumDoors, Paint, PanelThickness, ProjectID, ShipWeight, Tag, Width) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</value>
+  </data>
+  <metadata name="OleDbSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbSelectCommand2.CommandText" xml:space="preserve">
+    <value>SELECT Airflow, AirHandlerID, BaseCost, BaseMaterial, CabinetIndex, CoilFaceVelocity, CoilIndex, CoilSize, ExternalStaticPressure, FilterFaceVelocity, FilterSize, Height, Length, ListPrice, Location, MarginPrice, ModelNumber, NumAirSeals, NumDoors, Paint, PanelThickness, ProjectID, ShipWeight, Tag, Width FROM SavedAirHandler WHERE (ProjectID = ?)</value>
+  </data>
+  <metadata name="OleDbUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE SavedAirHandler SET Airflow = ?, BaseCost = ?, BaseMaterial = ?, CabinetIndex = ?, CoilFaceVelocity = ?, CoilIndex = ?, CoilSize = ?, ExternalStaticPressure = ?, FilterFaceVelocity = ?, FilterSize = ?, Height = ?, Length = ?, ListPrice = ?, Location = ?, MarginPrice = ?, ModelNumber = ?, NumAirSeals = ?, NumDoors = ?, Paint = ?, PanelThickness = ?, ProjectID = ?, ShipWeight = ?, Tag = ?, Width = ? WHERE (AirHandlerID = ?) AND (Airflow = ? OR ? IS NULL AND Airflow IS NULL) AND (BaseCost = ? OR ? IS NULL AND BaseCost IS NULL) AND (BaseMaterial = ? OR ? IS NULL AND BaseMaterial IS NULL) AND (CabinetIndex = ? OR ? IS NULL AND CabinetIndex IS NULL) AND (CoilFaceVelocity = ? OR ? IS NULL AND CoilFaceVelocity IS NULL) AND (CoilIndex = ? OR ? IS NULL AND CoilIndex IS NULL) AND (CoilSize = ? OR ? IS NULL AND CoilSize IS NULL) AND (ExternalStaticPressure = ? OR ? IS NULL AND ExternalStaticPressure IS NULL) AND (FilterFaceVelocity = ? OR ? IS NULL AND FilterFaceVelocity IS NULL) AND (FilterSize = ? OR ? IS NULL AND FilterSize IS NULL) AND (Height = ? OR ? IS NULL AND Height IS NULL) AND (Length = ? OR ? IS NULL AND Length IS NULL) AND (ListPrice = ? OR ? IS NULL AND ListPrice IS NULL) AND (Location = ? OR ? IS NULL AND Location IS NULL) AND (MarginPrice = ? OR ? IS NULL AND MarginPrice IS NULL) AND (ModelNumber = ? OR ? IS NULL AND ModelNumber IS NULL) AND (NumAirSeals = ? OR ? IS NULL AND NumAirSeals IS NULL) AND (NumDoors = ? OR ? IS NULL AND NumDoors IS NULL) AND (Paint = ?) AND (PanelThickness = ? OR ? IS NULL AND PanelThickness IS NULL) AND (ProjectID = ? OR ? IS NULL AND ProjectID IS NULL) AND (ShipWeight = ? OR ? IS NULL AND ShipWeight IS NULL) AND (Tag = ? OR ? IS NULL AND Tag IS NULL) AND (Width = ? OR ? IS NULL AND Width IS NULL)</value>
+  </data>
+  <metadata name="dadSection.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>139, 54</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbDeleteCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM _Section WHERE (SectionID = ?) AND (Abbreviation = ? OR ? IS NULL AND Abbreviation IS NULL) AND (AirHandlerID = ? OR ? IS NULL AND AirHandlerID IS NULL) AND (OrderIndex = ? OR ? IS NULL AND OrderIndex IS NULL) AND (SectionLength = ? OR ? IS NULL AND SectionLength IS NULL)</value>
+  </data>
+  <metadata name="OleDbInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE _Section SET Abbreviation = ?, AirHandlerID = ?, OrderIndex = ?, SectionLength = ? WHERE (SectionID = ?) AND (Abbreviation = ? OR ? IS NULL AND Abbreviation IS NULL) AND (AirHandlerID = ? OR ? IS NULL AND AirHandlerID IS NULL) AND (OrderIndex = ? OR ? IS NULL AND OrderIndex IS NULL) AND (SectionLength = ? OR ? IS NULL AND SectionLength IS NULL)</value>
+  </data>
+  <metadata name="DseProjectClone.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>245, 54</value>
+  </metadata>
+  <metadata name="dadSectionDetails.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>377, 54</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM SectionDetails WHERE (SectionDetailsID = ?) AND (AirHandlerID = ? OR ? IS NULL AND AirHandlerID IS NULL) AND (C3Disconnect = ?) AND (C3KW = ? OR ? IS NULL AND C3KW IS NULL) AND (C3MinNumStages = ? OR ? IS NULL AND C3MinNumStages IS NULL) AND (C3NumExtraStages = ? OR ? IS NULL AND C3NumExtraStages IS NULL) AND (C3OperatingTemperature = ? OR ? IS NULL AND C3OperatingTemperature IS NULL) AND (C3OrderIndex = ? OR ? IS NULL AND C3OrderIndex IS NULL) AND (C3SiliconControlledRectifier = ?) AND (Coil0OrderIndex = ? OR ? IS NULL AND Coil0OrderIndex IS NULL) AND (Coil1OrderIndex = ? OR ? IS NULL AND Coil1OrderIndex IS NULL) AND (Coil2OrderIndex = ? OR ? IS NULL AND Coil2OrderIndex IS NULL) AND (CoilCasing0 = ? OR ? IS NULL AND CoilCasing0 IS NULL) AND (CoilCasing1 = ? OR ? IS NULL AND CoilCasing1 IS NULL) AND (CoilCasing2 = ? OR ? IS NULL AND CoilCasing2 IS NULL) AND (CoilRows0 = ? OR ? IS NULL AND CoilRows0 IS NULL) AND (CoilRows1 = ? OR ? IS NULL AND CoilRows1 IS NULL) AND (CoilRows2 = ? OR ? IS NULL AND CoilRows2 IS NULL) AND (CoilType0 = ? OR ? IS NULL AND CoilType0 IS NULL) AND (CoilType1 = ? OR ? IS NULL AND CoilType1 IS NULL) AND (CoilType2 = ? OR ? IS NULL AND CoilType2 IS NULL) AND (DischargeGrating = ?) AND (DischargeHeight = ? OR ? IS NULL AND DischargeHeight IS NULL) AND (DischargeOpeningLocation = ? OR ? IS NULL AND DischargeOpeningLocation IS NULL) AND (DischargeOrderIndex = ? OR ? IS NULL AND DischargeOrderIndex IS NULL) AND (DischargeWidth = ? OR ? IS NULL AND DischargeWidth IS NULL) AND (Fan0OrderIndex = ? OR ? IS NULL AND Fan0OrderIndex IS NULL) AND (Fan1OrderIndex = ? OR ? IS NULL AND Fan1OrderIndex IS NULL) AND (Fan2OrderIndex = ? OR ? IS NULL AND Fan2OrderIndex IS NULL) AND (FanClass0 = ? OR ? IS NULL AND FanClass0 IS NULL) AND (FanClass1 = ? OR ? IS NULL AND FanClass1 IS NULL) AND (FanClass2 = ? OR ? IS NULL AND FanClass2 IS NULL) AND (FanDrive0 = ? OR ? IS NULL AND FanDrive0 IS NULL) AND (FanDrive1 = ? OR ? IS NULL AND FanDrive1 IS NULL) AND (FanDrive2 = ? OR ? IS NULL AND FanDrive2 IS NULL) AND (FanEfficiency0 = ? OR ? IS NULL AND FanEfficiency0 IS NULL) AND (FanEfficiency1 = ? OR ? IS NULL AND FanEfficiency1 IS NULL) AND (FanEfficiency2 = ? OR ? IS NULL AND FanEfficiency2 IS NULL) AND (FanEnclosure0 = ? OR ? IS NULL AND FanEnclosure0 IS NULL) AND (FanEnclosure1 = ? OR ? IS NULL AND FanEnclosure1 IS NULL) AND (FanEnclosure2 = ? OR ? IS NULL AND FanEnclosure2 IS NULL) AND (FanHorsepower0 = ? OR ? IS NULL AND FanHorsepower0 IS NULL) AND (FanHorsepower1 = ? OR ? IS NULL AND FanHorsepower1 IS NULL) AND (FanHorsepower2 = ? OR ? IS NULL AND FanHorsepower2 IS NULL) AND (FanIsolator0 = ? OR ? IS NULL AND FanIsolator0 IS NULL) AND (FanIsolator1 = ? OR ? IS NULL AND FanIsolator1 IS NULL) AND (FanIsolator2 = ? OR ? IS NULL AND FanIsolator2 IS NULL) AND (FanRPM0 = ? OR ? IS NULL AND FanRPM0 IS NULL) AND (FanRPM1 = ? OR ? IS NULL AND FanRPM1 IS NULL) AND (FanRPM2 = ? OR ? IS NULL AND FanRPM2 IS NULL) AND (FanSize0 = ? OR ? IS NULL AND FanSize0 IS NULL) AND (FanSize1 = ? OR ? IS NULL AND FanSize1 IS NULL) AND (FanSize2 = ? OR ? IS NULL AND FanSize2 IS NULL) AND (FanType0 = ? OR ? IS NULL AND FanType0 IS NULL) AND (FanType1 = ? OR ? IS NULL AND FanType1 IS NULL) AND (FanType2 = ? OR ? IS NULL AND FanType2 IS NULL) AND (Filt0 = ? OR ? IS NULL AND Filt0 IS NULL) AND (Filt0OrderIndex = ? OR ? IS NULL AND Filt0OrderIndex IS NULL) AND (Filt1 = ? OR ? IS NULL AND Filt1 IS NULL) AND (Filt1OrderIndex = ? OR ? IS NULL AND Filt1OrderIndex IS NULL) AND (Filt2 = ? OR ? IS NULL AND Filt2 IS NULL) AND (Filt2OrderIndex = ? OR ? IS NULL AND Filt2OrderIndex IS NULL) AND (FinMaterial0 = ? OR ? IS NULL AND FinMaterial0 IS NULL) AND (FinMaterial1 = ? OR ? IS NULL AND FinMaterial1 IS NULL) AND (FinMaterial2 = ? OR ? IS NULL AND FinMaterial2 IS NULL) AND (FinThickness0 = ? OR ? IS NULL AND FinThickness0 IS NULL) AND (FinThickness1 = ? OR ? IS NULL AND FinThickness1 IS NULL) AND (FinThickness2 = ? OR ? IS NULL AND FinThickness2 IS NULL) AND (MB1Casing = ? OR ? IS NULL AND MB1Casing IS NULL) AND (MB1IncomingAir = ? OR ? IS NULL AND MB1IncomingAir IS NULL) AND (MB1OrderIndex = ? OR ? IS NULL AND MB1OrderIndex IS NULL) AND (MB2Casing = ? OR ? IS NULL AND MB2Casing IS NULL) AND (MB2IncomingAir = ? OR ? IS NULL AND MB2IncomingAir IS NULL) AND (MB2OrderIndex = ? OR ? IS NULL AND MB2OrderIndex IS NULL) AND (NumFilts0 = ? OR ? IS NULL AND NumFilts0 IS NULL) AND (NumFilts1 = ? OR ? IS NULL AND NumFilts1 IS NULL) AND (NumFilts2 = ? OR ? IS NULL AND NumFilts2 IS NULL) AND (NumFins0 = ? OR ? IS NULL AND NumFins0 IS NULL) AND (NumFins1 = ? OR ? IS NULL AND NumFins1 IS NULL) AND (NumFins2 = ? OR ? IS NULL AND NumFins2 IS NULL) AND (NumPreFilts0 = ? OR ? IS NULL AND NumPreFilts0 IS NULL) AND (NumPreFilts1 = ? OR ? IS NULL AND NumPreFilts1 IS NULL) AND (NumPreFilts2 = ? OR ? IS NULL AND NumPreFilts2 IS NULL) AND (PreFilt0 = ? OR ? IS NULL AND PreFilt0 IS NULL) AND (PreFilt1 = ? OR ? IS NULL AND PreFilt1 IS NULL) AND (PreFilt2 = ? OR ? IS NULL AND PreFilt2 IS NULL) AND (TubeThickness0 = ? OR ? IS NULL AND TubeThickness0 IS NULL) AND (TubeThickness1 = ? OR ? IS NULL AND TubeThickness1 IS NULL) AND (TubeThickness2 = ? OR ? IS NULL AND TubeThickness2 IS NULL)</value>
+  </data>
+  <metadata name="OleDbInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO SectionDetails(AirHandlerID, C3Disconnect, C3KW, C3MinNumStages, C3NumExtraStages, C3OperatingTemperature, C3OrderIndex, C3SiliconControlledRectifier, Coil0OrderIndex, Coil1OrderIndex, Coil2OrderIndex, CoilCasing0, CoilCasing1, CoilCasing2, CoilRows0, CoilRows1, CoilRows2, CoilType0, CoilType1, CoilType2, DischargeGrating, DischargeHeight, DischargeOpeningLocation, DischargeOrderIndex, DischargeWidth, Fan0OrderIndex, Fan1OrderIndex, Fan2OrderIndex, FanClass0, FanClass1, FanClass2, FanDrive0, FanDrive1, FanDrive2, FanEfficiency0, FanEfficiency1, FanEfficiency2, FanEnclosure0, FanEnclosure1, FanEnclosure2, FanHorsepower1, FanHorsepower0, FanHorsepower2, FanIsolator0, FanIsolator1, FanIsolator2, FanRPM0, FanRPM1, FanRPM2, FanSize0, FanSize1, FanSize2, FanType0, FanType1, FanType2, Filt0, Filt0OrderIndex, Filt1, Filt1OrderIndex, Filt2, Filt2OrderIndex, FinMaterial0, FinMaterial1, FinMaterial2, FinThickness0, FinThickness1, FinThickness2, MB1Casing, MB1IncomingAir, MB1OrderIndex, MB2Casing, MB2IncomingAir, MB2OrderIndex, NumFilts0, NumFilts1, NumFilts2, NumFins0, NumFins1, NumFins2, NumPreFilts0, NumPreFilts1, NumPreFilts2, PreFilt0, PreFilt1, PreFilt2, TubeThickness0, TubeThickness1, TubeThickness2) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)</value>
+  </data>
+  <metadata name="OleDbSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbSelectCommand4.CommandText" xml:space="preserve">
+    <value>SELECT AirHandlerID, C3Disconnect, C3KW, C3MinNumStages, C3NumExtraStages, C3OperatingTemperature, C3OrderIndex, C3SiliconControlledRectifier, Coil0OrderIndex, Coil1OrderIndex, Coil2OrderIndex, CoilCasing0, CoilCasing1, CoilCasing2, CoilRows0, CoilRows1, CoilRows2, CoilType0, CoilType1, CoilType2, DischargeGrating, DischargeHeight, DischargeOpeningLocation, DischargeOrderIndex, DischargeWidth, Fan0OrderIndex, Fan1OrderIndex, Fan2OrderIndex, FanClass0, FanClass1, FanClass2, FanDrive0, FanDrive1, FanDrive2, FanEfficiency0, FanEfficiency1, FanEfficiency2, FanEnclosure0, FanEnclosure1, FanEnclosure2, FanHorsepower1, FanHorsepower0, FanHorsepower2, FanIsolator0, FanIsolator1, FanIsolator2, FanRPM0, FanRPM1, FanRPM2, FanSize0, FanSize1, FanSize2, FanType0, FanType1, FanType2, Filt0, Filt0OrderIndex, Filt1, Filt1OrderIndex, Filt2, Filt2OrderIndex, FinMaterial0, FinMaterial1, FinMaterial2, FinThickness0, FinThickness1, FinThickness2, MB1Casing, MB1IncomingAir, MB1OrderIndex, MB2Casing, MB2IncomingAir, MB2OrderIndex, NumFilts0, NumFilts1, NumFilts2, NumFins0, NumFins1, NumFins2, NumPreFilts0, NumPreFilts1, NumPreFilts2, PreFilt0, PreFilt1, PreFilt2, SectionDetailsID, TubeThickness0, TubeThickness1, TubeThickness2 FROM SectionDetails WHERE (AirHandlerID = ?)</value>
+  </data>
+  <metadata name="OleDbUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="OleDbUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="OleDbUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE SectionDetails SET AirHandlerID = ?, C3Disconnect = ?, C3KW = ?, C3MinNumStages = ?, C3NumExtraStages = ?, C3OperatingTemperature = ?, C3OrderIndex = ?, C3SiliconControlledRectifier = ?, Coil0OrderIndex = ?, Coil1OrderIndex = ?, Coil2OrderIndex = ?, CoilCasing0 = ?, CoilCasing1 = ?, CoilCasing2 = ?, CoilRows0 = ?, CoilRows1 = ?, CoilRows2 = ?, CoilType0 = ?, CoilType1 = ?, CoilType2 = ?, DischargeGrating = ?, DischargeHeight = ?, DischargeOpeningLocation = ?, DischargeOrderIndex = ?, DischargeWidth = ?, Fan0OrderIndex = ?, Fan1OrderIndex = ?, Fan2OrderIndex = ?, FanClass0 = ?, FanClass1 = ?, FanClass2 = ?, FanDrive0 = ?, FanDrive1 = ?, FanDrive2 = ?, FanEfficiency0 = ?, FanEfficiency1 = ?, FanEfficiency2 = ?, FanEnclosure0 = ?, FanEnclosure1 = ?, FanEnclosure2 = ?, FanHorsepower1 = ?, FanHorsepower0 = ?, FanHorsepower2 = ?, FanIsolator0 = ?, FanIsolator1 = ?, FanIsolator2 = ?, FanRPM0 = ?, FanRPM1 = ?, FanRPM2 = ?, FanSize0 = ?, FanSize1 = ?, FanSize2 = ?, FanType0 = ?, FanType1 = ?, FanType2 = ?, Filt0 = ?, Filt0OrderIndex = ?, Filt1 = ?, Filt1OrderIndex = ?, Filt2 = ?, Filt2OrderIndex = ?, FinMaterial0 = ?, FinMaterial1 = ?, FinMaterial2 = ?, FinThickness0 = ?, FinThickness1 = ?, FinThickness2 = ?, MB1Casing = ?, MB1IncomingAir = ?, MB1OrderIndex = ?, MB2Casing = ?, MB2IncomingAir = ?, MB2OrderIndex = ?, NumFilts0 = ?, NumFilts1 = ?, NumFilts2 = ?, NumFins0 = ?, NumFins1 = ?, NumFins2 = ?, NumPreFilts0 = ?, NumPreFilts1 = ?, NumPreFilts2 = ?, PreFilt0 = ?, PreFilt1 = ?, PreFilt2 = ?, TubeThickness0 = ?, TubeThickness1 = ?, TubeThickness2 = ? WHERE (SectionDetailsID = ?) AND (AirHandlerID = ? OR ? IS NULL AND AirHandlerID IS NULL) AND (C3Disconnect = ?) AND (C3KW = ? OR ? IS NULL AND C3KW IS NULL) AND (C3MinNumStages = ? OR ? IS NULL AND C3MinNumStages IS NULL) AND (C3NumExtraStages = ? OR ? IS NULL AND C3NumExtraStages IS NULL) AND (C3OperatingTemperature = ? OR ? IS NULL AND C3OperatingTemperature IS NULL) AND (C3OrderIndex = ? OR ? IS NULL AND C3OrderIndex IS NULL) AND (C3SiliconControlledRectifier = ?) AND (Coil0OrderIndex = ? OR ? IS NULL AND Coil0OrderIndex IS NULL) AND (Coil1OrderIndex = ? OR ? IS NULL AND Coil1OrderIndex IS NULL) AND (Coil2OrderIndex = ? OR ? IS NULL AND Coil2OrderIndex IS NULL) AND (CoilCasing0 = ? OR ? IS NULL AND CoilCasing0 IS NULL) AND (CoilCasing1 = ? OR ? IS NULL AND CoilCasing1 IS NULL) AND (CoilCasing2 = ? OR ? IS NULL AND CoilCasing2 IS NULL) AND (CoilRows0 = ? OR ? IS NULL AND CoilRows0 IS NULL) AND (CoilRows1 = ? OR ? IS NULL AND CoilRows1 IS NULL) AND (CoilRows2 = ? OR ? IS NULL AND CoilRows2 IS NULL) AND (CoilType0 = ? OR ? IS NULL AND CoilType0 IS NULL) AND (CoilType1 = ? OR ? IS NULL AND CoilType1 IS NULL) AND (CoilType2 = ? OR ? IS NULL AND CoilType2 IS NULL) AND (DischargeGrating = ?) AND (DischargeHeight = ? OR ? IS NULL AND DischargeHeight IS NULL) AND (DischargeOpeningLocation = ? OR ? IS NULL AND DischargeOpeningLocation IS NULL) AND (DischargeOrderIndex = ? OR ? IS NULL AND DischargeOrderIndex IS NULL) AND (DischargeWidth = ? OR ? IS NULL AND DischargeWidth IS NULL) AND (Fan0OrderIndex = ? OR ? IS NULL AND Fan0OrderIndex IS NULL) AND (Fan1OrderIndex = ? OR ? IS NULL AND Fan1OrderIndex IS NULL) AND (Fan2OrderIndex = ? OR ? IS NULL AND Fan2OrderIndex IS NULL) AND (FanClass0 = ? OR ? IS NULL AND FanClass0 IS NULL) AND (FanClass1 = ? OR ? IS NULL AND FanClass1 IS NULL) AND (FanClass2 = ? OR ? IS NULL AND FanClass2 IS NULL) AND (FanDrive0 = ? OR ? IS NULL AND FanDrive0 IS NULL) AND (FanDrive1 = ? OR ? IS NULL AND FanDrive1 IS NULL) AND (FanDrive2 = ? OR ? IS NULL AND FanDrive2 IS NULL) AND (FanEfficiency0 = ? OR ? IS NULL AND FanEfficiency0 IS NULL) AND (FanEfficiency1 = ? OR ? IS NULL AND FanEfficiency1 IS NULL) AND (FanEfficiency2 = ? OR ? IS NULL AND FanEfficiency2 IS NULL) AND (FanEnclosure0 = ? OR ? IS NULL AND FanEnclosure0 IS NULL) AND (FanEnclosure1 = ? OR ? IS NULL AND FanEnclosure1 IS NULL) AND (FanEnclosure2 = ? OR ? IS NULL AND FanEnclosure2 IS NULL) AND (FanHorsepower0 = ? OR ? IS NULL AND FanHorsepower0 IS NULL) AND (FanHorsepower1 = ? OR ? IS NULL AND FanHorsepower1 IS NULL) AND (FanHorsepower2 = ? OR ? IS NULL AND FanHorsepower2 IS NULL) AND (FanIsolator0 = ? OR ? IS NULL AND FanIsolator0 IS NULL) AND (FanIsolator1 = ? OR ? IS NULL AND FanIsolator1 IS NULL) AND (FanIsolator2 = ? OR ? IS NULL AND FanIsolator2 IS NULL) AND (FanRPM0 = ? OR ? IS NULL AND FanRPM0 IS NULL) AND (FanRPM1 = ? OR ? IS NULL AND FanRPM1 IS NULL) AND (FanRPM2 = ? OR ? IS NULL AND FanRPM2 IS NULL) AND (FanSize0 = ? OR ? IS NULL AND FanSize0 IS NULL) AND (FanSize1 = ? OR ? IS NULL AND FanSize1 IS NULL) AND (FanSize2 = ? OR ? IS NULL AND FanSize2 IS NULL) AND (FanType0 = ? OR ? IS NULL AND FanType0 IS NULL) AND (FanType1 = ? OR ? IS NULL AND FanType1 IS NULL) AND (FanType2 = ? OR ? IS NULL AND FanType2 IS NULL) AND (Filt0 = ? OR ? IS NULL AND Filt0 IS NULL) AND (Filt0OrderIndex = ? OR ? IS NULL AND Filt0OrderIndex IS NULL) AND (Filt1 = ? OR ? IS NULL AND Filt1 IS NULL) AND (Filt1OrderIndex = ? OR ? IS NULL AND Filt1OrderIndex IS NULL) AND (Filt2 = ? OR ? IS NULL AND Filt2 IS NULL) AND (Filt2OrderIndex = ? OR ? IS NULL AND Filt2OrderIndex IS NULL) AND (FinMaterial0 = ? OR ? IS NULL AND FinMaterial0 IS NULL) AND (FinMaterial1 = ? OR ? IS NULL AND FinMaterial1 IS NULL) AND (FinMaterial2 = ? OR ? IS NULL AND FinMaterial2 IS NULL) AND (FinThickness0 = ? OR ? IS NULL AND FinThickness0 IS NULL) AND (FinThickness1 = ? OR ? IS NULL AND FinThickness1 IS NULL) AND (FinThickness2 = ? OR ? IS NULL AND FinThickness2 IS NULL) AND (MB1Casing = ? OR ? IS NULL AND MB1Casing IS NULL) AND (MB1IncomingAir = ? OR ? IS NULL AND MB1IncomingAir IS NULL) AND (MB1OrderIndex = ? OR ? IS NULL AND MB1OrderIndex IS NULL) AND (MB2Casing = ? OR ? IS NULL AND MB2Casing IS NULL) AND (MB2IncomingAir = ? OR ? IS NULL AND MB2IncomingAir IS NULL) AND (MB2OrderIndex = ? OR ? IS NULL AND MB2OrderIndex IS NULL) AND (NumFilts0 = ? OR ? IS NULL AND NumFilts0 IS NULL) AND (NumFilts1 = ? OR ? IS NULL AND NumFilts1 IS NULL) AND (NumFilts2 = ? OR ? IS NULL AND NumFilts2 IS NULL) AND (NumFins0 = ? OR ? IS NULL AND NumFins0 IS NULL) AND (NumFins1 = ? OR ? IS NULL AND NumFins1 IS NULL) AND (NumFins2 = ? OR ? IS NULL AND NumFins2 IS NULL) AND (NumPreFilts0 = ? OR ? IS NULL AND NumPreFilts0 IS NULL) AND (NumPreFilts1 = ? OR ? IS NULL AND NumPreFilts1 IS NULL) AND (NumPreFilts2 = ? OR ? IS NULL AND NumPreFilts2 IS NULL) AND (PreFilt0 = ? OR ? IS NULL AND PreFilt0 IS NULL) AND (PreFilt1 = ? OR ? IS NULL AND PreFilt1 IS NULL) AND (PreFilt2 = ? OR ? IS NULL AND PreFilt2 IS NULL) AND (TubeThickness0 = ? OR ? IS NULL AND TubeThickness0 IS NULL) AND (TubeThickness1 = ? OR ? IS NULL AND TubeThickness1 IS NULL) AND (TubeThickness2 = ? OR ? IS NULL AND TubeThickness2 IS NULL)</value>
+  </data>
+</root>

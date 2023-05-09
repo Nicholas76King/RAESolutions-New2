@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.rae-int.com/RAE/392423" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.rae-int.com/RAE/392423" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.rae-int.com/RAE/392423">
+      <s:element name="Authenticate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProgramVersion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OperatingSystem" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="OperatingSystemVersion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AuthenticateResult" type="tns:AuthenticationResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AuthenticationResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="isAuthenticated" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="disableAccount" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="accessLevel" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="authorityGroup" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="userFullName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="IsContractor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IsContractorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="IsContractorResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AuthenticationResult" nillable="true" type="tns:AuthenticationResult" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AuthenticateSoapIn">
+    <wsdl:part name="parameters" element="tns:Authenticate" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateSoapOut">
+    <wsdl:part name="parameters" element="tns:AuthenticateResponse" />
+  </wsdl:message>
+  <wsdl:message name="IsContractorSoapIn">
+    <wsdl:part name="parameters" element="tns:IsContractor" />
+  </wsdl:message>
+  <wsdl:message name="IsContractorSoapOut">
+    <wsdl:part name="parameters" element="tns:IsContractorResponse" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+    <wsdl:part name="ProgramVersion" type="s:string" />
+    <wsdl:part name="OperatingSystem" type="s:string" />
+    <wsdl:part name="OperatingSystemVersion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateHttpGetOut">
+    <wsdl:part name="Body" element="tns:AuthenticationResult" />
+  </wsdl:message>
+  <wsdl:message name="IsContractorHttpGetIn">
+    <wsdl:part name="UserName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="IsContractorHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+    <wsdl:part name="Password" type="s:string" />
+    <wsdl:part name="ProgramVersion" type="s:string" />
+    <wsdl:part name="OperatingSystem" type="s:string" />
+    <wsdl:part name="OperatingSystemVersion" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateHttpPostOut">
+    <wsdl:part name="Body" element="tns:AuthenticationResult" />
+  </wsdl:message>
+  <wsdl:message name="IsContractorHttpPostIn">
+    <wsdl:part name="UserName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="IsContractorHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:portType name="AuthenticateSoap">
+    <wsdl:operation name="Authenticate">
+      <wsdl:input message="tns:AuthenticateSoapIn" />
+      <wsdl:output message="tns:AuthenticateSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsContractor">
+      <wsdl:input message="tns:IsContractorSoapIn" />
+      <wsdl:output message="tns:IsContractorSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AuthenticateHttpGet">
+    <wsdl:operation name="Authenticate">
+      <wsdl:input message="tns:AuthenticateHttpGetIn" />
+      <wsdl:output message="tns:AuthenticateHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsContractor">
+      <wsdl:input message="tns:IsContractorHttpGetIn" />
+      <wsdl:output message="tns:IsContractorHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AuthenticateHttpPost">
+    <wsdl:operation name="Authenticate">
+      <wsdl:input message="tns:AuthenticateHttpPostIn" />
+      <wsdl:output message="tns:AuthenticateHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IsContractor">
+      <wsdl:input message="tns:IsContractorHttpPostIn" />
+      <wsdl:output message="tns:IsContractorHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AuthenticateSoap" type="tns:AuthenticateSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Authenticate">
+      <soap:operation soapAction="http://www.rae-int.com/RAE/392423/Authenticate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsContractor">
+      <soap:operation soapAction="http://www.rae-int.com/RAE/392423/IsContractor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticateSoap12" type="tns:AuthenticateSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Authenticate">
+      <soap12:operation soapAction="http://www.rae-int.com/RAE/392423/Authenticate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsContractor">
+      <soap12:operation soapAction="http://www.rae-int.com/RAE/392423/IsContractor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticateHttpGet" type="tns:AuthenticateHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="Authenticate">
+      <http:operation location="/Authenticate" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsContractor">
+      <http:operation location="/IsContractor" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AuthenticateHttpPost" type="tns:AuthenticateHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="Authenticate">
+      <http:operation location="/Authenticate" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsContractor">
+      <http:operation location="/IsContractor" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Authenticate">
+    <wsdl:port name="AuthenticateSoap" binding="tns:AuthenticateSoap">
+      <soap:address location="http://service.raecloud.com/raesolutionsonline/webservices/authenticate.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticateSoap12" binding="tns:AuthenticateSoap12">
+      <soap12:address location="http://service.raecloud.com/raesolutionsonline/webservices/authenticate.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticateHttpGet" binding="tns:AuthenticateHttpGet">
+      <http:address location="http://service.raecloud.com/raesolutionsonline/webservices/authenticate.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AuthenticateHttpPost" binding="tns:AuthenticateHttpPost">
+      <http:address location="http://service.raecloud.com/raesolutionsonline/webservices/authenticate.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,222 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dseProject" targetNamespace="http://www.tempuri.org/dseProject.xsd" xmlns:mstns="http://www.tempuri.org/dseProject.xsd"
+	xmlns="http://www.tempuri.org/dseProject.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dseProject" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="SavedProject">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Altitude" type="xs:float" minOccurs="0" />
+							<xs:element name="Contractor" type="xs:string" minOccurs="0" />
+							<xs:element name="CustomerNotes" type="xs:string" minOccurs="0" />
+							<xs:element name="Engineer" type="xs:string" minOccurs="0" />
+							<xs:element name="FreightCost" type="xs:float" minOccurs="0" />
+							<xs:element name="JobNotes" type="xs:string" minOccurs="0" />
+							<xs:element name="Location" type="xs:string" minOccurs="0" />
+							<xs:element name="Misc1Cost" type="xs:float" minOccurs="0" />
+							<xs:element name="Misc1Label" type="xs:string" minOccurs="0" />
+							<xs:element name="Misc2Cost" type="xs:float" minOccurs="0" />
+							<xs:element name="Misc2Label" type="xs:string" minOccurs="0" />
+							<xs:element name="Misc3Cost" type="xs:float" minOccurs="0" />
+							<xs:element name="Misc3Label" type="xs:string" minOccurs="0" />
+							<xs:element name="Multiplier" type="xs:float" minOccurs="0" />
+							<xs:element name="Owner" type="xs:string" minOccurs="0" />
+							<xs:element name="ProjectID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="ProjectName" type="xs:string" minOccurs="0" />
+							<xs:element name="Quantity" type="xs:int" minOccurs="0" />
+							<xs:element name="QuoteNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="SalesPerson" type="xs:string" minOccurs="0" />
+							<xs:element name="StartupCost" type="xs:float" minOccurs="0" />
+							<xs:element name="TotalListPrice" type="xs:float" minOccurs="0" />
+							<xs:element name="Voltage" type="xs:string" minOccurs="0" />
+							<xs:element name="WarrantyCost" type="xs:float" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SavedAirHandler">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Airflow" type="xs:double" minOccurs="0" />
+							<xs:element name="AirHandlerID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="BaseCost" type="xs:float" minOccurs="0" />
+							<xs:element name="BaseMaterial" type="xs:string" minOccurs="0" />
+							<xs:element name="CabinetIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="CoilFaceVelocity" type="xs:double" minOccurs="0" />
+							<xs:element name="CoilIndex" type="xs:short" minOccurs="0" />
+							<xs:element name="CoilSize" type="xs:string" minOccurs="0" />
+							<xs:element name="ExternalStaticPressure" type="xs:double" minOccurs="0" />
+							<xs:element name="FilterFaceVelocity" type="xs:double" minOccurs="0" />
+							<xs:element name="FilterSize" type="xs:string" minOccurs="0" />
+							<xs:element name="Height" type="xs:float" minOccurs="0" />
+							<xs:element name="Length" type="xs:float" minOccurs="0" />
+							<xs:element name="ListPrice" type="xs:float" minOccurs="0" />
+							<xs:element name="Location" type="xs:string" minOccurs="0" />
+							<xs:element name="MarginPrice" type="xs:float" minOccurs="0" />
+							<xs:element name="ModelNumber" type="xs:string" minOccurs="0" />
+							<xs:element name="NumAirSeals" type="xs:int" minOccurs="0" />
+							<xs:element name="NumDoors" type="xs:int" minOccurs="0" />
+							<xs:element name="Paint" type="xs:boolean" minOccurs="0" />
+							<xs:element name="PanelThickness" type="xs:short" minOccurs="0" />
+							<xs:element name="ProjectID" type="xs:int" minOccurs="0" />
+							<xs:element name="ShipWeight" type="xs:string" minOccurs="0" />
+							<xs:element name="Tag" type="xs:string" minOccurs="0" />
+							<xs:element name="Width" type="xs:float" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="_Section">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SectionID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="AirHandlerID" type="xs:int" minOccurs="0" />
+							<xs:element name="Abbreviation" type="xs:string" minOccurs="0" />
+							<xs:element name="SectionLength" type="xs:int" minOccurs="0" />
+							<xs:element name="OrderIndex" type="xs:short" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="SectionDetails">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SectionDetailsID" msdata:AutoIncrement="true" type="xs:int" />
+							<xs:element name="AirHandlerID" type="xs:int" minOccurs="0" />
+							<xs:element name="MB1OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="MB1IncomingAir" type="xs:string" minOccurs="0" />
+							<xs:element name="MB1Casing" type="xs:string" minOccurs="0" />
+							<xs:element name="MB2OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="MB2IncomingAir" type="xs:string" minOccurs="0" />
+							<xs:element name="MB2Casing" type="xs:string" minOccurs="0" />
+							<xs:element name="Filt0OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="PreFilt0" type="xs:string" minOccurs="0" />
+							<xs:element name="NumPreFilts0" type="xs:int" minOccurs="0" />
+							<xs:element name="Filt0" type="xs:string" minOccurs="0" />
+							<xs:element name="NumFilts0" type="xs:int" minOccurs="0" />
+							<xs:element name="Filt1OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="PreFilt1" type="xs:string" minOccurs="0" />
+							<xs:element name="NumPreFilts1" type="xs:int" minOccurs="0" />
+							<xs:element name="Filt1" type="xs:string" minOccurs="0" />
+							<xs:element name="NumFilts1" type="xs:int" minOccurs="0" />
+							<xs:element name="Filt2OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="PreFilt2" type="xs:string" minOccurs="0" />
+							<xs:element name="NumPreFilts2" type="xs:int" minOccurs="0" />
+							<xs:element name="Filt2" type="xs:string" minOccurs="0" />
+							<xs:element name="NumFilts2" type="xs:int" minOccurs="0" />
+							<xs:element name="Fan0OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="FanEfficiency0" type="xs:string" minOccurs="0" />
+							<xs:element name="FanEnclosure0" type="xs:string" minOccurs="0" />
+							<xs:element name="FanHorsepower0" type="xs:float" minOccurs="0" />
+							<xs:element name="FanRPM0" type="xs:int" minOccurs="0" />
+							<xs:element name="FanType0" type="xs:string" minOccurs="0" />
+							<xs:element name="FanClass0" type="xs:string" minOccurs="0" />
+							<xs:element name="FanSize0" type="xs:string" minOccurs="0" />
+							<xs:element name="FanDrive0" type="xs:string" minOccurs="0" />
+							<xs:element name="FanIsolator0" type="xs:string" minOccurs="0" />
+							<xs:element name="Fan1OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="FanEfficiency1" type="xs:string" minOccurs="0" />
+							<xs:element name="FanEnclosure1" type="xs:string" minOccurs="0" />
+							<xs:element name="FanHorsepower1" type="xs:float" minOccurs="0" />
+							<xs:element name="FanRPM1" type="xs:int" minOccurs="0" />
+							<xs:element name="FanType1" type="xs:string" minOccurs="0" />
+							<xs:element name="FanClass1" type="xs:string" minOccurs="0" />
+							<xs:element name="FanSize1" type="xs:string" minOccurs="0" />
+							<xs:element name="FanDrive1" type="xs:string" minOccurs="0" />
+							<xs:element name="FanIsolator1" type="xs:string" minOccurs="0" />
+							<xs:element name="Fan2OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="FanEfficiency2" type="xs:string" minOccurs="0" />
+							<xs:element name="FanEnclosure2" type="xs:string" minOccurs="0" />
+							<xs:element name="FanHorsepower2" type="xs:float" minOccurs="0" />
+							<xs:element name="FanRPM2" type="xs:int" minOccurs="0" />
+							<xs:element name="FanType2" type="xs:string" minOccurs="0" />
+							<xs:element name="FanClass2" type="xs:string" minOccurs="0" />
+							<xs:element name="FanSize2" type="xs:string" minOccurs="0" />
+							<xs:element name="FanDrive2" type="xs:string" minOccurs="0" />
+							<xs:element name="FanIsolator2" type="xs:string" minOccurs="0" />
+							<xs:element name="Coil0OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="CoilType0" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilCasing0" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilRows0" type="xs:int" minOccurs="0" />
+							<xs:element name="NumFins0" type="xs:int" minOccurs="0" />
+							<xs:element name="FinMaterial0" type="xs:string" minOccurs="0" />
+							<xs:element name="FinThickness0" type="xs:float" minOccurs="0" />
+							<xs:element name="TubeThickness0" type="xs:float" minOccurs="0" />
+							<xs:element name="Coil1OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="CoilType1" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilCasing1" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilRows1" type="xs:int" minOccurs="0" />
+							<xs:element name="NumFins1" type="xs:int" minOccurs="0" />
+							<xs:element name="FinMaterial1" type="xs:string" minOccurs="0" />
+							<xs:element name="FinThickness1" type="xs:float" minOccurs="0" />
+							<xs:element name="TubeThickness1" type="xs:float" minOccurs="0" />
+							<xs:element name="Coil2OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="CoilType2" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilCasing2" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilRows2" type="xs:int" minOccurs="0" />
+							<xs:element name="NumFins2" type="xs:int" minOccurs="0" />
+							<xs:element name="FinMaterial2" type="xs:string" minOccurs="0" />
+							<xs:element name="FinThickness2" type="xs:float" minOccurs="0" />
+							<xs:element name="TubeThickness2" type="xs:float" minOccurs="0" />
+							<xs:element name="Coil3OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="CoilType3" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilCasing3" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilRows3" type="xs:int" minOccurs="0" />
+							<xs:element name="NumFins3" type="xs:int" minOccurs="0" />
+							<xs:element name="FinMaterial3" type="xs:string" minOccurs="0" />
+							<xs:element name="FinThickness3" type="xs:float" minOccurs="0" />
+							<xs:element name="TubeThickness3" type="xs:float" minOccurs="0" />
+							<xs:element name="Coil4OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="CoilType4" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilCasing4" type="xs:string" minOccurs="0" />
+							<xs:element name="CoilRows4" type="xs:int" minOccurs="0" />
+							<xs:element name="NumFins4" type="xs:int" minOccurs="0" />
+							<xs:element name="FinMaterial4" type="xs:string" minOccurs="0" />
+							<xs:element name="FinThickness4" type="xs:float" minOccurs="0" />
+							<xs:element name="TubeThickness4" type="xs:float" minOccurs="0" />
+							<xs:element name="C3OrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="C3KW" type="xs:string" minOccurs="0" />
+							<xs:element name="C3MinNumStages" type="xs:int" minOccurs="0" />
+							<xs:element name="C3NumExtraStages" type="xs:int" minOccurs="0" />
+							<xs:element name="C3OperatingTemperature" type="xs:float" minOccurs="0" />
+							<xs:element name="C3Disconnect" type="xs:boolean" minOccurs="0" msprop:nullValue="false" default="false" />
+							<xs:element name="C3SiliconControlledRectifier" type="xs:boolean" minOccurs="0" msprop:nullValue="false"
+								default="false" />
+							<xs:element name="DischargeOrderIndex" type="xs:int" minOccurs="0" />
+							<xs:element name="DischargeOpeningLocation" type="xs:string" minOccurs="0" />
+							<xs:element name="DischargeGrating" type="xs:boolean" minOccurs="0" msprop:nullValue="false"
+								default="false" />
+							<xs:element name="DischargeHeight" type="xs:int" minOccurs="0" />
+							<xs:element name="DischargeWidth" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+		<xs:unique name="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SavedProject" />
+			<xs:field xpath="mstns:ProjectID" />
+		</xs:unique>
+		<xs:unique name="SavedAirHandler_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SavedAirHandler" />
+			<xs:field xpath="mstns:AirHandlerID" />
+		</xs:unique>
+		<xs:unique name="dseProjectKey1" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:_Section" />
+			<xs:field xpath="mstns:SectionID" />
+		</xs:unique>
+		<xs:keyref name="SavedAirHandler_Section" refer="mstns:SavedAirHandler_Constraint1" msdata:DeleteRule="Cascade"
+			msdata:UpdateRule="Cascade">
+			<xs:selector xpath=".//mstns:_Section" />
+			<xs:field xpath="mstns:AirHandlerID" />
+		</xs:keyref>
+		<xs:key name="dseProjectKey3">
+			<xs:selector xpath=".//mstns:_Section" />
+			<xs:field xpath="mstns:SectionID" />
+		</xs:key>
+		<xs:unique name="dseProjectKey2" msdata:PrimaryKey="true">
+			<xs:selector xpath=".//mstns:SectionDetails" />
+			<xs:field xpath="mstns:SectionDetailsID" />
+		</xs:unique>
+	</xs:element>
+</xs:schema>

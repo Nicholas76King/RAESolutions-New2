@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Rae.RaeSolutions.Business.Entities.Company">
+    <Position X="13" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Entities\Company.vb</FileName>
+      <HashCode>lAEHgJAAAiAAgAAMlAAAAAUAAgAAAUQCABBAAAFAADI=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rae.RaeSolutions.Business.Entities.Email">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Entities\Email.vb</FileName>
+      <HashCode>gAAAAAAAgAAAAAAEgQoAAAAAAgAAAQACAEAAAEAAABA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Rae.RaeSolutions.Business.Entities.Address">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Entities\Address.vb</FileName>
+      <HashCode>AABAgAIAEAAQAAAswEABCAAQAAIAAAAgABCARAAiABA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.159" />
+  </Class>
+  <Class Name="Rae.RaeSolutions.Business.Entities.ContactNum">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Entities\ContactNum.vb</FileName>
+      <HashCode>AAAAAAAIAAAgAAAEgEAAAAAEAAAIAQAAAIAAAABAABE=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.1" />
+  </Class>
+  <Class Name="Rae.RaeSolutions.Business.Entities.CompanyContact">
+    <Position X="1" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Entities\CompanyContact.vb</FileName>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Rae.RaeSolutions.Business.Entities.Contact">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Entities\Contact.vb</FileName>
+      <HashCode>hAACgJAAACAAAAAklBAAAAQAAgCkgAACADAABIGAIjA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Rae.RaeSolutions.Business.Entities.Contact.Roles" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\Entities\Contact.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Rae.RaeSolutions.Business.Entities.Name">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Business\Entities\Name.vb</FileName>
+      <HashCode>AQAAAEAAQCAAAMAFgAEQAgAAoggAAAEAAAABCCAAABg=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Rae.RaeSolutions.Business.Entities.Name.ToStringSignature" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Business\Entities\Name.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <Lollipop Position="0.2" />
+  </Class>
+</ClassDiagram>
